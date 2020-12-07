@@ -1,98 +1,98 @@
 {
-  "2.3.1": [
-     "fix": [
-      "delete custom vidéo"
-     ]
-  ],
-  "2.3.0": [
-     "add": [
-      "support vidéos .mp4, .mov",
-      "new support images .jpg, .png",
-      "view all custom files",
-      "remove custom files"
-     ],
-     "update": [
-      "app icon"
-     ],
-     "fix": [
-      "close dialog for custom files"
-     ],
-     "remove": [
-      "background default"
-     ]
-  ],
-  "2.2.0": [
-     "add": [
-      "option import your gif on app"
-     ],
-     "fix": [
-      "background window icon task bar",
-      "does not show image if it is not found"
-     ]
-  ],
-  "2.1.0": [
-     "add": [
-      "option for fix background position"
-     ],
-     "fix": [
-      "on start background"
-     ]
-  ],
-  "2.0.0": [
-     "update": [
-      "scroll bar in options window",
-      "add version number on options window"
-     ],
-     "edit": [
-      "auto update now check for new update every hour"
-     ],
-     "fix": [
-      "no background"
-     ]
-  ],
-  "1.7.0": [
-     "add": [
-      "menu for tray",
-      "add quit option on tray",
-      "default background animation"
-     ],
-     "fix": [
-      "auto start",
-      "options window start on launch"
-     ]
-  ],
-  "1.6.0": [
-     "fix": [
-      "auto start",
-      "error on start",
-      "icon format"
-     ]
-  ],
-  "1.5.1": [
-     "fix": [
-      "auto updater"
-     ]
-  ],
-  "1.5.0": [
-    "add":[
-      "tray menu",
-      "app icon",
-      "gif selector",
-      "filter categories"
-     ],
-     "edit": [
-      "options window"
-     ],
-     "fix": [
-      "options window"
-     ],
-     "remove": [
-      "gif file for liberate storage"
-     ]
-  ],
-  "1.0.0": [
-    "add": [
+   "2.3.1": {
+      "fix": [
+       "delete custom vidéo"
+      ]
+   },
+   "2.3.0": {
+      "add": [
+       "support vidéos .mp4, .mov",
+       "new support images .jpg, .png",
+       "view all custom files",
+       "remove custom files"
+      ],
+      "update": [
+       "app icon"
+      ],
+      "fix": [
+       "close dialog for custom files"
+      ],
+      "remove": [
+       "background default"
+      ]
+   },
+   "2.2.0": {
+      "add": [
+       "option import your gif on app"
+      ],
+      "fix": [
+       "background window icon task bar",
+       "does not show image if it is not found"
+      ]
+   },
+   "2.1.0": {
+      "add": [
+       "option for fix background position"
+      ],
+      "fix": [
+       "on start background"
+      ]
+   },
+   "2.0.0": {
+      "update": [
+       "scroll bar in options window",
+       "add version number on options window"
+      ],
+      "edit": [
+       "auto update now check for new update every hour"
+      ],
+      "fix": [
+       "no background"
+      ]
+   },
+   "1.7.0": {
+      "add": [
+       "menu for tray",
+       "add quit option on tray",
+       "default background animation"
+      ],
+      "fix": [
+       "auto start",
+       "options window start on launch"
+      ]
+   },
+   "1.6.0": {
+      "fix": [
+       "auto start",
+       "error on start",
+       "icon format"
+      ]
+   },
+   "1.5.1": {
+      "fix": [
+       "auto updater"
+      ]
+   },
+   "1.5.0": {
+     "add":[
+       "tray menu",
+       "app icon",
+       "gif selector",
+       "filter categories"
+      ],
+      "edit": [
+       "options window"
+      ],
+      "fix": [
+       "options window"
+      ],
+      "remove": [
+       "gif file for liberate storage"
+      ]
+   },
+   "1.0.0": {
+      "add": [
       "version stable."
      ]
-  ]
-}
+   }
+ }
