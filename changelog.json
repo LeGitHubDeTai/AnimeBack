@@ -1,4 +1,9 @@
 {
+   "2.4.3":{
+     "fix": [
+        "icon on frame"
+      ]
+   },
    "2.4.2": {
      "fix": [
         "background on start"
