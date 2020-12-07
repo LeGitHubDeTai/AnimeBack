@@ -1,4 +1,9 @@
 {
+   "2.4.1": {
+     "change": [
+        "logo in changelog"
+     ]
+   },
    "2.4.0": {
       "add": [
          "changelog window",
