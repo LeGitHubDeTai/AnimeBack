@@ -34,8 +34,8 @@
    },
    "2.3.0": {
       "add": [
-         "support vidéos .mp4, .mov",
-         "new support images .jpg, .png",
+         "support vidéos .mp4 and .mov",
+         "new support images .jpg and .png",
           "view all custom files",
           "remove custom files"
       ],
