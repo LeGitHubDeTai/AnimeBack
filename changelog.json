@@ -1,7 +1,15 @@
 {
-   "2.4.3":{
+   "2.4.4":{
      "fix": [
         "icon on frame"
+      ]
+   },
+   "2.4.3":{
+     "add": [
+        "new parametter in config.json time on active"
+      ],
+      "fix": [
+         "changeLOG window open on start"
       ]
    },
    "2.4.2": {
