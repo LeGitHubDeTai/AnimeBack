@@ -1,4 +1,24 @@
 {
+   "3.0.0":{
+     "add": [
+        "new features extensions",
+        "new option in tray menu (relaunch app and extensions)",
+        "new menu in option app (extensions)",
+        "create your own tray menu",
+        "edit your wallpaper",
+        "create your own option window"
+      ],
+     "update": [
+        "organization in tray menu",
+        "background color and animation in options window"
+      ],
+     "fix": [
+        "text in changelog frame",
+        "delete custom file in app dir",
+        "fix video autoplay on option window",
+        "drag images on all window"
+      ]
+   },
    "2.4.4":{
      "fix": [
         "icon on frame"
