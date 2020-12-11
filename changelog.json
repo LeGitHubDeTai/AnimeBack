@@ -1,4 +1,14 @@
 {
+   "3.1.1":{
+     "fix": [
+        "auto update background size on change screen résolution"
+      ]
+   },
+   "3.1.0":{
+     "fix": [
+        "auto update background size on change screen résolution"
+      ]
+   },
    "3.0.0":{
      "add": [
         "new features extensions",
