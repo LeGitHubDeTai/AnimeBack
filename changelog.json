@@ -1,4 +1,20 @@
 {
+   "3.2.0":{
+     "add": [
+        "author name for the extensions"
+      ],
+     "update": [
+        "set default img"
+      ],
+     "fix": [
+        "option menu preview and categories",
+        "background height",
+        "drag and drop on background window",
+        "video size",
+        "hover gif selections",
+        "changelog error"
+      ]
+   },
    "3.1.4":{
      "add": [
         "branding logo"
