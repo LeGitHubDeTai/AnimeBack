@@ -1,4 +1,23 @@
 {
+   "3.3.0":{
+     "add": [
+        "current selected wallpaper",
+        "button  browse extension folder",
+        "branding logo in options window",
+        "download officials extensions"
+      ],
+     "update": [
+        "change of selection color",
+        "optimization in all code",
+        "change color for extension"
+      ],
+     "fix": [
+        "selector video",
+        "image selector function",
+        "load extensions",
+        "buttons support responsive"
+      ]
+   },
    "3.2.0":{
      "add": [
         "author name for the extensions"
