@@ -1,7 +1,9 @@
 {
-    "extensions" : {
-        "file": "Clock.asar",
-        "author": "Tai Studio",
-        "version": "1.0.0"
-    }
+    "extensions" : [
+        {
+            "file": "Clock.asar",
+            "author": "Tai Studio",
+            "version": "1.0.0"
+        }
+    ]
 }
