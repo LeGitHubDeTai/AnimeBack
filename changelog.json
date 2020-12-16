@@ -3,7 +3,7 @@
      "add": [
         ".temp dir for executed extensions",
         "remove an extension",
-        "log file %USERPROFILE%\AppData\Roaming\AnimeBack\logs\main.log",
+        "log file %USERPROFILE%/AppData/Roaming/AnimeBack/logs/main.log",
         "on click branding logo open this git repo"
       ],
      "prepare": [
