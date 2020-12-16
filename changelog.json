@@ -1,4 +1,18 @@
 {
+   "3.3.1":{
+     "add": [
+        ".temp dir for executed extensions",
+        "remove an extension",
+        "log file %USERPROFILE%\AppData\Roaming\AnimeBack\logs\main.log",
+        "on click branding logo open this git repo"
+      ],
+     "prepare": [
+        "multiscreen"
+      ],
+     "fix": [
+        "error image loading window option"
+      ]
+   },
    "3.3.0":{
      "add": [
         "current selected wallpaper",
