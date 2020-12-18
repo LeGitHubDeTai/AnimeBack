@@ -1,4 +1,9 @@
 {
+   "3.4.1":{
+     "remove": [
+         "auto update extension"
+     ]
+   },
    "3.4.0":{
      "update": [
          "support url files",
