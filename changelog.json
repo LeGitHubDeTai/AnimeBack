@@ -1,4 +1,30 @@
 {
+   "3.4.0":{
+     "update": [
+         "support url files",
+         "config option maxFPS (default: 60)",
+         "unload extension",
+         "remove extension",
+         "autoupdate for extension",
+         "add config option (extend remove, extend unloaded, extend update and run on windows startup)",
+         "add wiki on github"
+     ],
+     "update": [
+         "files location",
+         "change loading extension functions",
+         "change option window to no frame",
+         "change code format",
+         "github release",
+         "tray tooltip",
+         "change icon remove for gif"
+     ],
+     "fix": [
+         "prevent Multiple Instances",
+         "get all extension",
+         "wallpaper setup to background on start",
+         "auto start"
+     ]
+   },
    "3.3.2":{
      "fix": [
          "log for multiscreen support <3"
