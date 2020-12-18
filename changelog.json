@@ -1,4 +1,9 @@
 {
+   "3.4.2":{
+     "fix": [
+         "app crash on extension load"
+     ]
+   },
    "3.4.1":{
      "remove": [
          "auto update extension"
