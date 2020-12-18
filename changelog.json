@@ -134,7 +134,7 @@
          "new option in tray menu (changeLOG - get update)",
          "separator in tray menu"
       ],
-      "edit": [
+      "update": [
          "change fonts",
          "color hover in options window ",
          "change icon logo"
@@ -188,11 +188,9 @@
           "scroll bar in options window",
           "add version number on options window"
       ],
-      "edit": [
-         "auto update now check for new update every hour"
-      ],
       "fix": [
-         "no background"
+         "no background",
+         "auto update now check for new update every hour"
       ]
    },
    "1.7.0": {
@@ -225,7 +223,7 @@
           "gif selector",
           "filter categories"
       ],
-      "edit": [
+      "update": [
          "options window"
       ],
       "fix": [
