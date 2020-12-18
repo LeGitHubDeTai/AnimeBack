@@ -1,4 +1,9 @@
 {
+   "3.4.3":{
+     "add": [
+         "ipcMain for extensionAPI"
+     ]
+   },
    "3.4.2":{
      "fix": [
          "app crash on extension load"
