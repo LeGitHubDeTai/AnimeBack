@@ -1,33 +1,3 @@
 {
-  "animals": [
-    "licorne.gif",
-    "squid.gif"
-  ],
-  "anime": [
-    "Pin-by-Buu-Dang.gif",
-    "Rin Okumura.gif"
-  ],
-  "art": [
-    "cube.gif",
-    "earth.gif",
-    "MarriedWhichAntelopegroundsquirrel-size_restricted.gif",
-    "Space-Stars-Black.gif",
-    "Haunter.gif",
-    "water splash.gif",
-    "bleu particle.mp4"
-  ],
-  "movies": [
-    "dumbo.gif"
-  ],
-  "gaming": [
-    "Dead By Daylight.gif"
-  ],
-  "paysage": [
-    "river.gif",
-    "magic forest.gif",
-    "aurore boreale.gif",
-    "neige.gif",
-    "noel.mp4",
-    "space.gif"
-  ]
+  
 }
