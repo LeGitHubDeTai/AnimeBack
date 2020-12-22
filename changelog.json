@@ -1,4 +1,9 @@
 {
+   "4.0.2":{
+     "fix": [
+         "prepare to multi screen support"
+     ]
+   },
    "4.0.1":{
      "fix": [
          "prepare to multi screen support"
