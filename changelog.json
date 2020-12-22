@@ -1,4 +1,21 @@
 {
+   "4.0.0":{
+     "add": [
+         "interactive wallpaper",
+         "indicator for wallpaper interactive",
+         "add config option (json_interact)"
+     ],
+     "update": [
+         "change format gif",
+         "change wallpaper loading"
+     ],
+     "fix": [
+         "re-install an extension",
+         "remove all corrupt file .zip  in /extensions",
+         "option window load images error",
+         "if options window is open focus for 2nd click"
+     ]
+   },
    "3.4.3":{
      "add": [
          "ipcMain for extensionAPI"
