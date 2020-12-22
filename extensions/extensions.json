@@ -1,6 +1,13 @@
 {
     "extensions" : [
         {
+            "file": "MultiScreenPreview.asar",
+            "name": "MultiScreenPreview",
+            "desc": "MultiScreenPreview",
+            "author": "Tai Studio",
+            "version": "1.0.0"
+        },
+        {
             "file": "GetFPS.asar",
             "name": "Get FPS",
             "desc": "Add FPS counter",
