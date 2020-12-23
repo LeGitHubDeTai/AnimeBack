@@ -29,13 +29,13 @@
     "animeback-illusioner.mp4"
   ],
   "art": [
-    "cube.gif",
-    "earth.gif",
+    "Haunter.gif",
     "MarriedWhichAntelopegroundsquirrel-size_restricted.gif",
     "Space-Stars-Black.gif",
-    "Haunter.gif",
-    "water splash.gif",
-    "bleu particle.mp4"
+    "bleu particle.mp4",
+    "cube.gif",
+    "earth.gif",
+    "water splash.gif"
   ],
   "movies": [
     "dumbo.gif"
@@ -44,11 +44,11 @@
     "Dead By Daylight.gif"
   ],
   "paysage": [
-    "river.gif",
-    "magic forest.gif",
     "aurore boreale.gif",
+    "magic forest.gif",
     "neige.gif",
     "noel.mp4",
+    "river.gif",
     "space.gif"
   ]
 }
