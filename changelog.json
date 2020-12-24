@@ -1,4 +1,21 @@
 {
+   "4.1.0":{
+     "add": [
+         "images name on option window",
+         "logs on event in option window"
+     ],
+     "prepare": [
+         "manual changelog to automatic changelog"
+     ],
+     "fix": [
+         "scrollbar size on option window",
+         "video interaction wallpaper",
+         "interaction wallpaper loader in option window",
+         "on change wallpaper remove particles",
+         "prevent the option window from reloading by clicking on the tray",
+         "interactive categories"
+     ]
+   },
    "4.0.2":{
      "fix": [
          "prepare to multi screen support"
