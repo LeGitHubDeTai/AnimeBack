@@ -3,11 +3,6 @@
     "licorne.gif",
     "squid.gif"
   ],
-  "animations": [
-     "animeback",
-     "autumn",
-     "christmas"
-  ],
   "anime": [
     "Asta.mp4",
     "Black Clover Opening 2 (Bish Paint It Black) HD 720p.mp4",
@@ -41,6 +36,11 @@
   ],
   "gaming": [
     "Dead By Daylight.gif"
+  ],
+  "interactive": [
+     "animeback",
+     "autumn",
+     "christmas"
   ],
   "paysage": [
     "aurore boreale.gif",
