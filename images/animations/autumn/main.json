@@ -1,5 +1,6 @@
 {
   "config": "autumn.json",
   "wallpaper": "autumn.png",
-  "particle": "effect.png"
+  "particle": "effect.png",
+  "preview": "none"
 }
