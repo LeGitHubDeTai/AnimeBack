@@ -1,4 +1,12 @@
 {
+   "5.1.0":{
+     "fix": [
+         "option window freeze on  extensions download",
+         "load extension for multi display",
+         "crash on app quit or restart",
+         "preview image interactive wallpaper in option window"
+     ]
+   },
    "5.0.0":{
      "add": [
          "multiscreen support"
