@@ -1,4 +1,28 @@
 {
+   "5.0.0":{
+     "add": [
+         "multiscreen support"
+     ],
+     "update": [
+         "load wallpaper",
+         "change video loading",
+         "video autoplay on hover in option window",
+         "particle system for interact wallpapers"
+     ],
+     "prepare": [
+         "wallpaper per screen"
+     ],
+     "fix": [
+         "preview images on option window",
+         "lag in option window",
+         "interact wallpaper loding in option window",
+         "interact wallpaper get mouse on other display of the main"
+     ],
+     "remove": [
+         "fix background option in tray menu",
+         "timeOnActive in config.json"
+     ]
+   },
    "4.1.0":{
      "add": [
          "images name on option window",
