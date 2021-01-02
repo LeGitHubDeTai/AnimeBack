@@ -1,4 +1,9 @@
 {
+   "5.1.2":{
+     "fix": [
+         "loading interact wallpapers"
+     ]
+   },
    "5.1.1":{
      "fix": [
          "multiscreen negative postion x"
