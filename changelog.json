@@ -1,4 +1,9 @@
 {
+   "5.1.1":{
+     "fix": [
+         "multiscreen negative postion x"
+     ]
+   },
    "5.1.0":{
      "fix": [
          "option window freeze on  extensions download",
