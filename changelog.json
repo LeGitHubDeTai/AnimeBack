@@ -1,4 +1,18 @@
 {
+   "5.2.0":{
+     "add": [
+         "limit for extension load and it set to 3",
+         "notification popup",
+         "new option in ExtensionKit for function create window: alwaysOnTop & backgroundColor & transparent & Pos[{x:0, y:0}]"
+     ],
+     "update": [
+         "window option interface"
+     ],
+     "fix": [
+         "app error on closed",
+         "extends loading"
+     ]
+   },
    "5.1.2":{
      "fix": [
          "loading interact wallpapers"
