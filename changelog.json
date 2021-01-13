@@ -1,4 +1,16 @@
 {
+   "5.3.0":{
+     "add": [
+         "licence Tai Studio system for premium version"
+     ],
+     "update": [
+         "change URL in options window"
+     ],
+     "fix": [
+         "notificator system autoclose",
+         "logo branding for demo version"
+     ]
+   },
    "5.2.0":{
      "add": [
          "limit for extension load and it set to 3",
