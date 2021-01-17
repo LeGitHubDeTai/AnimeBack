@@ -4,7 +4,7 @@
          "icon in tray menu",
          "links in tray menu",
          "support extension icon (check wiki for use it)",
-         "support format: webm"
+         "support format: .webm"
      ],
      "prepare": [
          "premium version function"
