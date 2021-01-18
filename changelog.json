@@ -1,4 +1,22 @@
 {
+   "6.0.0":{
+     "add": [
+         "icon in tray menu",
+         "links in tray menu",
+         "support extension icon (check wiki for use it)",
+         "support format: .webm"
+     ],
+     "prepare": [
+         "premium version function"
+     ],
+     "fix": [
+         "animation for extension in options window",
+         "load and unload extension error",
+         "unload extension in Tray menu",
+         "autolaunch option in config.json",
+         "AnimeBack No Run"
+     ]
+   },
    "5.3.3":{
      "fix": [
          "animeback not working"
