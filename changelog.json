@@ -1,4 +1,17 @@
 {
+   "6.0.1":{
+     "add": [
+         "change wallpaper in ExtensionKit (read wiki for use it)",
+         "notificator system in ExtensionKit (read wiki for use it)",
+         "support Youtube video"
+     ],
+     "update": [
+         "notification sound"
+     ],
+     "fix": [
+         "error on change wallpaper"
+     ]
+   },
    "6.0.0":{
      "add": [
          "icon in tray menu",
