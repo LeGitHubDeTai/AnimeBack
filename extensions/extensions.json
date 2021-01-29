@@ -1,13 +1,6 @@
 {
     "extensions" : [
         {
-            "file": "Youtube-Wallpaper.asar",
-            "name": "Youtube WallpaperS",
-            "desc": "Add a Youtube Video in your background",
-            "author": "Tai Studio",
-            "version": "1.0.0"
-        },
-        {
             "file": "GetFPS.asar",
             "name": "Get FPS",
             "desc": "Add FPS counter",
