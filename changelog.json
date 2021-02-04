@@ -1,15 +1,26 @@
 {
-   "6.0.1":{
+   "6.0.2":{
      "add": [
          "change wallpaper in ExtensionKit (read wiki for use it)",
          "notificator system in ExtensionKit (read wiki for use it)",
-         "support Youtube video"
+         "support Youtube video",
+         "analystic for performance update",
+         "new option in tray menu (Change .AnimeBack Location)",
+         "new option in tray menu (Import/Export)"
      ],
      "update": [
          "notification sound"
      ],
      "fix": [
-         "error on change wallpaper"
+         "error on change wallpaper",
+         "error on load options window",
+         "no tray menu",
+         "error no exporting"
+     ]
+   },
+   "6.0.1":{
+     "REMOVE": [
+        "VERSION NO RUNNED"
      ]
    },
    "6.0.0":{
