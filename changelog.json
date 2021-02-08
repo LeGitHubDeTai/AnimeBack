@@ -1,4 +1,18 @@
 {
+   "6.0.3":{
+     "add": [
+         "splash screen",
+         "themes design (pastel, dark, white, orange, green, red, blue, purple, and others)",
+         "option in Tray menu (theme)"
+     ],
+     "prepare": [
+         "PREMIUM VERSION"
+     ],
+     "fix": [
+         "remove wallpaper",
+         "error on update"
+     ]
+   },
    "6.0.2":{
      "add": [
          "change wallpaper in ExtensionKit (read wiki for use it)",
