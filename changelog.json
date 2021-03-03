@@ -1,4 +1,9 @@
 {
+   "6.0.5":{
+     "fix": [
+         "video preview"
+     ]
+   },
    "6.0.4":{
      "add": [
          "more logs for debug",
