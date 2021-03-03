@@ -1,4 +1,21 @@
 {
+   "6.0.4":{
+     "add": [
+         "more logs for debug",
+         "'beta' mention in option not functional at 100%"
+     ],
+     "update": [
+         "change links in tray menu"
+     ],
+     "prepare": [
+         "PREMIUM VERSION"
+     ],
+     "fix": [
+         "theme not set",
+         "error name 'updatePositionWallpapers'",
+         "quit app errors"
+     ]
+   },
    "6.0.3":{
      "add": [
          "splash screen",
