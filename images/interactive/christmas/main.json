@@ -2,5 +2,5 @@
   "config": "christmas.json",
   "wallpaper": "christmas.png",
   "particle": "effect.png",
-  "preview": "none"
+  "preview": "christmas.png"
 }
