@@ -1,4 +1,9 @@
 {
+   "7.0.1":{
+     "fix": [
+         "white wallpaper"
+     ]
+   },
    "7.0.0":{
      "update": [
          "option interface"
