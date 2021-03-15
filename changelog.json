@@ -1,4 +1,15 @@
 {
+   "7.0.0":{
+     "update": [
+         "option interface"
+     ],
+     "fix": [
+         "changelog window",
+         "splashscreen timer",
+         "webm file not found in options window",
+         "loader all images in options window"
+     ]
+   },
    "6.0.5":{
      "fix": [
          "video preview"
