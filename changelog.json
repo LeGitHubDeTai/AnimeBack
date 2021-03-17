@@ -1,4 +1,9 @@
 {
+   "7.0.2":{
+     "fix": [
+         "MultiScreen (please send log file in discord for fix it)"
+     ]
+   },
    "7.0.1":{
      "fix": [
          "white wallpaper"
