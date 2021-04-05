@@ -1,4 +1,9 @@
 {
+   "7.0.5":{
+     "fix": [
+         "notification repeate every time"
+     ]
+   },
    "7.0.4":{
      "fix": [
          "issues #3",
