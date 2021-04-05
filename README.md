@@ -6,3 +6,4 @@
 <img src="https://github.com/LeGitHubDeTai/AnimeBack/blob/main/assets/add%20extensions.png?raw=true" width="45%" ></img>
 <img src="https://github.com/LeGitHubDeTai/AnimeBack/blob/main/assets/add%20custom.png?raw=true" width="45%" ></img>
 <img src="https://github.com/LeGitHubDeTai/AnimeBack/blob/main/assets/add%20custom.png?raw=true" width="45%" ></img>
+ 
