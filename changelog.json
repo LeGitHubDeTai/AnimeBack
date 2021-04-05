@@ -1,4 +1,15 @@
 {
+   "7.0.4":{
+     "fix": [
+         "issues #3",
+         "premium version"
+     ]
+   },
+   "7.0.3":{
+     "fix": [
+         "grab images"
+     ]
+   },
    "7.0.2":{
      "fix": [
          "MultiScreen (please send log file in discord for fix it)"
