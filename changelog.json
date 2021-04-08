@@ -1,4 +1,9 @@
 {
+   "7.0.7":{
+     "add": [
+         "PREMUM VERSION: Licence functions"
+     ]
+   },
    "7.0.6":{
      "add": [
          "PREMUM VERSION: menu control"
