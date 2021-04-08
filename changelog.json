@@ -1,4 +1,14 @@
 {
+   "7.1.0":{
+     "add": [
+         "new fix option"
+     ],
+     "fix": [
+         "size of wallpaper when resolution has changed",
+         "PREMUM VERSION: Licence dialog error: not found",
+         "test fix issue #4"
+     ]
+   },
    "7.0.7":{
      "add": [
          "PREMUM VERSION: Licence functions"
