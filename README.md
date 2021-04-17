@@ -1,5 +1,8 @@
 ![GitHub Logo](https://github.com/LeGitHubDeTai/AnimeBack/blob/main/assets/logo%20white2.png?raw=true)
-
+<p align='center'>
+  <img src="https://img.shields.io/github/downloads/LeGitHubDeTai/AnimeBack/total">
+  <img src="https://img.shields.io/github/v/release/LeGitHubDeTai/AnimeBack">
+</p>
 <p align='center'>
   <a href="http://www.youtube.com/watch?v=JpFKSTRth4M">
     <img src="https://github.com/LeGitHubDeTai/AnimeBack/blob/main/assets/Trailer%20Animeback.jpg?raw=true" width="45%" ></img>
