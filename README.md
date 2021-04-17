@@ -2,6 +2,7 @@
 <p align='center'>
   <img src="https://img.shields.io/github/downloads/LeGitHubDeTai/AnimeBack/total">
   <img src="https://img.shields.io/github/v/release/LeGitHubDeTai/AnimeBack">
+  <img src="https://img.shields.io/website?url=http%3A%2F%2Ftai-studio.ml%2F">
 </p>
 <p align='center'>
   <a href="http://www.youtube.com/watch?v=JpFKSTRth4M">
