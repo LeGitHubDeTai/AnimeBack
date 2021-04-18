@@ -25,7 +25,7 @@
 </p>
 
 <p align='center'>
-  <a href="https://github.com/LeGitHubDeTai/AnimeBack">
+  <a href="https://github.com/LeGitHubDeTai/AnimeBack/releases">
     <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fcustom.json">
   </a>
 </p>
