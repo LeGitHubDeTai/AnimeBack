@@ -34,7 +34,18 @@
   <a href="http://www.youtube.com/watch?v=JpFKSTRth4M">
     <img src="https://github.com/LeGitHubDeTai/AnimeBack/blob/main/assets/Trailer%20Animeback.jpg?raw=true" width="45%" ></img>
   </a>
-
+  
+  <br/>
+  
+  <img src="https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/assets/tray.png" width="45%" ></img>
+  <img src="https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/assets/changelog.png" width="45%" ></img>
+  <img src="https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/assets/desktop.png" width="45%" ></img>
+  <img src="https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/assets/options.png" width="45%" ></img>
+  <img src="https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/assets/wikigit.png" width="45%" ></img>
+  <img src="https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/assets/github.png" width="45%" ></img>
+  
+  <br/>
+  
   <img src="https://github.com/LeGitHubDeTai/AnimeBack/blob/main/assets/tray%20options.png?raw=true" width="45%" ></img>
   <img src="https://github.com/LeGitHubDeTai/AnimeBack/blob/main/assets/options%20window.png?raw=true" width="45%" ></img>
   <img src="https://github.com/LeGitHubDeTai/AnimeBack/blob/main/assets/changelog%20window.png?raw=true" width="45%" ></img>
