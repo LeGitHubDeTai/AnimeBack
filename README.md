@@ -5,6 +5,19 @@
     <img src="https://img.shields.io/github/v/release/LeGitHubDeTai/AnimeBack">
     <img src="https://img.shields.io/website?url=http%3A%2F%2Flegithubdetai.github.io%2FAnimeBack">
   </a>
+  <br/>
+  <a href="http://www.youtube.com/watch?v=JpFKSTRth4M">
+    <img src="https://img.shields.io/youtube/views/JpFKSTRth4M?style=social">
+  </a>
+  <a href="https://github.com/LeGitHubDeTai/">
+    <img src="https://img.shields.io/github/followers/LeGitHubDeTai?style=social">
+  </a>
+  <a href="https://www.youtube.com/channel/UCZiVWB8_UNH4NLzr7XbaI8A">
+    <img src="https://img.shields.io/youtube/channel/subscribers/UCZiVWB8_UNH4NLzr7XbaI8A?style=social">
+  </a>
+  <a href="https://github.com/LeGitHubDeTai/AnimeBack">
+    <img src="https://img.shields.io/github/stars/LeGitHubDeTai/AnimeBack?style=social">
+  </a>
 </p>
 <p align='center'>
   <a href="http://www.youtube.com/watch?v=JpFKSTRth4M">
