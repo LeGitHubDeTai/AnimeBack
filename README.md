@@ -4,6 +4,7 @@
     <img src="https://img.shields.io/github/downloads/LeGitHubDeTai/AnimeBack/total">
     <img src="https://img.shields.io/github/v/release/LeGitHubDeTai/AnimeBack">
     <img src="https://img.shields.io/website?url=http%3A%2F%2Flegithubdetai.github.io%2FAnimeBack">
+    <img src="https://img.shields.io/github/release-date/LeGitHubDeTai/AnimeBack">
   </a>
   <a href="https://discord.gg/zctFdAPUzP">
     <img src="https://img.shields.io/discord/788853994264723456">
