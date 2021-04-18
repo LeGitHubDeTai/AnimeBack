@@ -1,8 +1,10 @@
 ![GitHub Logo](https://github.com/LeGitHubDeTai/AnimeBack/blob/main/assets/logo%20white2.png?raw=true)
 <p align='center'>
-  <img src="https://img.shields.io/github/downloads/LeGitHubDeTai/AnimeBack/total">
-  <img src="https://img.shields.io/github/v/release/LeGitHubDeTai/AnimeBack">
-  <img src="https://img.shields.io/website?url=http%3A%2F%2Ftai-studio.ml%2F">
+  <a href="https://legithubdetai.github.io/AnimeBack/">
+    <img src="https://img.shields.io/github/downloads/LeGitHubDeTai/AnimeBack/total">
+    <img src="https://img.shields.io/github/v/release/LeGitHubDeTai/AnimeBack">
+    <img src="https://img.shields.io/website?url=http%3A%2F%2Flegithubdetai.github.io%2FAnimeBack">
+  </a>
 </p>
 <p align='center'>
   <a href="http://www.youtube.com/watch?v=JpFKSTRth4M">
