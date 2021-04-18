@@ -23,6 +23,11 @@
     <img src="https://img.shields.io/github/stars/LeGitHubDeTai/AnimeBack?style=social">
   </a>
 </p>
+
+<p align='center'>
+    <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fdiscord.json">
+</p>
+
 <p align='center'>
   <a href="http://www.youtube.com/watch?v=JpFKSTRth4M">
     <img src="https://github.com/LeGitHubDeTai/AnimeBack/blob/main/assets/Trailer%20Animeback.jpg?raw=true" width="45%" ></img>
