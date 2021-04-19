@@ -5,16 +5,30 @@ on:
     types: [published]
     
 jobs:
-  sending:
+  animeback:
     runs-on: ubuntu-latest
     steps:
     - name: Discord notification
-      uses: LeGitHubDeTai/github-to-discord@v1.0.2
+      uses: LeGitHubDeTai/github-to-discord@v1.3.4
       env:
         DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
-        DISCORD_USERNAME: Tai Studio
+        DISCORD_USERNAME: AnimeNews
         DISCORD_AVATAR: https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/icon.png
         MESSAGE_TITLE: New Version
         MESSAGE_DESCRIPTION: AnimeBack
-        MESSAGE_URL: ${{ process.env.GITHUB_REPOSITORY }}
+        MESSAGE_URL: https://github.com/LeGitHubDeTai/AnimeBack
+        MESSAGE_COLOR: 5814783
+  taistudio:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Discord notification
+      uses: LeGitHubDeTai/github-to-discord@v1.3.4
+      env:
+        GITHUB_REPOSITORY: LeGitHubDeTai/AnimeBack
+        DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK2 }}
+        DISCORD_USERNAME: Tai Studio
+        DISCORD_AVATAR: https://raw.githubusercontent.com/LeGitHubDeTai/github-to-discord/main/icon.png
+        MESSAGE_TITLE: New Version
+        MESSAGE_DESCRIPTION: AnimeBack
+        MESSAGE_URL: https://github.com/LeGitHubDeTai/AnimeBack
         MESSAGE_COLOR: 5814783
