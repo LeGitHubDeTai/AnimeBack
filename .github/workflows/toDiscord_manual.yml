@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Discord notification
-      uses: LeGitHubDeTai/github-to-discord@v1.0.2
+      uses: LeGitHubDeTai/github-to-discord@v1.2.0
       env:
         DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         DISCORD_USERNAME: Tai Studio
