@@ -13,7 +13,7 @@ jobs:
       env:
         DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         DISCORD_USERNAME: Tai Studio
-        DISCORD_AVATAR: https://raw.githubusercontent.com/LeGitHubDeTai/github-to-discord/main/icon.png
+        DISCORD_AVATAR: https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/icon.png
         MESSAGE_TITLE: New Version
         MESSAGE_DESCRIPTION: AnimeBack
         MESSAGE_URL: ${{ process.env.GITHUB_REPOSITORY }}
