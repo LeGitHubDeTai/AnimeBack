@@ -17,4 +17,4 @@ jobs:
         MESSAGE_DESCRIPTION: AnimeBack
         MESSAGE_URL: ${{ process.env.GITHUB_REPOSITORY }}
         MESSAGE_COLOR: 5814783
-        uses: LeGitHubDeTai/github-to-discord@v1.0.2
+      uses: LeGitHubDeTai/github-to-discord@v1.0.2
