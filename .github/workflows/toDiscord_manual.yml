@@ -10,7 +10,7 @@ jobs:
       uses: LeGitHubDeTai/github-to-discord@v1.3.3
       env:
         DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
-        DISCORD_USERNAME: Tai Studio
+        DISCORD_USERNAME: AnimeNews
         DISCORD_AVATAR: https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/icon.png
         MESSAGE_TITLE: New Version
         MESSAGE_DESCRIPTION: AnimeBack
