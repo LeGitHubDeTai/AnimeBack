@@ -1,6 +1,8 @@
 name: Notification on push
 
-on: workflow_dispatch
+on:
+  release:
+    types: [published]
     
 jobs:
   sending:
