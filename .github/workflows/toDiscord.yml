@@ -1,9 +1,7 @@
 name: Notification on push
 
-on:
-  release:
-    types: [published]
-
+on: workflow_dispatch
+    
 jobs:
   sending:
     runs-on: ubuntu-latest
