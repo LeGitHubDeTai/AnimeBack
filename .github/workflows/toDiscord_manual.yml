@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Discord notification
-      uses: LeGitHubDeTai/github-to-discord@v1.3.2
+      uses: LeGitHubDeTai/github-to-discord@v1.3.3
       env:
         GITHUB_REPOSITORY: LeGitHubDeTai/AnimeBack
         DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
