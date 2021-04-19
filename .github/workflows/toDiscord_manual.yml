@@ -14,5 +14,5 @@ jobs:
         DISCORD_AVATAR: https://raw.githubusercontent.com/LeGitHubDeTai/github-to-discord/main/icon.png
         MESSAGE_TITLE: New Version
         MESSAGE_DESCRIPTION: AnimeBack
-        MESSAGE_URL: ${{ process.env.GITHUB_REPOSITORY }}
+        MESSAGE_URL: https://github.com/LeGitHubDeTai/AnimeBack
         MESSAGE_COLOR: 5814783
