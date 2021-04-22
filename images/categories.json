@@ -33,7 +33,11 @@
     "dragon.gif",
     "totoro.gif",
     "sophia fire emblem.gif",
-    "hatsume miku.gif"
+    "hatsume miku.gif",
+	"Darling-In-The-Franxx.mp4",
+	"Naruto.mp4",
+	"Itachi-Naruto-Sharingan.mp4",
+	"ghost of tsushima.mp4"
   ],
   "animeback": [
     "AnimeBack.mp4",
@@ -53,7 +57,12 @@
     "skull.gif",
     "sleep mode.gif",
     "car.gif",
-    "bot.gif"
+    "bot.gif",
+	"Blue-Fire.mp4",
+	"Cat-Space-Glasses.mp4",
+	"Rgb-triangle.mp4",
+	"3D-Sport-Car-Bugatti-Abstract-Shapes.mp4",
+	"Red-Flame-Blue-Fire.mp4"
   ],
   "movies": [
     "dumbo.gif",
@@ -69,12 +78,14 @@
     "for honor.webm",
     "undertale-home.jpg",
     "mario gamer.gif",
-    "stone age stardew valley.gif"
+    "stone age stardew valley.gif",
+	"Ak-47.mp4",
+	"Forza-Dreamscene.mp4"
   ],
   "interactive": [
-     "animeback",
-     "autumn",
-     "christmas"
+    "animeback",
+    "autumn",
+    "christmas"
   ],
   "paysage": [
     "aurore boreale.gif",
@@ -93,6 +104,7 @@
     "space darkness.gif",
     "8-bit-anime-gif.gif",
     "shutdown city.gif",
-    "futuristic city.gif"
+    "futuristic city.gif",
+	"Creux De Van.mp4"
   ]
 }
