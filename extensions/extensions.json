@@ -13,6 +13,13 @@
             "desc": "Add Clock on Your Wallpaper",
             "author": "Tai Studio",
             "version": "1.3.0"
+        },
+        {
+            "file": "Weather.asar",
+            "name": "Weather",
+            "desc": "Add Weather widget on Your Wallpaper",
+            "author": "Tai Studio",
+            "version": "1.0.0"
         }
     ]
 }
