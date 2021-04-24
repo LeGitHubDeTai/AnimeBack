@@ -29,3 +29,6 @@ If applicable, add screenshots to help explain your problem.
 
 **Additional context**
 Add any other context about the problem here.
+
+
+NOTE: you can propose your idea to add or even report a bug on the following discord server: <a href="https://discord.gg/yCAymfAVTh">Discord</a> or thanks to the exits
