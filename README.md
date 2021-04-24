@@ -53,3 +53,17 @@
   <img src="https://github.com/LeGitHubDeTai/AnimeBack/blob/main/assets/add%20custom.png?raw=true" width="45%" ></img>
   <img src="https://github.com/LeGitHubDeTai/AnimeBack/blob/main/assets/add%20custom.png?raw=true" width="45%" ></img>
  </p>
+ 
+## Adding your extensions
+
+If you have an Extensions you'd like to see added,
+please read the [Contributions](Contributions.md) doc.
+
+## How it Works
+
+See [Contributions.md#how-it-works](Contributions.md#how-it-works)
+
+## License
+
+MIT
+
