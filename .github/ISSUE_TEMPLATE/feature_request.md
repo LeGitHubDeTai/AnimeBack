@@ -18,3 +18,6 @@ A clear and concise description of any alternative solutions or features you've 
 
 **Additional context**
 Add any other context or screenshots about the feature request here.
+
+
+NOTE: you can propose your idea to add or even report a bug on the following discord server: <a href="https://discord.gg/yCAymfAVTh">Discord</a> or thanks to the exits
