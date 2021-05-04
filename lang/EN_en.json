@@ -1,0 +1,31 @@
+{
+    "TRAY": {
+        "ANIMEBACK": "ANIMEBACK",
+        "Youtube": "Youtube",
+        "Discord": "Discord",
+        "Wiki": "Wiki",
+        "Tai Studio": "Tai Studio",
+        "Options": "Options",
+        "Premium": "Premium",
+        "Extensions": "Extensions",
+        "Themes": "Themes",
+        "Themes:Pastel": "Pastel",
+        "Themes:Dark": "Dark",
+        "Themes:White": "White",
+        "Themes:Orange": "Orange",
+        "Themes:Green": "Green",
+        "Themes:Blue": "Blue",
+        "Themes:Red": "Red",
+        "Themes:Blue and Green": "Blue and Green",
+        "Themes:Blue and Red": "Blue and Red",
+        "Themes:Orange and Red": "Orange and Red",
+        "Update": "Update",
+        "Update:Get Update": "Get Update",
+        "Update:ChangeLOG": "ChangeLOG",
+        "Update:What News ?": "What News ?",
+        "Fix": "Fix",
+        "Fix:Change .AnimeBack Location (BETA)": "Change .AnimeBack Location (BETA)",
+        "Fix:Import": "Import",
+        "Fix:Export": "Export"
+    }
+}
