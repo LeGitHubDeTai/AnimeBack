@@ -58,11 +58,11 @@
 ## Adding your extensions
 
 If you have an Extensions you'd like to see added,
-please read the [Contributions](https://github.com/TaiStudio/animeback-submit/Contributions.md) doc.
+please read the [Contributions](https://github.com/TaiStudio/animeback-submit/CONTRIBUTING.md) doc.
 
 ## How it Works
 
-See [Contributions.md#how-it-works](https://github.com/TaiStudio/animeback-submit/Contributions.md#how-it-works)
+See [Contributions.md#how-it-works](https://github.com/TaiStudio/animeback-submit/CONTRIBUTING.md#how-it-works)
 
 ## License
 
