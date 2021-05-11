@@ -22,7 +22,9 @@ function getFiles (dir, files_){
                 getFiles(name, files_);
             } else {
                 files_.push(name);
-                fs.renameSync(name, replaceAll(name, '-', ' '))
+                var renamer = replaceAll(name, '-', ' ');
+                    renamer = replaceAll(renamer, '_', ' '); 
+                fs.renameSync(name, renamer);
             }
         }
     }
