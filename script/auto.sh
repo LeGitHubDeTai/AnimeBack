@@ -5,7 +5,7 @@ set -o errexit    # always exit on error
 set -o pipefail   # honor exit codes when piping
 set -o nounset    # fail on unset variables
 
-git clone "https://AnimeBack-Bot:$GH_TOKEN@github.com/TaiStudio/animeback-submit" wallpapers
+git clone "https://AnimeBack-Bot:$GH_TOKEN@github.com/LeGitHubDeTai/AnimeBack/" wallpapers
 cd wallpapers
 npm ci
 

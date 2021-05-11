@@ -6,7 +6,7 @@ on:
     
 jobs:
   animeback:
-    name: Update data and release
+    name: Categories
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
