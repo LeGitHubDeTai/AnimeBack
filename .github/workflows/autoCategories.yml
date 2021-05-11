@@ -8,5 +8,7 @@ jobs:
   animeback:
     runs-on: ubuntu-latest
     steps:
-    - name: Categories
-      run: "npm start"
+      - name: Chmod
+        run: chmod +x ./script/auto.sh
+      - name: Categories
+        run: "npm start"
