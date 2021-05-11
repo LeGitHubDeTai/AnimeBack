@@ -8,7 +8,8 @@
     "build": "npm-run-all build:*",
     "build:rename": "node ./script/rename.js",
     "build:wizard": "node ./script/wizard.js",
-    "build:extract": "node ./script/extract.js"
+    "build:extract": "node ./script/extract.js",
+    "auto": "script/auto.sh"
   },
   "repository": {
     "type": "git",

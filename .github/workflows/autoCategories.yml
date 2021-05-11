@@ -6,9 +6,13 @@ on:
     
 jobs:
   animeback:
+    name: Update data and release
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@master
       - name: Chmod
         run: chmod +x ./script/auto.sh
       - name: Categories
-        run: "npm start"
+        run: npm run auto
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
