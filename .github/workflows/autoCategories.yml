@@ -1,0 +1,12 @@
+name: Classify Wallpapers
+
+on:
+  push:
+    branches: [ main ]
+    
+jobs:
+  animeback:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Categories
+      run: "npm start"
