@@ -9,7 +9,6 @@
 \--------------------------------------------------------------------------------------*/
 
 const fs = require('fs');
-const nconf = require('nconf');
 const testFolder = './images';
 
 function getFiles (dir, files_){
@@ -35,3 +34,5 @@ function replaceAll(str, find, replace) {
     var escapedFind=find.replace(/([.*+?^=!:${}()|\[\]\/\\])/g, "\\$1");
     return str.replace(new RegExp(escapedFind, 'g'), replace);
 }
+
+console.log('Done!');

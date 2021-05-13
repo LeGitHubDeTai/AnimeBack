@@ -9,7 +9,6 @@
 \--------------------------------------------------------------------------------------*/
 
 const extractFrames = require('ffmpeg-extract-frames');
-const util = require('util');
 const fs = require('fs');
 const nconf = require('nconf');
 const testFolder = './images';
@@ -17,8 +16,19 @@ var config = `${testFolder}/categories.json`;
 
 nconf.file(config);
 
-// extractFrames({input: `${testFolder}/animals/Chicken.mp4`,output: './screenshot-%i.png',offsets: [1000]});
+Object.keys(nconf.stores).forEach(function(name){
+    Object.keys(nconf.stores[name].store).forEach(function(test){
+        for(i=0;i<nconf.get(`${test}`).length;i++){
+            var count = nconf.get(`${test}:${i}`).length;
+            if(nconf.get(`${test}:${i}`).slice(count - 3, count) == "mp4"){
+                console.log(nconf.get(`${test}:${i}`))
+                var fileName = nconf.get(`${test}:${i}`).slice(0, count - 4);
+                if(!fs.existsSync(`${testFolder}/preview/${test}/${fileName}.png`)){
+                    extractFrames({input: `${testFolder}/${test}/${fileName}.mp4`, output: `${testFolder}/preview/${test}/${fileName}.png`,offsets: [1000]});
+                }
+            }
+        }
+    })
+});
 
-// Object.keys(nconf.stores).forEach(function(name){
-//   util.log(util.inspect(nconf.stores[name].store));
-// });
+console.log('Done!');

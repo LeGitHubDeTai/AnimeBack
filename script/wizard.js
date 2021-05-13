@@ -48,3 +48,4 @@ function getFiles (dir, files_){
 getFiles(testFolder);
 nconf.clear('./images');
 nconf.save();
+console.log('Done!');
