@@ -21,7 +21,6 @@ Object.keys(nconf.stores).forEach(function(name){
         for(i=0;i<nconf.get(`${test}`).length;i++){
             var count = nconf.get(`${test}:${i}`).length;
             if(nconf.get(`${test}:${i}`).slice(count - 3, count) == "mp4"){
-                console.log(nconf.get(`${test}:${i}`))
                 var fileName = nconf.get(`${test}:${i}`).slice(0, count - 4);
                 if(!fs.existsSync(`${testFolder}/preview/${test}/${fileName}.png`)){
                     extractFrames({input: `${testFolder}/${test}/${fileName}.mp4`, output: `${testFolder}/preview/${test}/${fileName}.png`,offsets: [1000]});
