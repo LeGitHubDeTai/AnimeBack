@@ -16,19 +16,21 @@ function getFiles (dir, files_){
     files_ = files_ || [];
     var files = fs.readdirSync(dir);
     for (var i in files){
-        if(dir != `${testFolder}/interactive`){
-            var name = dir + '/' + files[i];
-            if (fs.statSync(name).isDirectory()){
-                getFiles(name, files_);
-            } else {
-                files_.push(name);
-                var newName = dir + '/' +capitalizeFirstLetter(lowersWords(files[i]));
-                var renamer = replaceAll(newName, '-', ' ');
-                    renamer = replaceAll(renamer, '-', ' ');
-                    renamer = replaceAll(renamer, '_', ' ');
-                    renamer = replaceAll(renamer, '  ', ' ');
-                    console.log(`INFO: ${renamer}`.cyan);
-                fs.renameSync(name, renamer);
+        if(dir != `${testFolder}/categories.json`){
+            if(dir != `${testFolder}/interactive`){
+                var name = dir + '/' + files[i];
+                if (fs.statSync(name).isDirectory()){
+                    getFiles(name, files_);
+                } else {
+                    files_.push(name);
+                    var newName = dir + '/' +capitalizeFirstLetter(lowersWords(files[i]));
+                    var renamer = replaceAll(newName, '-', ' ');
+                        renamer = replaceAll(renamer, '-', ' ');
+                        renamer = replaceAll(renamer, '_', ' ');
+                        renamer = replaceAll(renamer, '  ', ' ');
+                        console.log(`INFO: ${renamer}`.cyan);
+                    fs.renameSync(name, renamer);
+                }
             }
         }
     }
