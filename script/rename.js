@@ -26,7 +26,7 @@ function getFiles (dir, files_){
                 var renamer = replaceAll(newName, '-', ' ');
                     renamer = replaceAll(renamer, '-', ' ');
                     renamer = replaceAll(renamer, '_', ' ');
-                    renamer = replaceAll(renamer, '   ', ' ');
+                    renamer = replaceAll(renamer, '  ', ' ');
                     console.log(`INFO: ${renamer}`.cyan);
                 fs.renameSync(name, renamer);
             }
