@@ -9,7 +9,6 @@
 \--------------------------------------------------------------------------------------*/
 
 var colors = require('colors');
-const extractFrames = require('ffmpeg-extract-frames');
 const fs = require('fs');
 const nconf = require('nconf');
 const testFolder = './images';
@@ -19,12 +18,12 @@ nconf.file(config);
 
 Object.keys(nconf.stores).forEach(function(name){
     Object.keys(nconf.stores[name].store).forEach(function(test){
-        for(i=0;i<nconf.get(`${test}`).length;i++){
-            var count = nconf.get(`${test}:${i}`).length;
-            if(nconf.get(`${test}:${i}`).slice(count - 3, count) == "mp4"){
-                var fileName = nconf.get(`${test}:${i}`).slice(0, count - 4);
+        if(test != "interactive"){
+            for(i=0;i<nconf.get(`${test}`).length;i++){
+                var count = nconf.get(`${test}:${i}`).length;
+                var fileName = nconf.get(`${test}:${i}`).slice(0, count - (nconf.get(`${test}:${i}`).split('.').pop().length + 1));
                 if(!fs.existsSync(`${testFolder}/preview/${test}/${fileName}.png`)){
-                    extractFrames({input: `${testFolder}/${test}/${fileName}.mp4`, output: `${testFolder}/preview/${test}/${fileName}.png`,offsets: [1]});
+                    console.log(`ERROR: ${testFolder}/preview/${test}/${fileName}.png NOT FOUND !`.red);
                 }
             }
         }

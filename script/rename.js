@@ -8,6 +8,7 @@
 |                                                   \________/                          |
 \--------------------------------------------------------------------------------------*/
 
+var colors = require('colors');
 const fs = require('fs');
 const testFolder = './images';
 
@@ -35,4 +36,4 @@ function replaceAll(str, find, replace) {
     return str.replace(new RegExp(escapedFind, 'g'), replace);
 }
 
-console.log('Done!');
+console.log('Done!'.green);

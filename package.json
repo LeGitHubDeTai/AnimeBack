@@ -9,6 +9,7 @@
     "build:rename": "node ./script/rename.js",
     "build:wizard": "node ./script/wizard.js",
     "build:extract": "node ./script/extract.js",
+    "build:artifact": "node ./script/artifact.js",
     "auto": "script/auto.sh",
     "clean": "node ./script/clean.js"
   },
@@ -28,6 +29,7 @@
   },
   "homepage": "https://github.com/LeGitHubDeTai/AnimeBack#readme",
   "dependencies": {
+    "colors": "^1.4.0",
     "ffmpeg": "^0.0.4",
     "ffmpeg-extract-frames": "^2.0.2",
     "ffmpeg-probe": "^1.0.6",

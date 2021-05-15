@@ -8,6 +8,7 @@
 |                                                   \________/                          |
 \--------------------------------------------------------------------------------------*/
 
+var colors = require('colors');
 const fs = require('fs');
 const nconf = require('nconf');
 const testFolder = './images';
@@ -48,4 +49,4 @@ function getFiles (dir, files_){
 getFiles(testFolder);
 nconf.clear('./images');
 nconf.save();
-console.log('Done!');
+console.log('Done!'.green);

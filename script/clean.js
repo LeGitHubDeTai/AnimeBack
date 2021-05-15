@@ -8,6 +8,7 @@
 |                                                   \________/                          |
 \--------------------------------------------------------------------------------------*/
 
+var colors = require('colors');
 const fs = require('fs');
 const rimraf = require('rimraf');
 const testFolder = './images';
@@ -25,3 +26,5 @@ function getFiles (dir, files_){
     return files_;
 }
 getFiles(testFolder);
+
+console.log('Done!'.green);
