@@ -22,9 +22,12 @@ function getFiles (dir, files_){
                 getFiles(name, files_);
             } else {
                 files_.push(name);
-                var renamer = replaceAll(name, '-', ' ');
+                var newName = dir + '/' +capitalizeFirstLetter(lowersWords(files[i]));
+                var renamer = replaceAll(newName, '-', ' ');
+                    renamer = replaceAll(renamer, '-', ' ');
                     renamer = replaceAll(renamer, '_', ' ');
                     renamer = replaceAll(renamer, '   ', ' ');
+                    console.log(`INFO: ${renamer}`.cyan);
                 fs.renameSync(name, renamer);
             }
         }
@@ -36,5 +39,11 @@ function replaceAll(str, find, replace) {
     var escapedFind=find.replace(/([.*+?^=!:${}()|\[\]\/\\])/g, "\\$1");
     return str.replace(new RegExp(escapedFind, 'g'), replace);
 }
+function capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
+function lowersWords(string) {
+    return string.replace(/(?:^|\s)\S/g, function(a) { return a.toLowerCase(); });
+};
 
 console.log('Done!'.green);
