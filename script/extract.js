@@ -23,7 +23,7 @@ Object.keys(nconf.stores).forEach(function(name){
             if(nconf.get(`${test}:${i}`).slice(count - 3, count) == "mp4"){
                 var fileName = nconf.get(`${test}:${i}`).slice(0, count - 4);
                 if(!fs.existsSync(`${testFolder}/preview/${test}/${fileName}.png`)){
-                    extractFrames({input: `${testFolder}/${test}/${fileName}.mp4`, output: `${testFolder}/preview/${test}/${fileName}.png`,offsets: [100]});
+                    extractFrames({input: `${testFolder}/${test}/${fileName}.mp4`, output: `${testFolder}/preview/${test}/${fileName}.png`,offsets: [1]});
                 }
             }
         }
