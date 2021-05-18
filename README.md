@@ -55,20 +55,20 @@
   <img src="https://github.com/LeGitHubDeTai/AnimeBack/blob/main/assets/add%20custom.png?raw=true" width="45%" ></img>
  </p>
 
-## Create your extenions
+## ⚙️ Create your extenions
 If you are a developer and / or you want to create an extension
 please read the [Wiki](https://github.com/LeGitHubDeTai/AnimeBack/wiki/Extensions).
 
-## Adding your extensions
+## 🚀 Adding your extensions
 
 If you have an Extensions you'd like to see added,
 please read the [Contributions](https://github.com/TaiStudio/animeback-submit/blob/master/CONTRIBUTING.md) doc.
 
-## How it Works
+## 🔑 How it Works
 
 See [Contributions.md#how-it-works](https://github.com/TaiStudio/animeback-submit/blob/master/CONTRIBUTING.md#how-it-works)
 
-## License
+## 📜 License
 
 MIT
 
