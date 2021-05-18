@@ -24,21 +24,23 @@ function getFiles (dir, files_){
     var files = fs.readdirSync(dir);
     for (var i in files){
         if(dir != `${testFolder}/preview`){
-            if(dir != `${testFolder}/generator`){ //remove
-                if(dir == `${testFolder}/interactive`){
-                    var name = dir + '/' + files[i];
-                    files_.push(name);
-                    temp.push(files[i]);
-                    nconf.set(`${dir.replace(`${testFolder}/`, '')}`, temp);
-                }else{
-                    var name = dir + '/' + files[i];
-                    if (fs.statSync(name).isDirectory()){
-                        getFiles(name, files_);
-                        temp = [];
-                    } else {
+            if(dir != `${testFolder}/Categories.json`){
+                if(dir != `${testFolder}/generator`){ //remove
+                    if(dir == `${testFolder}/interactive`){
+                        var name = dir + '/' + files[i];
                         files_.push(name);
                         temp.push(files[i]);
                         nconf.set(`${dir.replace(`${testFolder}/`, '')}`, temp);
+                    }else{
+                        var name = dir + '/' + files[i];
+                        if (fs.statSync(name).isDirectory()){
+                            getFiles(name, files_);
+                            temp = [];
+                        } else {
+                            files_.push(name);
+                            temp.push(files[i]);
+                            nconf.set(`${dir.replace(`${testFolder}/`, '')}`, temp);
+                        }
                     }
                 }
             }
