@@ -31,6 +31,23 @@
   </a>
 </p>
 
+
+## ⚙️ Create your extenions
+If you are a developer and / or you want to create an extension
+please read the [Wiki](https://github.com/LeGitHubDeTai/AnimeBack/wiki/Extensions).
+
+## 🚀 Adding your extensions
+
+If you have an Extensions you'd like to see added,
+please read the [Contributions](https://github.com/TaiStudio/animeback-submit/blob/master/CONTRIBUTING.md) doc.
+
+## 🔑 How it Works
+
+See [Contributions.md#how-it-works](https://github.com/TaiStudio/animeback-submit/blob/master/CONTRIBUTING.md#how-it-works)
+
+## 📜 License
+
+MIT
 <p align='center'>
   <a href="http://www.youtube.com/watch?v=JpFKSTRth4M">
     <img src="https://github.com/LeGitHubDeTai/AnimeBack/blob/main/assets/Trailer%20Animeback.jpg?raw=true" width="45%" ></img>
@@ -54,21 +71,4 @@
   <img src="https://github.com/LeGitHubDeTai/AnimeBack/blob/main/assets/add%20custom.png?raw=true" width="45%" ></img>
   <img src="https://github.com/LeGitHubDeTai/AnimeBack/blob/main/assets/add%20custom.png?raw=true" width="45%" ></img>
  </p>
-
-## ⚙️ Create your extenions
-If you are a developer and / or you want to create an extension
-please read the [Wiki](https://github.com/LeGitHubDeTai/AnimeBack/wiki/Extensions).
-
-## 🚀 Adding your extensions
-
-If you have an Extensions you'd like to see added,
-please read the [Contributions](https://github.com/TaiStudio/animeback-submit/blob/master/CONTRIBUTING.md) doc.
-
-## 🔑 How it Works
-
-See [Contributions.md#how-it-works](https://github.com/TaiStudio/animeback-submit/blob/master/CONTRIBUTING.md#how-it-works)
-
-## 📜 License
-
-MIT
 
