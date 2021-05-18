@@ -54,7 +54,11 @@
   <img src="https://github.com/LeGitHubDeTai/AnimeBack/blob/main/assets/add%20custom.png?raw=true" width="45%" ></img>
   <img src="https://github.com/LeGitHubDeTai/AnimeBack/blob/main/assets/add%20custom.png?raw=true" width="45%" ></img>
  </p>
- 
+
+## Create your extenions
+If you are a developer and / or you want to create an extension
+please read the [Wiki](https://github.com/LeGitHubDeTai/AnimeBack/wiki/Extensions).
+
 ## Adding your extensions
 
 If you have an Extensions you'd like to see added,
