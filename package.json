@@ -11,7 +11,8 @@
     "build:extract": "node ./script/extract.js",
     "build:artifact": "node ./script/artifact.js",
     "auto": "script/auto.sh",
-    "clean": "node ./script/clean.js"
+    "clean": "node ./script/clean.js",
+    "extract": "node ./script/extract.js"
   },
   "repository": {
     "type": "git",
