@@ -1,5 +1,6 @@
 {
   "animals": [
+    "Categories.json",
     "Cat space glasses.mp4",
     "Cat.gif",
     "Chicken danse.mp4",
@@ -48,16 +49,16 @@
     "Naruto.mp4",
     "Pin by buu dang.gif",
     "Rin okumura.gif",
+    "SSJ rose godlik3.mp4",
     "Shenron.mp4",
     "Sophia fire emblem.gif",
-    "SSJ rose godlik3.mp4",
     "Tokyo goule.mp4",
     "Totoro.gif"
   ],
   "animeback": [
+    "AnimeBack.mp4",
     "Animeback illusioner.mp4",
-    "Animeback trailer.png",
-    "AnimeBack.mp4"
+    "Animeback trailer.png"
   ],
   "art": [
     "3d particle.mp4",
