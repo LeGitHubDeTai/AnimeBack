@@ -17,3 +17,4 @@ jobs:
         run: npm run auto
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          NEW_WALLPAPERS: ${{ secrets.NEW_WALLPAPERS }}
