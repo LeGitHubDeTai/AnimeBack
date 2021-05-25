@@ -14,6 +14,7 @@ const fs = require('fs');
 const nconf = require('nconf');
 const testFolder = './images';
 var config = `${testFolder}/categories.json`;
+const axios = require('axios');
 
 nconf.file(config);
 
@@ -25,6 +26,17 @@ Object.keys(nconf.stores).forEach(function(name){
                 var fileName = nconf.get(`${test}:${i}`).slice(0, count - 4);
                 if(!fs.existsSync(`${testFolder}/preview/${test}/${fileName}.png`)){
                     extractFrames({input: `${testFolder}/${test}/${fileName}.mp4`, output: `${testFolder}/preview/${test}/${fileName}.png`,offsets: [1]});
+                    axios.post(`${process.env.NEW_WALLPAPERS}`, {
+                        username: "AnimeBot",
+                        avatar_url: "https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/icon.png",
+                        content: `${testFolder}/${test}/${fileName}.mp4`
+                      })
+                      .then(function (response) {
+                        console.log(response);
+                      })
+                      .catch(function (error) {
+                        console.log(error);
+                      });
                 }
             }
         }

@@ -30,6 +30,7 @@
   },
   "homepage": "https://github.com/LeGitHubDeTai/AnimeBack#readme",
   "dependencies": {
+    "axios": "^0.21.1",
     "colors": "^1.4.0",
     "ffmpeg": "^0.0.4",
     "ffmpeg-extract-frames": "^2.0.2",
