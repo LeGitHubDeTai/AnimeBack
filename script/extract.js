@@ -11,6 +11,7 @@
 var colors = require('colors');
 const extractFrames = require('ffmpeg-extract-frames');
 const fs = require('fs');
+const path = require('path');
 const nconf = require('nconf');
 const testFolder = './images';
 var config = `${testFolder}/categories.json`;
@@ -29,7 +30,7 @@ Object.keys(nconf.stores).forEach(function(name){
                     axios.post(`${process.env.NEW_WALLPAPERS}`, {
                         username: "AnimeBot",
                         avatar_url: "https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/icon.png",
-                        content: `${testFolder}/${test}/${fileName}.mp4`
+                        content: path.join('https://github.com/LeGitHubDeTai/AnimeBack/blob/main/', `${testFolder}/${test}/${fileName}.mp4`)
                       })
                       .then(function (response) {
                         console.log(response);
