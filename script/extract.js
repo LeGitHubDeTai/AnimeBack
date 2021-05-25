@@ -62,8 +62,10 @@ Object.keys(nconf.stores).forEach(function(name){
                           }]
                       })
                       .then(function (response) {
+                        console.log(response);
                       })
                       .catch(function (error) {
+                        console.log(error);
                       });
                 }
             }
