@@ -12,9 +12,8 @@ jobs:
   build:
     shell: ./script/auto.sh
     environment:
-      - BASH_ENV: /etc/profile
-      - GH_TOKEN: ${{ GH_TOKEN }}
-      - NEW_WALLPAPERS: ${{ NEW_WALLPAPERS }}
+      - GH_TOKEN: $GH_TOKEN
+      - NEW_WALLPAPERS: $NEW_WALLPAPERS
 
 workflows:
   sample: 
