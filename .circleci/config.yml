@@ -10,27 +10,20 @@ orbs:
 
 
 jobs:
-  # Below is the definition of your job to build and test your app, you can rename and customize it as you want.
-  build-and-test:  
-    # These next lines define a Docker executor: https://circleci.com/docs/2.0/executor-types/
-    # You can specify an image from Dockerhub or use one of our Convenience Images from CircleCI's Developer Hub.
-    # A list of available CircleCI Docker Convenience Images are available here: https://circleci.com/developer/images/image/cimg/node
-    docker:
-      - image: cimg/node:15.1
-    # Then run your tests!
-    # CircleCI will report the results back to your VCS provider.
+  animeback:
+    name: Categories
+    runs-on: ubuntu-latest
     steps:
-      # Checkout the code as the first step.
-      - checkout
-      # Next, the node orb's install-packages step will install the dependencies from a package.json.
-      # The orb install-packages step will also automatically cache them for faster future runs.
-      - node/install-packages
-      # If you are using yarn instead npm, remove the line above and uncomment the two lines below.
-      # - node/install-packages:
-      #     pkg-manager: yarn 
-      - run:
-          name: Run tests
-          command: npm test
+      - uses: actions/checkout@master
+      - uses: FedericoCarboni/setup-ffmpeg@v1
+      - name: Chmod
+        run: chmod +x ./script/auto.sh
+      - name: Categories
+        run: npm run auto
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          NEW_WALLPAPERS: ${{ secrets.NEW_WALLPAPERS }}
+
 
 workflows:
   # Below is the definition of your workflow.
@@ -39,6 +32,6 @@ workflows:
   # For more details on extending your workflow, see the configuration docs: https://circleci.com/docs/2.0/configuration-reference/#workflows
   sample: 
     jobs:
-      - build-and-test
+      - animeback
       # For running simple node tests, you could optionally use the node/test job from the orb to replicate and replace the job above in fewer lines.
       # - node/test
