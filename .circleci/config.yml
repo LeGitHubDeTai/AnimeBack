@@ -8,24 +8,15 @@ orbs:
   # See the orb documentation here: https://circleci.com/developer/orbs/orb/circleci/node
   node: circleci/node@4.1
 
-
-jobs:
-  animeback:
-    steps:
-      - checkout
-      - run: chmod +x ./script/auto.sh
-      - run: npm run auto
-        env:
-          GH_TOKEN: ${ GH_TOKEN }
-          NEW_WALLPAPERS: ${ NEW_WALLPAPERS }
-
 jobs:
   build:
     shell: ./script/auto.sh
     environment:
       - BASH_ENV: /etc/profile
+      - GH_TOKEN: ${{ GH_TOKEN }}
+      - NEW_WALLPAPERS: ${{ NEW_WALLPAPERS }}
 
 workflows:
   sample: 
     jobs:
-      - animeback
+      - build
