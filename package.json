@@ -33,6 +33,7 @@
   "dependencies": {
     "axios": "^0.21.1",
     "colors": "^1.4.0",
+    "discord-webhook-node": "^1.1.8",
     "ffmpeg": "^0.0.4",
     "ffmpeg-extract-frames": "^2.0.2",
     "ffmpeg-probe": "^1.0.6",
@@ -41,6 +42,7 @@
     "imagemin": "^6.1.0",
     "nconf": "^0.11.2",
     "npm-run-all": "^4.1.5",
+    "request": "^2.88.2",
     "rimraf": "^3.0.2",
     "sharp": "^0.28.3",
     "util": "^0.12.3"
