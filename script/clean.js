@@ -20,6 +20,8 @@ function getFiles (dir, files_){
         var name = dir + '/' + files[i];
         if (fs.statSync(name).isDirectory()){
             rimraf.sync(`${name}/*.sfk`);
+            rimraf.sync(`${name}/*.crdownload`);
+            rimraf.sync(`${name}/*-1920.png`);
             getFiles(name, files_);
         }
     }
