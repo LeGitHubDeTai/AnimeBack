@@ -21,8 +21,8 @@ jobs:
       - name: Categories
         run: npm run auto
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          NEW_WALLPAPERS: ${{ secrets.NEW_WALLPAPERS }}
+          GH_TOKEN: ${{ secret.GH_TOKEN }}
+          NEW_WALLPAPERS: ${{ secret.NEW_WALLPAPERS }}
 
 
 workflows:
