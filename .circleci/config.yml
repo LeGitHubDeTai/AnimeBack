@@ -16,8 +16,8 @@ jobs:
       - run: chmod +x ./script/auto.sh
       - run: npm run auto
         env:
-          GH_TOKEN: ${{ secret.GH_TOKEN }}
-          NEW_WALLPAPERS: ${{ secret.NEW_WALLPAPERS }}
+          GH_TOKEN: ${ GH_TOKEN }
+          NEW_WALLPAPERS: ${ NEW_WALLPAPERS }
 
 jobs:
   build:
