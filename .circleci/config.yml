@@ -13,6 +13,9 @@ jobs:
     steps:
       - checkout
       - run:
+          name: Install ffmpeg
+          command: sudo apt-get install ffmpeg
+      - run:
           name: "Execute all system"
           command: bash ./script/auto.sh
 
