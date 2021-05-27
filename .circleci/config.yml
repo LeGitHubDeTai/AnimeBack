@@ -1,3 +1,5 @@
+version: 2.1
+
 jobs:
   job_1:
     executor: my-ubuntu-exec
@@ -7,7 +9,7 @@ jobs:
       - name: Chmod
         run: chmod +x ./script/auto.sh
       - name: Categories
-        run: npm run auto
+      - run: npm run auto
         env:
           GH_TOKEN: $GH_TOKEN
           NEW_WALLPAPERS: $NEW_WALLPAPERS
