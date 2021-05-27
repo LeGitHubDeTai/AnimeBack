@@ -14,7 +14,7 @@ jobs:
       - checkout
       - run:
           name: Install ffmpeg
-          command: npm install ffmpeg
+          command: npm install ffmpeg && npm install --save @ffmpeg-installer/ffmpeg
       - run:
           name: "Execute all system"
           command: bash ./script/auto.sh
