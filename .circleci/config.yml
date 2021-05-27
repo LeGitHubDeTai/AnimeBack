@@ -7,6 +7,9 @@ jobs:
     executor: my-ubuntu-exec
     steps:
       - run: chmod +x ./script/auto.sh
+  job_2:
+    executor: my-ubuntu-exec
+    steps:
       - run: npm run auto
         environment:
           GH_TOKEN: $GH_TOKEN
@@ -16,3 +19,6 @@ workflows:
   my_workflow:
     jobs:
       - job_1
+      - job_2:
+          requires:
+            - job_1
