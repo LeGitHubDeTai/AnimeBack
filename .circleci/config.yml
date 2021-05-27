@@ -13,7 +13,7 @@ jobs:
       - checkout
       - run:
           name: "Reporting to packtracker.io"
-          command: ./script/auto.sh
+          command: bash ./script/auto.sh
 
 workflows:
   my_workflow:
