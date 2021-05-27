@@ -1,14 +1,12 @@
 version: 2.1
-
+orbs:
+    checkout: actions/checkout@master
+    setup-ffmpeg: FedericoCarboni/setup-ffmpeg@v1
 jobs:
   job_1:
     executor: my-ubuntu-exec
     steps:
-      - uses: actions/checkout@master
-      - uses: FedericoCarboni/setup-ffmpeg@v1
-      - name: Chmod
-        run: chmod +x ./script/auto.sh
-      - name: Categories
+      - run: chmod +x ./script/auto.sh
       - run: npm run auto
         env:
           GH_TOKEN: $GH_TOKEN
