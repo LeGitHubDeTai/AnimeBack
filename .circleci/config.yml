@@ -25,7 +25,7 @@ jobs:
           command: bash ./script/auto.sh
 
 workflows:
-  my_workflow:
+  autoClasser:
     jobs:
       - job_1
             
