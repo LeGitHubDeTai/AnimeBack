@@ -27,46 +27,6 @@ Object.keys(nconf.stores).forEach(function(name){
                 var fileName = nconf.get(`${test}:${i}`).slice(0, count - 4);
                 if(!fs.existsSync(`${testFolder}/preview/${test}/${fileName}.png`)){
                     extractFrames({input: `${testFolder}/${test}/${fileName}.mp4`, output: `${testFolder}/preview/${test}/${fileName}.png`,offsets: [1]});
-                    axios.post(`${process.env.NEW_WALLPAPERS}`, {
-                        username: "AnimeBot",
-                        avatar_url: "https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/icon.png",
-                        content: null,
-                        embed: [{
-                            "username": "AnimeBot",
-                            "avatar_url": "https://animeback.tai-studio.ml/",
-                            "content": "",
-                            "embeds": [
-                              {
-                                "title": "New Wallpaper",
-                                "color": 5892175,
-                                "description": `Categorie: ${test}`,
-                                "url": "",
-                                "author": {
-                                  "name": "AnimeBot",
-                                  "url": "https://tai-studio.ml/",
-                                  "icon_url": "https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/icon.png"
-                                },
-                                "image": {
-                                  "url": path.join('https://github.com/LeGitHubDeTai/AnimeBack/blob/main/', `${testFolder}/preview/${test}/${fileName}.png`)
-                                },
-                                "thumbnail": {
-                                  "url": "https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/assets/checkGreen.png"
-                                },
-                                "footer": {
-                                  "text": "- Tai Studio © 2021 -",
-                                  "icon_url": "https://tai-studio.ml/img/icons/Tai_Studio_discord.png"
-                                },
-                                "fields": []
-                              }
-                            ]
-                          }]
-                      })
-                      .then(function (response) {
-                        console.log(response);
-                      })
-                      .catch(function (error) {
-                        console.log(error);
-                      });
                 }
             }
         }
