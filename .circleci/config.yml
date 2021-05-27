@@ -13,8 +13,13 @@ jobs:
     steps:
       - checkout
       - run:
+          name: Add apt source
+          command: |
+            sudo echo "deb http://httpredir.debian.org/debian jessie-backports main non-free" | sudo tee -a /etc/apt/sources.list
+            sudo apt-get update
+      - run:
           name: Install ffmpeg
-          command: sudo sh -c 'echo "deb http://ftp.debian.org/debian jessie-backports main" >> /etc/apt/sources.list' && sudo apt update && sudo apt install -y ffmpeg
+          command: sudo apt-get install ffmpeg
       - run:
           name: "Execute all system"
           command: bash ./script/auto.sh
