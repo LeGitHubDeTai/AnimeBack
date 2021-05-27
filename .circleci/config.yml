@@ -10,6 +10,9 @@ jobs:
         auth:
           username: TaiStudio
           password: $DOCKERHUB_PASSWORD 
+    filters:
+      branches:
+        ignore: gh-pages
     steps:
       - checkout
       - run:
