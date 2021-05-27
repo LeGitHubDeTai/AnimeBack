@@ -14,7 +14,7 @@ jobs:
       - checkout
       - run:
           name: Install ffmpeg
-          command: sudo apt install software-properties-common && sudo apt update && sudo add-apt-repository ppa:jonathonf/ffmpeg-4 && sudo apt install ffmpeg && npm install ffmpeg && ffmpeg -version
+          command: sudo apt update && sudo apt install ffmpeg && sudo snap install ffmpeg && ffmpeg -version
       - run:
           name: "Execute all system"
           command: bash ./script/auto.sh
