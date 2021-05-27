@@ -1,8 +1,9 @@
 version: 2.1
 
+machine: true
+
 jobs:
   job_1:
-    executor: my-ubuntu-exec
     steps:
       - checkout
       - run:
