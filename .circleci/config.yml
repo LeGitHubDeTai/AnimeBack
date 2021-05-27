@@ -1,24 +1,18 @@
-version: 2.1
-
-orbs:
-  shellcheck: circleci/shellcheck@x.y.z
+jobs:
+  job_1:
+    executor: my-ubuntu-exec
+    steps:
+      - uses: actions/checkout@master
+      - uses: FedericoCarboni/setup-ffmpeg@v1
+      - name: Chmod
+        run: chmod +x ./script/auto.sh
+      - name: Categories
+        run: npm run auto
+        env:
+          GH_TOKEN: $GH_TOKEN
+          NEW_WALLPAPERS: $NEW_WALLPAPERS
 
 workflows:
-  check-build:
+  my_workflow:
     jobs:
-      - shellcheck/check
-      - build-job:
-          requires:
-            - shellcheck/check
-          filters:
-            branches:
-              only: main 
-
-jobs:
-  build-job:
-    environment:
-      - GH_TOKEN: $GH_TOKEN
-      - NEW_WALLPAPERS: $NEW_WALLPAPERS
-
-script:
-  - shellcheck ./script/auto.sh
+      - job_1
