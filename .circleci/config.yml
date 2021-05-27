@@ -5,15 +5,16 @@ orbs:
 
 jobs:
   job_1:
-    executor:
-      name: win/default # executor type
-      size: "medium" # resource class, can be "medium", "large", "xlarge", "2xlarge", defaults to "medium" if not specified
-
+    docker:
+      - image: cimg/node:14.10.1 # the primary container, where your job's commands are run
+        auth:
+          username: TaiStudio
+          password: $DOCKERHUB_PASSWORD 
     steps:
       - checkout
       - run:
           name: "Reporting to packtracker.io"
-          command: bash ./script/auto.sh
+          command: sh ./script/auto.sh
 
 workflows:
   my_workflow:
