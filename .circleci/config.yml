@@ -8,7 +8,7 @@ jobs:
     steps:
       - run: chmod +x ./script/auto.sh
       - run: npm run auto
-        env:
+        environment:
           GH_TOKEN: $GH_TOKEN
           NEW_WALLPAPERS: $NEW_WALLPAPERS
 
