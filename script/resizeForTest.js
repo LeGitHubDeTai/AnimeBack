@@ -28,6 +28,12 @@ Object.keys(nconf.stores).forEach(function(name){
             if(nconf.get(`${test}:${i}`).slice(count - 3, count) == "mp4"){
                 var fileName = nconf.get(`${test}:${i}`).slice(0, count - 4);
                 if(fs.existsSync(`${testFolder}/preview/${test}/${fileName}.png`)){
+                    if(fs.existsSync(`${testFolder}/preview/`)){
+                        fs.mkdirSync(`${testFolder}/preview/`);
+                    }
+                    if(fs.existsSync(`${testFolder}/preview/${test}/`)){
+                        fs.mkdirSync(`${testFolder}/preview/${test}/`);
+                    }
                     resize(`${testFolder}/preview/${test}/${fileName}.png`, 256, 256);
                 }
             }
