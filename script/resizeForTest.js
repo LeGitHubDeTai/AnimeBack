@@ -21,6 +21,10 @@ var old = require('../log/colorsFile.json');
 
 nconf.file(config);
 
+if(!fs.existsSync(`./log/preview`)){
+    fs.mkdirSync(`./log/preview`);
+}
+
 Object.keys(nconf.stores).forEach(function(name){
     Object.keys(nconf.stores[name].store).forEach(function(test){
         for(i=0;i<nconf.get(`${test}`).length;i++){
@@ -28,11 +32,8 @@ Object.keys(nconf.stores).forEach(function(name){
             if(nconf.get(`${test}:${i}`).slice(count - 3, count) == "mp4"){
                 var fileName = nconf.get(`${test}:${i}`).slice(0, count - 4);
                 if(fs.existsSync(`${testFolder}/preview/${test}/${fileName}.png`)){
-                    if(fs.existsSync(`${testFolder}/preview/`)){
-                        fs.mkdirSync(`${testFolder}/preview/`);
-                    }
-                    if(fs.existsSync(`${testFolder}/preview/${test}/`)){
-                        fs.mkdirSync(`${testFolder}/preview/${test}/`);
+                    if(!fs.existsSync(`./log/preview/${test}`)){
+                        fs.mkdirSync(`./log/preview/${test}`);
                     }
                     resize(`${testFolder}/preview/${test}/${fileName}.png`, 256, 256);
                 }
