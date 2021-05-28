@@ -67,6 +67,9 @@ function getColor(file){
                             case 255://BLACK
                                 black++;
                                 break;
+                            case 4294967295://WHITE
+                                black++;
+                                break;
                             default:
                                 other++;
                         }
