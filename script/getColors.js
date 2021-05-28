@@ -12,7 +12,13 @@ var colors = require('colors');
 const fs = require('fs');
 var Jimp = require('jimp');
 const nconf = require('nconf');
-const log = require('log-to-file');
+var logger = require('perfect-logger');
+logger.initialize('log', {
+    logLevelFile: 0,
+    logLevelConsole: -1,
+    logDirectory: 'logs/',
+    customBannerHeaders: 'Tai Studio'
+});
 
 var config = `./log/colorsFile.json`;
 nconf.file(config);
@@ -47,7 +53,7 @@ function getFiles (dir, files_){
 }
 
 function getColor(file){
-    if(!file.lastIndexOf("data.txt")){
+    if(file.lastIndexOf("data.txt")){
         // if (!Object.values(nconf.stores).indexOf(file) > -1) {
             var black = 0,
                 other = 0;
@@ -65,7 +71,8 @@ function getColor(file){
                             else{
                                 other++;
                             }
-                            log(`Int: ${t}; Black: ${black}; Other: ${other}; File: ${file};`, './log/log.txt');
+                            logger.info(`Int: ${t}; Black: ${black}; Other: ${other}; File: ${file};`);
+                            // console.log(`Int: ${t}; Black: ${black}; Other: ${other}; File: ${file};`);
                         }
                     }
                 } catch (error) {
