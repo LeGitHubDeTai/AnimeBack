@@ -17,6 +17,8 @@ const imagemin = require('imagemin');
 const testFolder = './images';
 var config = `${testFolder}/categories.json`;
 
+var old = require('../log/colorsFile.json');
+
 nconf.file(config);
 
 Object.keys(nconf.stores).forEach(function(name){
@@ -35,24 +37,25 @@ Object.keys(nconf.stores).forEach(function(name){
 
 console.log('Done!'.green);
 
-
 function resize(file, size, size2) {
-    const newFile = file.replace(testFolder, './log');
-  
-    // skip files that are up to date
-    if (
-      fs.existsSync(newFile) &&
-      fs.statSync(newFile).mtime > fs.statSync(file).mtime
-    ) {
-      return Promise.resolve(null)
+    if(!old["Other"].includes(file)){
+        const newFile = file.replace(testFolder, './log');
+      
+        // skip files that are up to date
+        if (
+          fs.existsSync(newFile) &&
+          fs.statSync(newFile).mtime > fs.statSync(file).mtime
+        ) {
+          return Promise.resolve(null)
+        }
+      
+        return (
+          sharp(fs.readFileSync(file))
+            .resize(size, size2, { fit: 'fill' })
+            .toFormat('png')
+            .toBuffer()
+            .then((buf) => imagemin.buffer(buf))
+            .then((buf) => fs.writeFileSync(newFile, buf))
+        )
     }
-  
-    return (
-      sharp(fs.readFileSync(file))
-        .resize(size, size2, { fit: 'inside' })
-        .toFormat('png')
-        .toBuffer()
-        .then((buf) => imagemin.buffer(buf))
-        .then((buf) => fs.writeFileSync(newFile, buf))
-    )
 }
