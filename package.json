@@ -42,6 +42,7 @@
     "fs": "0.0.1-security",
     "imagemin": "^6.1.0",
     "jimp": "^0.16.1",
+    "log-to-file": "^2.0.2",
     "nconf": "^0.11.2",
     "npm-run-all": "^4.1.5",
     "request": "^2.88.2",

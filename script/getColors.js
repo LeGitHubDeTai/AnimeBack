@@ -12,6 +12,7 @@ var colors = require('colors');
 const fs = require('fs');
 var Jimp = require('jimp');
 const nconf = require('nconf');
+const log = require('log-to-file');
 
 var config = `./log/colorsFile.json`;
 nconf.file(config);
@@ -64,7 +65,7 @@ function getColor(file){
                             else{
                                 other++;
                             }
-                            console.log(`Int: ${t}; Black: ${black}; Other: ${other};`);
+                            log(`Int: ${t}; Black: ${black}; Other: ${other};`, './log/log.txt');
                         }
                     }
                 } catch (error) {
