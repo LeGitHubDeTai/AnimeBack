@@ -46,47 +46,46 @@ function getFiles (dir, files_){
 }
 
 function getColor(file){
-    if(file.lastIndexOf("data.txt")){return;}
-    if (Object.values(nconf.stores).indexOf(file) > -1) {
-        console.log('has test1');
-        return;
-    }
-    var black = 0,
-        other = 0;
-    Jimp.read(file, (err, image) => {
-        if (err) console.log(err);
+    if(file.lastIndexOf("data.txt")){
+        if (!Object.values(nconf.stores).indexOf(file) > -1) {
+            var black = 0,
+                other = 0;
+            Jimp.read(file, (err, image) => {
+                if (err) console.log(err);
 
-        try {
-            for(y=0;y<image.getHeight();y++){
-                for(x=0;x<image.getWidth();x++){
-                    var t = image.getPixelColor(x, y);
-        
-                    if(t == 255){
-                        black++;
+                try {
+                    for(y=0;y<image.getHeight();y++){
+                        for(x=0;x<image.getWidth();x++){
+                            var t = image.getPixelColor(x, y);
+                
+                            if(t == 255){
+                                black++;
+                            }
+                            else{
+                                other++;
+                            }
+                            console.log(`Int: ${t}; Black: ${black}; Other: ${other};`);
+                        }
+                    }
+                } catch (error) {
+                    console.log(error);
+                }
+                finally{
+                    if(black > other){
+                        console.log('Black Image !'.red);
+                        allBlack.push(file.replace('./log', './images'));
+                        nconf.set('Black', allBlack);
+                        nconf.save();
                     }
                     else{
-                        other++;
+                        console.log('Best Image !'.green);
+                        fs.unlinkSync(file);
+                        allOther.push(file.replace('./log', './images'));
+                        nconf.set('Other', allOther);
+                        nconf.save();
                     }
-                    console.log(`Int: ${t}; Black: ${black}; Other: ${other};`);
                 }
-            }
-        } catch (error) {
-            console.log(error);
+            });
         }
-        finally{
-            if(black > other){
-                console.log('Black Image !'.red);
-                allBlack.push(file.replace('./log', './images'));
-                nconf.set('Black', allBlack);
-                nconf.save();
-            }
-            else{
-                console.log('Best Image !'.green);
-                fs.unlinkSync(file);
-                allOther.push(file.replace('./log', './images'));
-                nconf.set('Other', allOther);
-                nconf.save();
-            }
-        }
-    });
+    }
 }
