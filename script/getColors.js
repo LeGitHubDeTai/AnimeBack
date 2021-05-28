@@ -47,8 +47,8 @@ function getFiles (dir, files_){
 }
 
 function getColor(file){
-    if(file.lastIndexOf("data.txt")){
-        if (!Object.values(nconf.stores).indexOf(file) > -1) {
+    if(!file.lastIndexOf("data.txt")){
+        // if (!Object.values(nconf.stores).indexOf(file) > -1) {
             var black = 0,
                 other = 0;
             Jimp.read(file, (err, image) => {
@@ -65,7 +65,7 @@ function getColor(file){
                             else{
                                 other++;
                             }
-                            log(`Int: ${t}; Black: ${black}; Other: ${other};`, './log/log.txt');
+                            log(`Int: ${t}; Black: ${black}; Other: ${other}; File: ${file};`, './log/log.txt');
                         }
                     }
                 } catch (error) {
@@ -87,6 +87,6 @@ function getColor(file){
                     }
                 }
             });
-        }
+        // }
     }
 }
