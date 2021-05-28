@@ -32,9 +32,7 @@
   },
   "homepage": "https://github.com/LeGitHubDeTai/AnimeBack#readme",
   "dependencies": {
-    "axios": "^0.21.1",
     "colors": "^1.4.0",
-    "discord-webhook-node": "^1.1.8",
     "ffmpeg": "^0.0.4",
     "ffmpeg-extract-frames": "^2.0.2",
     "ffmpeg-probe": "^1.0.6",
@@ -46,7 +44,6 @@
     "request": "^2.88.2",
     "rimraf": "^3.0.2",
     "sharp": "^0.28.3",
-    "util": "^0.12.3",
-    "xmlhttprequest": "^1.8.0"
+    "util": "^0.12.3"
   }
 }

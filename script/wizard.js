@@ -25,21 +25,23 @@ function getFiles (dir, files_){
     for (var i in files){
         if(dir != `${testFolder}/preview`){
             if(dir != `${testFolder}/Categories.json`){
-                if(dir != `${testFolder}/generator`){ //remove
-                    if(dir == `${testFolder}/interactive`){
-                        var name = dir + '/' + files[i];
-                        files_.push(name);
-                        temp.push(files[i]);
-                        nconf.set(`${dir.replace(`${testFolder}/`, '')}`, temp);
-                    }else{
-                        var name = dir + '/' + files[i];
-                        if (fs.statSync(name).isDirectory()){
-                            getFiles(name, files_);
-                            temp = [];
-                        } else {
+                if(dir != `${testFolder}/animals/Categories.json`){
+                    if(dir != `${testFolder}/generator`){ //remove
+                        if(dir == `${testFolder}/interactive`){
+                            var name = dir + '/' + files[i];
                             files_.push(name);
                             temp.push(files[i]);
                             nconf.set(`${dir.replace(`${testFolder}/`, '')}`, temp);
+                        }else{
+                            var name = dir + '/' + files[i];
+                            if (fs.statSync(name).isDirectory()){
+                                getFiles(name, files_);
+                                temp = [];
+                            } else {
+                                files_.push(name);
+                                temp.push(files[i]);
+                                nconf.set(`${dir.replace(`${testFolder}/`, '')}`, temp);
+                            }
                         }
                     }
                 }
