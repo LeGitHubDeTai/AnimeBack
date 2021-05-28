@@ -15,7 +15,6 @@ const path = require('path');
 const nconf = require('nconf');
 const testFolder = './images';
 var config = `${testFolder}/categories.json`;
-const axios = require('axios');
 
 nconf.file(config);
 
