@@ -14,7 +14,6 @@
     "build:artifact": "node ./script/artifact.js",
     "build:resizeForTest": "node ./script/resizeForTest.js",
     "build:getColors": "node ./script/getColors.js",
-    "build:rerun": "npm run start",
     "auto": "script/auto.sh",
     "clean": "node ./script/clean.js",
     "extract": "node ./script/extract.js"
