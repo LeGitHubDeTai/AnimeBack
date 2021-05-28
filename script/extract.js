@@ -31,10 +31,24 @@ Object.keys(nconf.stores).forEach(function(name){
         }
         for(i=0;i<nconf.get(`${test}`).length;i++){
             var count = nconf.get(`${test}:${i}`).length;
-            if(nconf.get(`${test}:${i}`).slice(count - 3, count) == "mp4"){
+            if(nconf.get(`${test}:${i}`).slice(count - 3, count) === "mp4"){
                 var fileName = nconf.get(`${test}:${i}`).slice(0, count - 4);
                 if(!fs.existsSync(`${testFolder}/preview/${test}/${fileName}.png`)){
-                    extractFrames({input: `${testFolder}/${test}/${fileName}.mp4`, output: `${testFolder}/preview/${test}/${fileName}.png`,offsets: [1]});
+                    await extractFrames({input: `${testFolder}/${test}/${fileName}.mp4`, output: `${testFolder}/preview/${test}/${fileName}.png`,offsets: [6]});
+                }
+            }
+            if(nconf.get(`${test}:${i}`).slice(count - 3, count) === "gif"){
+                var fileName = nconf.get(`${test}:${i}`).slice(0, count - 4);
+                if(!fs.existsSync(`${testFolder}/preview/${test}/${fileName}.png`)){
+                    Jimp.read(`${testFolder}/${test}/${fileName}.gif`)
+                    .then(image => {
+                        return image
+                        .resize(1920, 1080)
+                        .write(`${testFolder}/preview/${test}/${fileName}.png`);
+                    })
+                    .catch(err => {
+                        console.error(err);
+                    });
                 }
             }
             // switch(nconf.get(`${test}:${i}`).slice(count - 3, count)){
