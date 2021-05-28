@@ -25,8 +25,8 @@ nconf.file(config);
 
 const testFolder = './log/preview';
 
-var allBlack = [],
-    allOther = [];
+var allBlack = nconf.get('Black'),
+    allOther = nconf.get('Other');
 
 var temp = [];
 var files = getFiles(testFolder);
