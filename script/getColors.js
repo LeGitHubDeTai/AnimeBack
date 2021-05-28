@@ -46,11 +46,15 @@ function getFiles (dir, files_){
 }
 
 function getColor(file){
-    if(file){return;}
+    if(file.lastIndexOf("data.txt")){return;}
+    if (Object.values(nconf.stores).indexOf(file) > -1) {
+        console.log('has test1');
+        return;
+    }
     var black = 0,
         other = 0;
     Jimp.read(file, (err, image) => {
-        if (err) throw err;
+        if (err) console.log(err);
 
         try {
             for(y=0;y<image.getHeight();y++){
