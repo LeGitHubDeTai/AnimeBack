@@ -3,3 +3,4 @@ node_modules
 list.txt
 images/Categories.json
 new.js
+logs/log.log
