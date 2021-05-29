@@ -36,6 +36,7 @@
   "dependencies": {
     "colors": "^1.4.0",
     "ffmpeg-extract-frames": "^2.0.2",
+    "fluent-ffmpeg": "^2.1.2",
     "fs": "0.0.1-security",
     "gif-frames": "^1.0.1",
     "gif-to-png": "^2.0.5",
