@@ -74,7 +74,9 @@ function getColor(file){
                                 other++;
                         }
                         logger.info(`Int: ${t}; Black: ${black}; Other: ${other}; File: ${file};`);
-                        // console.log(`Int: ${t}; Black: ${black}; Other: ${other}; File: ${file};`);
+                        if(y == image.getHeight() && x == image.getWidth()){
+                            console.log(`Int: ${t}; Black: ${black}; Other: ${other}; File: ${file};`);
+                        }
                     }
                 }
             } catch (error) {
