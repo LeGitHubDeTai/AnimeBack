@@ -35,6 +35,7 @@
   "homepage": "https://github.com/LeGitHubDeTai/AnimeBack#readme",
   "dependencies": {
     "colors": "^1.4.0",
+    "ffmpeg": "^0.0.4",
     "ffmpeg-extract-frames": "^2.0.2",
     "fluent-ffmpeg": "^2.1.2",
     "fs": "0.0.1-security",
