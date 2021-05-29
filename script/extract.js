@@ -14,6 +14,7 @@ const fs = require('fs');
 const path = require('path');
 const nconf = require('nconf');
 var Jimp = require('jimp');
+var gifFrames = require('gif-frames');
 const testFolder = './images';
 var config = `${testFolder}/categories.json`;
 
@@ -31,75 +32,47 @@ Object.keys(nconf.stores).forEach(function(name){
         }
         for(i=0;i<nconf.get(`${test}`).length;i++){
             var count = nconf.get(`${test}:${i}`).length;
-            if(nconf.get(`${test}:${i}`).slice(count - 3, count) === "mp4"){
-                var fileName = nconf.get(`${test}:${i}`).slice(0, count - 4);
-                if(!fs.existsSync(`${testFolder}/preview/${test}/${fileName}.png`)){
-                    extractFrames({input: `${testFolder}/${test}/${fileName}.mp4`, output: `${testFolder}/preview/${test}/${fileName}.png`,offsets: [6]});
-                }
+            switch(nconf.get(`${test}:${i}`).slice(count - 3, count)){
+                case "mp4":
+                    var fileName = nconf.get(`${test}:${i}`).slice(0, count - 4);
+                    if(!fs.existsSync(`${testFolder}/preview/${test}/${fileName}.png`)){
+                        extractMp4(test, fileName, 'mp4');
+                    }
+                    break;
+                case "gif":
+                    var fileName = nconf.get(`${test}:${i}`).slice(0, count - 4);
+                    if(!fs.existsSync(`${testFolder}/preview/${test}/${fileName}.png`)){
+                        var src = `${testFolder}/${test}/${fileName}.gif`,
+                            dst = `${testFolder}/preview/${test}/${fileName}.png`;
+                        gifFrames({ url: src, frames: 0 }).then(function (frameData) {
+                            frameData[0].getImage().pipe(fs.createWriteStream(dst));
+                        });
+                    }
+                    break;
+                case "ebm":
+                    var fileName = nconf.get(`${test}:${i}`).slice(0, count - 5);
+                    if(!fs.existsSync(`${testFolder}/preview/${test}/${fileName}.png`)){
+                        extractMp4(test, fileName, 'webm');
+                    }
+                    break;
+                case "png":
+                    var fileName = nconf.get(`${test}:${i}`);
+                    fs.copyFileSync(`${testFolder}/${test}/${fileName}`, `${testFolder}/preview/${test}/${fileName}`)
+                    break;
+                case "jpg":
+                    var fileName = nconf.get(`${test}:${i}`);
+                    fs.copyFileSync(`${testFolder}/${test}/${fileName}`, `${testFolder}/preview/${test}/${fileName}`)
+                    break;
+                default:
+                    var fileName = nconf.get(`${test}:${i}`);
+                    console.log(`Error: ${testFolder}/${test}/${fileName}`);
             }
-            if(nconf.get(`${test}:${i}`).slice(count - 3, count) === "gif"){
-                var fileName = nconf.get(`${test}:${i}`).slice(0, count - 4);
-                if(!fs.existsSync(`${testFolder}/preview/${test}/${fileName}.png`)){
-                    Jimp.read(`${testFolder}/${test}/${fileName}.gif`)
-                    .then(image => {
-                        return image
-                        .resize(1920, 1080)
-                        .write(`${testFolder}/preview/${test}/${fileName}.png`);
-                    })
-                    .catch(err => {
-                        console.error(err);
-                    });
-                }
-            }
-            // switch(nconf.get(`${test}:${i}`).slice(count - 3, count)){
-            //     case "mp4":
-            //         var fileName = nconf.get(`${test}:${i}`).slice(0, count - 4);
-            //         if(!fs.existsSync(`${testFolder}/preview/${test}/${fileName}.png`)){
-            //             extractFrames({input: `${testFolder}/${test}/${fileName}.mp4`, output: `${testFolder}/preview/${test}/${fileName}.png`,offsets: [1]});
-            //         }
-            //         break;
-            //     case "gif":
-            //         var fileName = nconf.get(`${test}:${i}`).slice(0, count - 4);
-            //         if(!fs.existsSync(`${testFolder}/preview/${test}/${fileName}.png`)){
-            //             Jimp.read(`${testFolder}/${test}/${fileName}.gif`)
-            //             .then(image => {
-            //                 return image
-            //                 .resize(1920, 1080)
-            //                 .write(`${testFolder}/preview/${test}/${fileName}.png`);
-            //             })
-            //             .catch(err => {
-            //                 console.error(err);
-            //             });
-            //         }
-            //         break;
-            //     case "ebm":
-            //         var fileName = nconf.get(`${test}:${i}`).slice(0, count - 5);
-            //         if(!fs.existsSync(`${testFolder}/preview/${test}/${fileName}.png`)){
-            //             Jimp.read(`${testFolder}/${test}/${fileName}.webm`)
-            //             .then(image => {
-            //                 return image
-            //                 .resize(1920, 1080)
-            //                 .write(`${testFolder}/preview/${test}/${fileName}.png`);
-            //             })
-            //             .catch(err => {
-            //                 console.error(err);
-            //             });
-            //         }
-            //         break;
-            //     case "png":
-            //         var fileName = nconf.get(`${test}:${i}`);
-            //         fs.copyFileSync(`${testFolder}/${test}/${fileName}`, `${testFolder}/preview/${test}/${fileName}`)
-            //         break;
-            //     case "jpg":
-            //         var fileName = nconf.get(`${test}:${i}`);
-            //         fs.copyFileSync(`${testFolder}/${test}/${fileName}`, `${testFolder}/preview/${test}/${fileName}`)
-            //         break;
-            //     default:
-            //         var fileName = nconf.get(`${test}:${i}`);
-            //         console.log(`Error: ${testFolder}/${test}/${fileName}`);
-            // }
         }
     })
 });
 
 console.log('Done!'.green);
+
+function extractMp4(test, fileName, ext){
+    extractFrames({input: `${testFolder}/${test}/${fileName}.${ext}`, output: `${testFolder}/preview/${test}/${fileName}.png`,offsets: [1000]});
+}
