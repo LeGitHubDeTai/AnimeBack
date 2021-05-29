@@ -94,9 +94,11 @@ function getColor(file){
                 else{
                     console.log('Best Image !'.green);
                     fs.unlinkSync(file);
-                    allOther.push(file.replace('./log', './images'));
-                    nconf.set('Other', allOther);
-                    nconf.save();
+                    if (!allOther.includes(file.replace('./log', './images'))){
+                        allOther.push(file.replace('./log', './images'));
+                        nconf.set('Other', allOther);
+                        nconf.save();
+                    }
                 }
             }
         });
