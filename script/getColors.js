@@ -85,9 +85,11 @@ function getColor(file){
             finally{
                 if(black > other){
                     console.log('Black Image !'.red);
-                    allBlack.push(file.replace('./log', './images'));
-                    nconf.set('Black', allBlack);
-                    nconf.save();
+                    if (!allBlack.includes(file.replace('./log', './images'))){
+                        allBlack.push(file.replace('./log', './images'));
+                        nconf.set('Black', allBlack);
+                        nconf.save();
+                    }
                 }
                 else{
                     console.log('Best Image !'.green);
