@@ -35,7 +35,7 @@ Object.keys(nconf.stores).forEach(function(name){
                     if(!fs.existsSync(`./log/preview/${test}`)){
                         fs.mkdirSync(`./log/preview/${test}`);
                     }
-                    resize(`${testFolder}/preview/${test}/${fileName}.png`, 256, 256);
+                    resize(`${testFolder}/preview/${test}/${fileName}.png`, 100, 100);
                 }
             }
         }
