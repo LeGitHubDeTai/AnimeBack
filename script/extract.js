@@ -43,10 +43,8 @@ Object.keys(nconf.stores).forEach(function(name){
                     var fileName = nconf.get(`${test}:${i}`).slice(0, count - 4);
                     if(!fs.existsSync(`${testFolder}/preview/${test}/${fileName}.png`)){
                         var src = `${testFolder}/${test}/${fileName}.gif`,
-                            dst = `${testFolder}/preview/${test}/${fileName}.png`;
-                        gifFrames({ url: src, frames: 0 }).then(function (frameData) {
-                            frameData[0].getImage().pipe(fs.createWriteStream(dst));
-                        });
+                            dest = `${testFolder}/preview/${test}/${fileName}.png`;
+                        extractGif(src, dest);
                     }
                     break;
                 case "ebm":
@@ -75,4 +73,9 @@ console.log('Done!'.green);
 
 function extractMp4(test, fileName, ext){
     extractFrames({input: `${testFolder}/${test}/${fileName}.${ext}`, output: `${testFolder}/preview/${test}/${fileName}.png`,offsets: [1000]});
+}
+function extractGif(test, fileName){
+    gifFrames({ url: test, frames: 0, outputType: 'png' }).then(function (frameData) {
+        frameData[0].getImage().pipe(fs.createWriteStream(fileName));
+    });
 }
