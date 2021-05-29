@@ -12,13 +12,13 @@ var colors = require('colors');
 const fs = require('fs');
 var Jimp = require('jimp');
 const nconf = require('nconf');
-var logger = require('perfect-logger');
-logger.initialize('log', {
-    logLevelFile: 0,
-    logLevelConsole: -1,
-    logDirectory: 'logs/',
-    customBannerHeaders: 'Tai Studio'
-});
+//var logger = require('perfect-logger');
+//logger.initialize('log', {
+//    logLevelFile: 0,
+//    logLevelConsole: -1,
+//    logDirectory: 'logs/',
+//    customBannerHeaders: 'Tai Studio'
+//});
 
 var config = `./log/colorsFile.json`;
 nconf.file(config);
@@ -73,7 +73,7 @@ function getColor(file){
                             default:
                                 other++;
                         }
-                        logger.info(`Int: ${t}; Black: ${black}; Other: ${other}; File: ${file};`);
+                        //logger.info(`Int: ${t}; Black: ${black}; Other: ${other}; File: ${file};`);
                         if(y == image.getHeight() && x == image.getWidth()){
                             console.log(`Int: ${t}; Black: ${black}; Other: ${other}; File: ${file};`);
                         }
