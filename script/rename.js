@@ -31,6 +31,7 @@ function getFiles (dir, files_){
                         renamer = replaceAll(renamer, '_', ' ');
                         renamer = replaceAll(renamer, '  ', ' ');
                         renamer = replaceAll(renamer, ' .', '.');
+                        renamer = replaceAll(renamer, 'wallpaper', '');
                         console.log(`INFO: ${renamer}`.cyan);
                     fs.renameSync(name, renamer);
                 }
@@ -41,15 +42,15 @@ function getFiles (dir, files_){
 }
 getFiles(testFolder);
 
-fs.rmdirSync('./log/preview', { recursive: true });
+// fs.rmdirSync('./log/preview', { recursive: true });
 
-var data = {
-    "Black": [],
-    "Other": old["Other"]
-}
-fs.writeFileSync('./log/colorsFile.json', JSON.stringify(data), (err) => {
-    console.log(err);
-});
+// var data = {
+//     "Black": [],
+//     "Other": old["Other"]
+// }
+// fs.writeFileSync('./log/colorsFile.json', JSON.stringify(data), (err) => {
+//     console.log(err);
+// });
 
 function replaceAll(str, find, replace) {
     var escapedFind=find.replace(/([.*+?^=!:${}()|\[\]\/\\])/g, "\\$1");

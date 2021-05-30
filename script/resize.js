@@ -35,7 +35,6 @@ Object.keys(nconf.stores).forEach(function(name){
 
 console.log('Done!'.green);
 
-
 function resize(file, size, size2) {
     const newFile = file;
   
