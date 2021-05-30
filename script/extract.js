@@ -18,6 +18,8 @@ var gifFrames = require('gif-frames');
 const testFolder = './images';
 var config = `${testFolder}/categories.json`;
 
+var old = require('../log/colorsFile.json');
+
 nconf.file(config);
 
 if(!fs.existsSync(`${testFolder}/preview`)){
@@ -72,7 +74,22 @@ Object.keys(nconf.stores).forEach(function(name){
 console.log('Done!'.green);
 
 function extractMp4(test, fileName, ext){
-    extractFrames({input: `${testFolder}/${test}/${fileName}.${ext}`, output: `${testFolder}/preview/${test}/${fileName}.png`,offsets: [1000]});
+    if(!old["Black"].includes(`${testFolder}/preview/${test}/${fileName}.png`)){
+        extractFrames({input: `${testFolder}/${test}/${fileName}.${ext}`, output: `${testFolder}/preview/${test}/${fileName}.png`,offsets: [1]});
+        old["Black"].filter((id) => id !== `${testFolder}/preview/${test}/${fileName}.png`);
+
+        var data = {
+            "Black": old["Black"],
+            "Other": old["Other"]
+        }
+        fs.writeFileSync('./log/colorsFile.json', JSON.stringify(data), (err) => {
+            console.log(err);
+        });
+
+        console.log(data);
+    }else{
+        extractFrames({input: `${testFolder}/${test}/${fileName}.${ext}`, output: `${testFolder}/preview/${test}/${fileName}.png`,offsets: [1000]});
+    }
 }
 function extractGif(test, fileName){
     gifFrames({ url: test, frames: 0, outputType: 'png' }).then(function (frameData) {

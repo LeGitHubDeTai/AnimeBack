@@ -30,50 +30,20 @@ Object.keys(nconf.stores).forEach(function(name){
 
         console.log(nconf.get(`${test}`))
 
-        // for(i=0;i<nconf.get(`${test}`).length;i++){
-        //     var count = nconf.get(`${test}:${i}`).length;
-        //     switch(nconf.get(`${test}:${i}`).slice(count - 3, count)){
-        //         case "mp4":
-        //             var fileName = nconf.get(`${test}:${i}`).slice(0, count - 4);
-        //             if(!fs.existsSync(`${fileName}`)){
-        //                 extractMp4(test, fileName, 'mp4');
-        //             }
-        //             break;
-        //         case "gif":
-        //             var fileName = nconf.get(`${test}:${i}`).slice(0, count - 4);
-        //             if(!fs.existsSync(`${testFolder}/preview/${test}/${fileName}.png`)){
-        //                 var src = `${testFolder}/${test}/${fileName}.gif`,
-        //                     dest = `${testFolder}/preview/${test}/${fileName}.png`;
-        //                 extractGif(src, dest);
-        //             }
-        //             break;
-        //         case "ebm":
-        //             var fileName = nconf.get(`${test}:${i}`).slice(0, count - 5);
-        //             if(!fs.existsSync(`${testFolder}/preview/${test}/${fileName}.png`)){
-        //                 extractMp4(test, fileName, 'webm');
-        //             }
-        //             break;
-        //         case "png":
-        //             var fileName = nconf.get(`${test}:${i}`);
-        //             fs.copyFileSync(`${testFolder}/${test}/${fileName}`, `${testFolder}/preview/${test}/${fileName}`)
-        //             break;
-        //         case "jpg":
-        //             var fileName = nconf.get(`${test}:${i}`);
-        //             fs.copyFileSync(`${testFolder}/${test}/${fileName}`, `${testFolder}/preview/${test}/${fileName}`)
-        //             break;
-        //         default:
-        //             var fileName = nconf.get(`${test}:${i}`);
-        //             console.log(`Error: ${testFolder}/${test}/${fileName}`);
-        //     }
-        // }
+        for(i=0;i<nconf.get(`${test}`).length;i++){
+            var count = nconf.get(`${test}:${i}`).length;
+
+            nconf.get(`${test}:${i}`).replace('preview/', '').replace('.png', '.mp4');
+
+            var fileName = nconf.get(`${test}:${i}`).replace(`${testFolder}/preview/${test}/`, '').replace('.png', '');
+            if(fs.existsSync(`${testFolder}/preview/${test}/${fileName}.png`)){
+                fs.unlinkSync(`${testFolder}/preview/${test}/${fileName}.png`)
+                extractMp4(test, fileName, 'mp4');
+            }
+        }
     })
 });
 
 function extractMp4(test, fileName, ext){
     extractFrames({input: `${testFolder}/${test}/${fileName}.${ext}`, output: `${testFolder}/preview/${test}/${fileName}.png`,offsets: [1]});
-}
-function extractGif(test, fileName){
-    gifFrames({ url: test, frames: 0, outputType: 'png' }).then(function (frameData) {
-        frameData[0].getImage().pipe(fs.createWriteStream(fileName));
-    });
 }
