@@ -25,7 +25,11 @@
   </a>
 </p>
 
-[![Continous Integration](https://circleci.com/gh/LeGitHubDeTai/AnimeBack.svg?style=svg)](https://legithubdetai.github.io/AnimeBack/)
+<p align='center'>
+  <a href="https://github.com/LeGitHubDeTai/AnimeBack/releases">
+    <img src="https://img.shields.io/circleci/build/github/LeGitHubDeTai/AnimeBack/main?label=AnimeBOT">
+  </a>
+</p>
 
 <p align='center'>
   <a href="https://github.com/LeGitHubDeTai/AnimeBack/releases">
