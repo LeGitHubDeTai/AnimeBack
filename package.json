@@ -15,6 +15,7 @@
     "build:resizeForTest": "node ./script/resizeForTest.js",
     "build:getColors": "node ./script/getColors.js",
     "build:extract2": "node ./script/extract2.js",
+    "build:clean": "node ./script/clean.js",
     "auto": "script/auto.sh",
     "clean": "node ./script/clean.js",
     "extract": "node ./script/extract.js"
