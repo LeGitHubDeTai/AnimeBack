@@ -72,7 +72,7 @@ Object.keys(nconf.stores).forEach(function(name){
 console.log('Done!'.green);
 
 function extractMp4(test, fileName, ext){
-    if(old["Black"].includes(`${testFolder}/preview/${test}/${fileName}.png`)){
+    /*if(old["Black"].includes(`${testFolder}/preview/${test}/${fileName}.png`)){
         extractFrames({input: `${testFolder}/${test}/${fileName}.${ext}`, output: `${testFolder}/preview/${test}/${fileName}.png`,offsets: [1]});
         old["Black"].filter((id) => id !== `${testFolder}/preview/${test}/${fileName}.png`);
 
@@ -83,9 +83,9 @@ function extractMp4(test, fileName, ext){
         fs.writeFileSync('./log/colorsFile.json', JSON.stringify(data), (err) => {
             console.log(err);
         });
-    }else{
+    }else{*/
         extractFrames({input: `${testFolder}/${test}/${fileName}.${ext}`, output: `${testFolder}/preview/${test}/${fileName}.png`,offsets: [1000]});
-    }
+    //}
 }
 function extractGif(test, fileName){
     gifFrames({ url: test, frames: 0, outputType: 'png' }).then(function (frameData) {
