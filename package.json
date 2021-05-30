@@ -14,6 +14,7 @@
     "build:artifact": "node ./script/artifact.js",
     "build:resizeForTest": "node ./script/resizeForTest.js",
     "build:getColors": "node ./script/getColors.js",
+    "build:convertData": "node ./script/convertDataImg.js",
     "build:clean": "node ./script/clean.js",
     "auto": "script/auto.sh",
     "clean": "node ./script/clean.js",

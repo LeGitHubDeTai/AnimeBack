@@ -11,9 +11,7 @@
 var colors = require('colors');
 const extractFrames = require('ffmpeg-extract-frames');
 const fs = require('fs');
-const path = require('path');
 const nconf = require('nconf');
-var Jimp = require('jimp');
 var gifFrames = require('gif-frames');
 const testFolder = './images';
 var config = `${testFolder}/categories.json`;
@@ -85,8 +83,6 @@ function extractMp4(test, fileName, ext){
         fs.writeFileSync('./log/colorsFile.json', JSON.stringify(data), (err) => {
             console.log(err);
         });
-
-        console.log(data);
     }else{
         extractFrames({input: `${testFolder}/${test}/${fileName}.${ext}`, output: `${testFolder}/preview/${test}/${fileName}.png`,offsets: [1000]});
     }

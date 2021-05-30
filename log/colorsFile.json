@@ -1,21 +1,8 @@
 {
   "Black": [
-    "./images/preview/animals/Pony parade.png",
-    "./images/preview/anime/Black clover opening 2.png",
-    "./images/preview/anime/Shooting time.png",
-    "./images/preview/anime/Midoriya toga.png",
-    "./images/preview/anime/Tokyo goule.png",
-    "./images/preview/art/Shockwave.png",
-    "./images/preview/gaming/Payday 2 what is love.png",
-    "./images/preview/movies/Stranger things intro opening credits.png",
-    "./images/preview/movies/Doctor who.png",
-    "./images/preview/christmas/Christmas time.png",
-    "./images/preview/christmas/Relaxing christmas fire.png",
-    "./images/preview/particle/3d particle.png",
-    "./images/preview/particle/Golden 48569.png",
-    "./images/preview/particle/Shockwave.png"
   ],
   "Other": [
+    "./images/preview/anime/Shooting time.png",
     "./images/preview/gaming/Undertale your soulmate.png",
     "./images/preview/gaming/Hollow knight.png",
     "./images/preview/gaming/Gamer.png",
@@ -412,6 +399,9 @@
     "./images/preview/particle/Blue particle.png",
     "./images/preview/particle/Pink particle.png",
     "./images/preview/paysage/A warriors death.png",
-    "./images/preview/space/2nd gen by fred gambino.png"
+    "./images/preview/space/2nd gen by fred gambino.png",
+    "./images/preview/christmas/Christmas time.png",
+    "./images/preview/christmas/Relaxing christmas fire.png",
+    "./images/preview/particle/3d particle.png"
   ]
 }

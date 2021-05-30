@@ -46,53 +46,51 @@ function getFiles (dir, files_){
 }
 
 function getColor(file){
-    if(file.lastIndexOf("data.txt")){
-        var black = 0,
-            other = 0;
-        Jimp.read(file, (err, image) => {
-            if (err) console.log(err);
-            try {
-                for(y=0;y<image.getHeight();y++){
-                    for(x=0;x<image.getWidth();x++){
-                        var t = image.getPixelColor(x, y);
-                        
-                        switch(t){
-                            case 255://BLACK
-                                black++;
-                                break;
-                            case 4294967295://WHITE
-                                black++;
-                                break;
-                            default:
-                                other++;
-                        }
-                        if(y == image.getHeight() && x == image.getWidth()){
-                            console.log(`Int: ${t}; Black: ${black}; Other: ${other}; File: ${file};`);
-                        }
+    var black = 0,
+        other = 0;
+    Jimp.read(file, (err, image) => {
+        if (err) console.log(err);
+        try {
+            for(y=0;y<image.getHeight();y++){
+                for(x=0;x<image.getWidth();x++){
+                    var t = image.getPixelColor(x, y);
+                    
+                    switch(t){
+                        case 255://BLACK
+                            black++;
+                            break;
+                        case 4294967295://WHITE
+                            black++;
+                            break;
+                        default:
+                            other++;
                     }
-                }
-            } catch (error) {
-                console.log(error);
-            }
-            finally{
-                if(black > other){
-                    console.log('Black Image !'.red);
-                    if (!allBlack.includes(file.replace('./log', './images'))){
-                        allBlack.push(file.replace('./log', './images'));
-                        nconf.set('Black', allBlack);
-                        nconf.save();
-                    }
-                }
-                else{
-                    console.log('Best Image !'.green);
-                    fs.unlinkSync(file);
-                    if (!allOther.includes(file.replace('./log', './images'))){
-                        allOther.push(file.replace('./log', './images'));
-                        nconf.set('Other', allOther);
-                        nconf.save();
+                    if(y == image.getHeight() && x == image.getWidth()){
+                        console.log(`Int: ${t}; Black: ${black}; Other: ${other}; File: ${file};`);
                     }
                 }
             }
-        });
-    }
+        } catch (error) {
+            console.log(error);
+        }
+        finally{
+            if(black > other){
+                console.log('Black Image !'.red);
+                if (!allBlack.includes(file.replace('./log', './images'))){
+                    allBlack.push(file.replace('./log', './images'));
+                    nconf.set('Black', allBlack);
+                    nconf.save();
+                }
+            }
+            else{
+                console.log('Best Image !'.green);
+                fs.unlinkSync(file);
+                if (!allOther.includes(file.replace('./log', './images'))){
+                    allOther.push(file.replace('./log', './images'));
+                    nconf.set('Other', allOther);
+                    nconf.save();
+                }
+            }
+        }
+    });
 }
