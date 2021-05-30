@@ -42,7 +42,6 @@
     "fluent-ffmpeg": "^2.1.2",
     "fs": "0.0.1-security",
     "gif-frames": "^1.0.1",
-    "gif-to-png": "^2.0.5",
     "imagemin": "^6.1.0",
     "jimp": "^0.16.1",
     "jpeg-js": "^0.4.0",
