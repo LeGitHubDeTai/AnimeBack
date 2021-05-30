@@ -1,4 +1,26 @@
 {
-  "Black": [],
-  "Other": []
+  "Black": [
+    "./images/preview/particle/Golden 48569.png",
+    "./images/preview/particle/Shockwave.png"
+  ],
+  "Other": [
+    "./images/preview/christmas/Christmas eve animated.png",
+    "./images/preview/christmas/Christmas eve.png",
+    "./images/preview/christmas/Christmas overwatch.png",
+    "./images/preview/christmas/Christmas rossdraws.png",
+    "./images/preview/christmas/Christmas time.png",
+    "./images/preview/christmas/Christmas.png",
+    "./images/preview/christmas/League of legends jinx gaming.png",
+    "./images/preview/christmas/Pepe.png",
+    "./images/preview/christmas/Relaxing christmas fire.png",
+    "./images/preview/christmas/Santa claus chase animated.png",
+    "./images/preview/christmas/The christmas shoe.png",
+    "./images/preview/christmas/Weird christmas animated.png",
+    "./images/preview/christmas/Winter magic.png",
+    "./images/preview/movies/Doctor who.png",
+    "./images/preview/particle/3d particle.png",
+    "./images/preview/particle/AE plexus 1080i.png",
+    "./images/preview/particle/Blue particle.png",
+    "./images/preview/particle/Pink particle.png"
+  ]
 }
