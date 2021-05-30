@@ -19,7 +19,8 @@
     "./images/preview/gaming/Payday 2 what is love.png",
     "./images/preview/gaming/Undertale your soulmate.png",
     "./images/preview/movies/Doctor who.png",
-    "./images/preview/movies/Stranger things intro opening credits.png"
+    "./images/preview/movies/Stranger things intro opening credits.png",
+    "./images/preview/anime/Gakkou gurashi kurumi.png"
   ],
   "Other": [
     "./images/preview/animals/Cat space glasses.png",
@@ -348,6 +349,23 @@
     "./images/preview/art/The thorn in the ordinary day.png",
     "./images/preview/art/Tomorrows ark.png",
     "./images/preview/art/Wake up.png",
-    "./images/preview/gaming/The emperor.png"
+    "./images/preview/gaming/The emperor.png",
+    "./images/preview/anime/La pucelle.png",
+    "./images/preview/anime/Saber artoria pendragon fate stay night.png",
+    "./images/preview/anime/Sakurasou mashiro.png",
+    "./images/preview/anime/Spice wolf holo.png",
+    "./images/preview/anime/Violet evergarden sincerely.png",
+    "./images/preview/anime/Yukinoshita.png",
+    "./images/preview/art/Christmas time.png",
+    "./images/preview/art/Whale and sea.png",
+    "./images/preview/gaming/Star wars battlefront darth vader.png",
+    "./images/preview/gaming/Summer pockets.png",
+    "./images/preview/gaming/Undertale chara and undyne.png",
+    "./images/preview/gaming/Undertale chara broken glass.png",
+    "./images/preview/gaming/Undertale do you want to have a bad time.png",
+    "./images/preview/gaming/Undertale home sweet home.png",
+    "./images/preview/gaming/Undertale ruins.png",
+    "./images/preview/gaming/Undertale sans.png",
+    "./images/preview/gaming/Undertale souls.png"
   ]
 }
