@@ -12,6 +12,8 @@ var colors = require('colors');
 const fs = require('fs');
 const testFolder = './images';
 
+var old = require('../log/colorsFile.json');
+
 function getFiles (dir, files_){
     files_ = files_ || [];
     var files = fs.readdirSync(dir);
@@ -38,6 +40,17 @@ function getFiles (dir, files_){
     return files_;
 }
 getFiles(testFolder);
+
+fs.rmdirSync('./log/preview', { recursive: true });
+
+var data = {
+    "Black": [],
+    "Other": old["Other"]
+}
+fs.writeFileSync('./log/colorsFile.json', JSON.stringify(data), (err) => {
+    console.log(err);
+});
+
 function replaceAll(str, find, replace) {
     var escapedFind=find.replace(/([.*+?^=!:${}()|\[\]\/\\])/g, "\\$1");
     return str.replace(new RegExp(escapedFind, 'g'), replace);
