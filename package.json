@@ -7,6 +7,7 @@
     "start": "npm run build",
     "test": "npm run build",
     "build": "npm-run-all build:*",
+    "build:TS": "node ./script/TS_logo.js",
     "build:rename": "node ./script/rename.js",
     "build:wizard": "node ./script/wizard.js",
     "build:extract": "node ./script/extract.js",
