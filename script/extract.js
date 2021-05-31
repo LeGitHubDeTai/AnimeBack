@@ -16,6 +16,7 @@ var gifFrames = require('gif-frames');
 const testFolder = './images';
 var config = `${testFolder}/categories.json`;
 
+var tempBuf = 0;
 var old = require('../log/colorsFile.json');
 
 nconf.file(config);
@@ -72,6 +73,8 @@ Object.keys(nconf.stores).forEach(function(name){
 console.log('Done!'.green);
 
 function extractMp4(test, fileName, ext){
+    if(tempBuf < 15){return;}
+    tempBuf++;
     /*if(old["Black"].includes(`${testFolder}/preview/${test}/${fileName}.png`)){
         extractFrames({input: `${testFolder}/${test}/${fileName}.${ext}`, output: `${testFolder}/preview/${test}/${fileName}.png`,offsets: [1]});
         old["Black"].filter((id) => id !== `${testFolder}/preview/${test}/${fileName}.png`);
