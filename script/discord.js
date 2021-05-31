@@ -73,7 +73,7 @@ finally {
 var sender = [];
 function send(){
   var options = {
-    url: `${$Discord_Token}`,
+    url: `${process.env.Discord_Token}`,
     headers: {
       'Content-Type': 'application/json',
       'User-Agent': 'request'
