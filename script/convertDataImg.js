@@ -32,7 +32,9 @@ function getFiles (dir, files_){
                             getFiles(name, files_);
                         } else {
                             files_.push(name);
-                            getBase64(name);
+                            if(!fs.existsSync(`${name}.json`)){
+                                getBase64(name);
+                            }
                         }
                     }
                 }
