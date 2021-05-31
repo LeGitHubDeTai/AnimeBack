@@ -9,12 +9,16 @@
 \--------------------------------------------------------------------------------------*/
 
 var colors = require('colors');
+const fs = require('fs');
 const nconf = require('nconf');
 const testFolder = './images';
 var config = `${testFolder}/categories.json`;
 const request = require('request');
 
-var embeder = [];
+var cache = require('../log/discordcache.json');
+
+var embeder = [],
+    newCache = cache.All;
 
 nconf.file(config);
 
@@ -26,6 +30,9 @@ try {
           var count = nconf.get(`${test}:${i}`).length;
           var fileName = nconf.get(`${test}:${i}`).slice(0, count - 4);
           var newer = `https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/images/preview/${test}/${fileName}.png`;
+          if(cache.All.includes(`./images/preview/${test}/${nconf.get(`${test}:${i}`)}`) && !fs.existsSync(`./images/preview/${test}/${nconf.get(`${test}:${i}`)}`)){return;}
+          console.log(`./images/preview/${test}/${nconf.get(`${test}:${i}`)}`)
+          newCache.push(`./images/preview/${test}/${nconf.get(`${test}:${i}`)}`);
           embeder.push(
             {
               "title": "New Wallpaper",
@@ -66,7 +73,7 @@ finally {
 var sender = [];
 function send(){
   var options = {
-    url: process.env.Discord_Token,
+    url: `${$Discord_Token}`,
     headers: {
       'Content-Type': 'application/json',
       'User-Agent': 'request'
@@ -93,8 +100,9 @@ function loop(){
   if(sender.length > 0){
     send();
   }
-  console.log('loop ;)')
-  console.log(sender);
+  console.log('loop ;)');
+
+  fs.writeFileSync('./log/discordcache.json', JSON.stringify({"All": newCache}))
 }
 
 function replaceAll(str, find, replace) {

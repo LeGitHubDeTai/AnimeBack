@@ -17,6 +17,7 @@
     "build:getColors": "node ./script/getColors.js",
     "build:convertData": "node ./script/convertDataImg.js",
     "build:clean": "node ./script/clean.js",
+    "build:discord": "node ./script/discord.js",
     "auto": "script/auto.sh",
     "clean": "node ./script/clean.js",
     "extract": "node ./script/extract.js"
