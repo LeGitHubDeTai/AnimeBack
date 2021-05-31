@@ -73,7 +73,7 @@ Object.keys(nconf.stores).forEach(function(name){
 console.log('Done!'.green);
 
 function extractMp4(test, fileName, ext){
-    if(tempBuf > 150){return;}
+    if(tempBuf > 50){return;}
     tempBuf++;
     if(old["Black"].includes(`${testFolder}/preview/${test}/${fileName}.png`)){
         extractFrames({input: `${testFolder}/${test}/${fileName}.${ext}`, output: `${testFolder}/preview/${test}/${fileName}.png`,offsets: [1]});
