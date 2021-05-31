@@ -18,7 +18,8 @@
     "./images/preview/gaming/Undertale your soulmate.png",
     "./images/preview/movies/Stranger things intro opening credits.png",
     "./images/preview/particle/Golden 48569.png",
-    "./images/preview/particle/Shockwave.png"
+    "./images/preview/particle/Shockwave.png",
+    "./images/preview/art/Golden city.png"
   ],
   "Other": [
     "./images/preview/animals/Cat space glasses.png",
@@ -403,6 +404,23 @@
     "./images/preview/anime/Kimi no na wa.png",
     "./images/preview/anime/Sailor moon mars rainy.png",
     "./images/preview/anime/Pokemon first generation charizard fly.png",
-    "./images/preview/art/Dragon attacks ship.png"
+    "./images/preview/art/Dragon attacks ship.png",
+    "./images/preview/art/Lumo by jaime staite.png",
+    "./images/preview/art/Ice dragon vera velichko.png",
+    "./images/preview/christmas/Attack on titan christmas.png",
+    "./images/preview/christmas/Winter house.png",
+    "./images/preview/gaming/Arknights frostleaf.png",
+    "./images/preview/gaming/Dagger of warhammer.png",
+    "./images/preview/gaming/Dark souls artorias the abysswalker.png",
+    "./images/preview/gaming/Dishonored black night.png",
+    "./images/preview/gaming/Final fantasy vii remake cloud tifa battle.png",
+    "./images/preview/gaming/Gwent the witcher card game gezras of leyda.png",
+    "./images/preview/gaming/League of legends ashe.png",
+    "./images/preview/gaming/League of legends cyberpunk ahri.png",
+    "./images/preview/gaming/League of legends dark cosmic jhin.png",
+    "./images/preview/gaming/League of legends dark cosmic lux.png",
+    "./images/preview/gaming/League of legends fire element lux.png",
+    "./images/preview/gaming/Lobotomy corporation blue star.png",
+    "./images/preview/gaming/Overwatch ashe.png"
   ]
 }
