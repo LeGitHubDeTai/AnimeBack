@@ -17,7 +17,8 @@
     "./images/preview/gaming/Gamer.png",
     "./images/preview/gaming/Hollow knight.png",
     "./images/preview/gaming/Payday 2 what is love.png",
-    "./images/preview/gaming/Undertale your soulmate.png"
+    "./images/preview/gaming/Undertale your soulmate.png",
+    "./images/preview/movies/Stranger things intro opening credits.png"
   ],
   "Other": [
     "./images/preview/christmas/Christmas eve animated.png",
@@ -338,6 +339,22 @@
     "./images/preview/gaming/World of tank.png",
     "./images/preview/gaming/Yasuo nightbringer league of legends.png",
     "./images/preview/gaming/Zelda cyber link.png",
-    "./images/preview/movies/Baby yoda loop.png"
+    "./images/preview/movies/Baby yoda loop.png",
+    "./images/preview/movies/Doctor who animation 50 years in time and space.png",
+    "./images/preview/movies/Doctor who title.png",
+    "./images/preview/movies/Dorcotr who intro.png",
+    "./images/preview/movies/Ironman hud.png",
+    "./images/preview/movies/Rick morty.png",
+    "./images/preview/movies/Shadow of the tomb raider.png",
+    "./images/preview/movies/Shrek all star.png",
+    "./images/preview/movies/Spiderman.png",
+    "./images/preview/movies/Star wars.png",
+    "./images/preview/movies/StarWars.png",
+    "./images/preview/movies/Stranger things monster.png",
+    "./images/preview/movies/Stranger things movie.png",
+    "./images/preview/movies/Terminator genisys.png",
+    "./images/preview/movies/Walt disney studios.png",
+    "./images/preview/movies/Whats up danger spiderman.png",
+    "./images/preview/paysage/A warriors death.png"
   ]
 }
