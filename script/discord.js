@@ -89,6 +89,7 @@ function send(){
   request.post(options, function (error, response, body) {
     console.log(error);
     console.log(body);
+    fs.writeFileSync('./log/discordcache.json', JSON.stringify({"All": newCache}))
     setTimeout(() => {
       loop();
     }, 10000);
@@ -101,8 +102,6 @@ function loop(){
     send();
   }
   console.log('loop ;)');
-
-  fs.writeFileSync('./log/discordcache.json', JSON.stringify({"All": newCache}))
 }
 
 function replaceAll(str, find, replace) {
