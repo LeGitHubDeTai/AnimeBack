@@ -16,38 +16,53 @@ var config = `${testFolder}/categories.json`;
 
 nconf.file(config);
 
-Object.keys(nconf.stores).forEach(function(name){
-    Object.keys(nconf.stores[name].store).forEach(function(test){
-        if(test != "interactive"){
-            for(i=0;i<nconf.get(`${test}`).length;i++){
-                var count = nconf.get(`${test}:${i}`).length;
-                var fileName = nconf.get(`${test}:${i}`).slice(0, count - (nconf.get(`${test}:${i}`).split('.').pop().length + 1));
-                if(!fs.existsSync(`${testFolder}/preview/${test}/${fileName}.png`)){
-                    console.log(`ERROR: ${testFolder}/preview/${test}/${fileName}.png NOT FOUND !`.red);
+try {
+    try {
+        Object.keys(nconf.stores).forEach(function(name){
+            Object.keys(nconf.stores[name].store).forEach(function(test){
+                if(test != "interactive"){
+                    for(i=0;i<nconf.get(`${test}`).length;i++){
+                        var count = nconf.get(`${test}:${i}`).length;
+                        var fileName = nconf.get(`${test}:${i}`).slice(0, count - (nconf.get(`${test}:${i}`).split('.').pop().length + 1));
+                        if(!fs.existsSync(`${testFolder}/preview/${test}/${fileName}.png`)){
+                            console.log(`ERROR: ${testFolder}/preview/${test}/${fileName}.png NOT FOUND !`.red);
+                        }
+                    }
                 }
+            })
+        });
+    } catch (error) {
+        console.log(error);
+    }
+    finally{
+        console.log('Step 1: Done!'.green);
+        try {
+            function getFiles (dir, files_){
+                files_ = files_ || [];
+                var files = fs.readdirSync(dir);
+                for (var i in files){
+                    if(dir != `${testFolder}/interactive`){
+                        var name = dir + '/' + files[i];
+                        if (fs.statSync(name).isDirectory()){
+                            getFiles(name, files_);
+                        } else {
+                            files_.push(name);
+                        }
+                    }
+                }
+                return files_;
             }
+            getFiles(`${testFolder}/preview`);
+        } catch (error) {
+            console.log(error);
         }
-    })
-});
-
-console.log('Step 1: Done!'.green);
-
-function getFiles (dir, files_){
-    files_ = files_ || [];
-    var files = fs.readdirSync(dir);
-    for (var i in files){
-        if(dir != `${testFolder}/interactive`){
-            var name = dir + '/' + files[i];
-            if (fs.statSync(name).isDirectory()){
-                getFiles(name, files_);
-            } else {
-                files_.push(name);
-            }
+        finally{
+            console.log('Step 2: Done!'.green);
         }
     }
-    return files_;
+} catch (error) {
+    console.log(error);
 }
-getFiles(`${testFolder}/preview`);
-
-console.log('Step 2: Done!'.green);
-console.log('Done!'.green);
+finally{
+    console.log('Done!'.green);
+}
