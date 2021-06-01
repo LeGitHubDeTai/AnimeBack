@@ -30,33 +30,33 @@ try {
           var count = nconf.get(`${test}:${i}`).length;
           var fileName = nconf.get(`${test}:${i}`).slice(0, count - 4);
           var newer = `https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/images/preview/${test}/${fileName}.png`;
-          if(cache.All.includes(`./images/preview/${test}/${nconf.get(`${test}:${i}`)}`) && !fs.existsSync(`./images/preview/${test}/${nconf.get(`${test}:${i}`)}`)){return;}
-          console.log(`./images/preview/${test}/${nconf.get(`${test}:${i}`)}`)
-          newCache.push(`./images/preview/${test}/${nconf.get(`${test}:${i}`)}`);
-          embeder.push(
-            {
-              "title": "New Wallpaper",
-              "color": 5892175,
-              "description": `Name: ${fileName}\nCategorie: ${test}`,
-              "timestamp": "",
-              "url": "",
-              "author": {
-                "name": "AnimeBot",
-                "url": "https://tai-studio.ml/",
-                "icon_url": "https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/icon.png"
-              },
-              "image": {
-                "url": `${replaceAll(newer, ' ', '%20')}`
-              },
-              "thumbnail": {
-                "url": "https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/assets/checkGreen.png"
-              },
-              "footer": {
-                "text": "- Tai Studio © 2021 -",
-                "icon_url": "https://tai-studio.ml/img/icons/Tai_Studio_discord.png"
-              },
-              "fields": []
-            });
+          if(!cache.All.includes(`./images/preview/${test}/${nconf.get(`${test}:${i}`)}`) && fs.existsSync(`./images/preview/${test}/${nconf.get(`${test}:${i}`)}`)){
+            newCache.push(`./images/preview/${test}/${nconf.get(`${test}:${i}`)}`);
+            embeder.push(
+              {
+                "title": "New Wallpaper",
+                "color": 5892175,
+                "description": `Name: ${fileName}\nCategorie: ${test}`,
+                "timestamp": "",
+                "url": "",
+                "author": {
+                  "name": "AnimeBot",
+                  "url": "https://tai-studio.ml/",
+                  "icon_url": "https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/icon.png"
+                },
+                "image": {
+                  "url": `${replaceAll(newer, ' ', '%20')}`
+                },
+                "thumbnail": {
+                  "url": "https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/assets/checkGreen.png"
+                },
+                "footer": {
+                  "text": "- Tai Studio © 2021 -",
+                  "icon_url": "https://tai-studio.ml/img/icons/Tai_Studio_discord.png"
+                },
+                "fields": []
+              });
+          }
         }
       }
     });
@@ -80,7 +80,7 @@ function send(){
     },
     body: JSON.stringify({
       "username": "AnimeBot",
-      "avatar_url": "https://animeback.tai-studio.ml/",
+      "avatar_url": "https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/icon.png",
       "content": "",
       "embeds": sender
     })
