@@ -77,7 +77,7 @@ function extractMp4(test, fileName, ext){
     if(tempBuf > 20){return;}
     tempBuf++;
     if(old["Black"].includes(`${testFolder}/preview/${test}/${fileName}.png`)){
-        extractFrames({input: `${testFolder}/${test}/${fileName}.${ext}`, output: `${testFolder}/preview/${test}/${fileName}.png`,offsets: [1]});
+        extractFrames({input: `${testFolder}/${test}/${fileName}.${ext}`, output: `${testFolder}/preview/${test}/${fileName}.png`,offsets: [100]});
         old["Black"].filter((id) => id !== `${testFolder}/preview/${test}/${fileName}.png`);
 
         var data = {
