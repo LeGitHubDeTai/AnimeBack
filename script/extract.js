@@ -57,11 +57,15 @@ Object.keys(nconf.stores).forEach(function(name){
                     break;
                 case "png":
                     var fileName = nconf.get(`${test}:${i}`);
-                    fs.copyFileSync(`${testFolder}/${test}/${fileName}`, `${testFolder}/preview/${test}/${fileName}`)
+                    if(!fs.existsSync(`${testFolder}/preview/${test}/${fileName}.png`)){
+                        fs.copyFileSync(`${testFolder}/${test}/${fileName}`, `${testFolder}/preview/${test}/${fileName}`);
+                    }
                     break;
                 case "jpg":
                     var fileName = nconf.get(`${test}:${i}`).slice(0, count - 4);
-                    convertJPGtoPNG(`${testFolder}/${test}/${fileName}`, test, fileName);
+                    if(!fs.existsSync(`${testFolder}/preview/${test}/${fileName}.png`)){
+                        convertJPGtoPNG(`${testFolder}/${test}/${fileName}`, test, fileName);
+                    }
                     break;
                 default:
                     var fileName = nconf.get(`${test}:${i}`);
@@ -76,8 +80,8 @@ console.log('Done!'.green);
 function extractMp4(test, fileName, ext){
     if(tempBuf > 20){return;}
     tempBuf++;
-    if(old["Black"].includes(`${testFolder}/preview/${test}/${fileName}.png`)){
-        extractFrames({input: `${testFolder}/${test}/${fileName}.${ext}`, output: `${testFolder}/preview/${test}/${fileName}.png`,offsets: [100]});
+    if(!old["Black"].includes(`${testFolder}/preview/${test}/${fileName}.png`)){
+        extractFrames({input: `${testFolder}/${test}/${fileName}.${ext}`, output: `${testFolder}/preview/${test}/${fileName}.png`,offsets: [1]});
         old["Black"].filter((id) => id !== `${testFolder}/preview/${test}/${fileName}.png`);
 
         var data = {
