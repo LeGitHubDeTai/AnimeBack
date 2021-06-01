@@ -13,6 +13,7 @@ const extractFrames = require('ffmpeg-extract-frames');
 const fs = require('fs');
 const nconf = require('nconf');
 var gifFrames = require('gif-frames');
+var Jimp = require('jimp');
 const testFolder = './images';
 var config = `${testFolder}/categories.json`;
 
@@ -59,8 +60,8 @@ Object.keys(nconf.stores).forEach(function(name){
                     fs.copyFileSync(`${testFolder}/${test}/${fileName}`, `${testFolder}/preview/${test}/${fileName}`)
                     break;
                 case "jpg":
-                    var fileName = nconf.get(`${test}:${i}`);
-                    fs.copyFileSync(`${testFolder}/${test}/${fileName}`, `${testFolder}/preview/${test}/${fileName}`)
+                    var fileName = nconf.get(`${test}:${i}`).slice(0, count - 4);
+                    convertJPGtoPNG(`${testFolder}/${test}/${fileName}`, test, fileName);
                     break;
                 default:
                     var fileName = nconf.get(`${test}:${i}`);
@@ -93,5 +94,15 @@ function extractMp4(test, fileName, ext){
 function extractGif(test, fileName){
     gifFrames({ url: test, frames: 0, outputType: 'png' }).then(function (frameData) {
         frameData[0].getImage().pipe(fs.createWriteStream(fileName));
+    });
+}
+
+function convertJPGtoPNG(file, test, fileName){
+    Jimp.read(`${file}.jpg`)
+    .then(image => {
+        return image.write(`${testFolder}/preview/${test}/${fileName}.png`);
+    })
+    .catch(err => {
+        console.error(err);
     });
 }
