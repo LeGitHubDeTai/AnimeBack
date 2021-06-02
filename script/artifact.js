@@ -47,6 +47,29 @@ try {
                             getFiles(name, files_);
                         } else {
                             files_.push(name);
+                            
+                            var tester = false,
+                                ext = "null";
+                            if(fs.existsSync(`${name.replace('png', 'mp4').replace('preview/', '')}`)){
+                                tester = true;
+                                ext = "mp4";
+                            }
+                            if(fs.existsSync(`${name.replace('png', 'webm').replace('preview/', '')}`)){
+                                tester = true;
+                                ext = "webm";
+                            }
+                            if(fs.existsSync(`${name.replace('png', 'gif').replace('preview/', '')}`)){
+                                tester = true;
+                                ext = "gif";
+                            }
+
+                            if(tester == false){
+                                console.log(`ERROR: ${name.replace('png', ext).replace('preview/', '')} NOT FOUND !`.red);
+                                fs.unlinkSync(name);
+                            }
+                            else{
+                                console.log(`INFO: ${name.replace('png', ext).replace('preview/', '')} FOUND !`.cyan);
+                            }
                         }
                     }
                 }

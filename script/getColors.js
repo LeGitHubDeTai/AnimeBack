@@ -18,8 +18,8 @@ nconf.file(config);
 
 const testFolder = './log/preview';
 
-var allBlack = nconf.get('Black'),
-    allOther = nconf.get('Other');
+var allBlack = nconf.get('Black') || [],
+    allOther = nconf.get('Other') || [];
 
 var temp = [];
 var files = getFiles(testFolder);
@@ -76,13 +76,13 @@ function getColor(file){
         finally{
             var fileN = file.replace('./log', './images');
             if(black > other){
-                console.log('Black Image !'.red);
+                console.log(`ERROR:`.red, `${file}`.cyan, "It's".gray, 'Black Image !'.red);
                 if (!allBlack.includes(fileN)){
                     allBlack.push(fileN);
                 }
             }
             else{
-                console.log('Best Image !'.green);
+                console.log(`INFO: ${file}`.cyan, "It's".gray, 'Best Image !'.green);
                 fs.unlinkSync(file);
                 if (!allOther.includes(fileN)){
                     if(allBlack.includes(fileN)){

@@ -18,7 +18,12 @@ const testFolder = './images';
 var config = `${testFolder}/categories.json`;
 
 var tempBuf = 0;
-var old = require('../log/colorsFile.json');
+
+if(fs.existsSync('./log/colorsFile.json')){
+    var old = require('../log/colorsFile.json');
+}else{
+    var old = {"Black":[],"Other":[]};
+}
 
 nconf.file(config);
 
@@ -83,7 +88,7 @@ finally{
 }
 
 function extractMp4(test, fileName, ext){
-    if(tempBuf > 20){return;}
+    if(tempBuf > 25){return;}
     tempBuf++;
     if(!old["Black"].includes(`${testFolder}/preview/${test}/${fileName}.png`)){
         extractFrames({input: `${testFolder}/${test}/${fileName}.${ext}`, output: `${testFolder}/preview/${test}/${fileName}.png`,offsets: [1]});
@@ -99,19 +104,23 @@ function extractMp4(test, fileName, ext){
     }else{
         extractFrames({input: `${testFolder}/${test}/${fileName}.${ext}`, output: `${testFolder}/preview/${test}/${fileName}.png`,offsets: [1000]});
     }
+    console.log(`INFO: ${testFolder}/${test}/${fileName}.${ext}`.cyan);
 }
 function extractGif(test, fileName){
     gifFrames({ url: test, frames: 0, outputType: 'png' }).then(function (frameData) {
         frameData[0].getImage().pipe(fs.createWriteStream(fileName));
     });
+    console.log(`INFO: ${test}`.cyan);
 }
 
 function convertJPGtoPNG(file, test, fileName){
     Jimp.read(`${file}.jpg`)
     .then(image => {
+        console.log(`INFO: ${file}`.cyan);
         return image.write(`${testFolder}/preview/${test}/${fileName}.png`);
     })
     .catch(err => {
         console.error(err);
+        console.log(`ERROR: ${file}`.red);
     });
 }

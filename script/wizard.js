@@ -41,6 +41,7 @@ function getFiles (dir, files_){
                                 files_.push(name);
                                 temp.push(files[i]);
                                 nconf.set(`${dir.replace(`${testFolder}/`, '')}`, temp);
+                                console.log('INFO:'.cyan, `${name}`.cyan);
                             }
                         }
                     }

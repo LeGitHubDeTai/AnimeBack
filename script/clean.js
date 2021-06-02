@@ -28,6 +28,10 @@ function getFiles (dir, files_){
             rimraf.sync(`${name}/*.sfk`);
             rimraf.sync(`${name}/*.crdownload`);
             rimraf.sync(`${name}/*-1920.png`);
+            if(name == "./images/preview"){
+                rimraf.sync(`${name}/.json`);
+            }
+            console.log(name)
             getFiles(name, files_);
         }
     }
@@ -35,8 +39,27 @@ function getFiles (dir, files_){
 }
 getFiles(testFolder);
 
-var animals = categories['animals'].filter((id) => id !== `Categories.json`);
-nconf.set('animals', animals);
-nconf.save();
+if(categories['animals'] != null){
+    var animals = categories['animals'].filter((id) => id !== `Categories.json`);
+    nconf.set('animals', animals);
+    nconf.save();
+}
 
 console.log('Done!'.green);
+
+
+// var preview = name.slice(0, name.length - 3);
+
+// switch(name.slice(name.length - 3, name.length)){
+//     case "ebm":
+//         var fileName = name.slice(0, name.length - 5);
+//         if(fs.existsSync(`${preview.replace(dir, `${testFolder}/preview${dir.replace(testFolder, '')}`)}.png`)){
+//             nconf.set(`${dir.replace(`${testFolder}/`, '')}`, temp);
+//         }
+//         break;
+//     default:
+//         var fileName = name.slice(0, name.length - 4);
+//         if(fs.existsSync(`${preview.replace(dir, `${testFolder}/preview${dir.replace(testFolder, '')}`)}png`)){
+//             nconf.set(`${dir.replace(`${testFolder}/`, '')}`, temp);
+//         }
+// }

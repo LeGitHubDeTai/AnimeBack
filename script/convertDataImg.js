@@ -10,46 +10,55 @@
 
 var colors = require('colors');
 const fs = require('fs');
-var Jimp = require('jimp');
 const nconf = require('nconf');
+var potrace = require('potrace');
 
 var config = `./log/colorsFile.json`;
 nconf.file(config);
 
 const testFolder = './images/preview';
 
-var files = getFiles(testFolder);
-function getFiles (dir, files_){
-    files_ = files_ || [];
-    var files = fs.readdirSync(dir);
-    for (var i in files){
-        if(dir != `${testFolder}/animals/Categories.json`){
-            if(dir != `${testFolder}/generator`){ //remove
-                if(dir != `${testFolder}/interactive`){
-                    if(files[i].slice(files[i].length - 5, files[i].length) != '.json'){
-                        var name = dir + '/' + files[i];
-                        if (fs.statSync(name).isDirectory()){
-                            getFiles(name, files_);
-                        } else {
-                            files_.push(name);
-                            if(!fs.existsSync(`${name}.json`)){
-                                getBase64(name);
+try {
+    var files = getFiles(testFolder);
+    function getFiles (dir, files_){
+        files_ = files_ || [];
+        var files = fs.readdirSync(dir);
+        for (var i in files){
+            if(dir != `${testFolder}/animals/Categories.json`){
+                if(dir != `${testFolder}/generator`){ //remove
+                    if(dir != `${testFolder}/interactive`){
+                        if(files[i].slice(files[i].length - 5, files[i].length) != '.json'){
+                            var name = dir + '/' + files[i];
+                            if (fs.statSync(name).isDirectory()){
+                                getFiles(name, files_);
+                            } else {
+                                files_.push(name);
+                                if(fs.existsSync(`${name}`)){
+                                    if(!fs.existsSync(`${name}.svg`)){
+                                        convertToSVG(name);
+                                    }
+                                }
                             }
                         }
                     }
                 }
             }
         }
+        return files_;
     }
-    return files_;
+} catch (error) {
+    console.log(`ERROR: ${error}`.red);
+}
+finally{
+    console.log(`Done !`.green);
 }
 
-function getBase64(file){
-    Jimp.read(file, (err, image) => {
-        if (err) console.log(err);
-        image.getBase64(Jimp.MIME_PNG, (err, val) => {
-            fs.writeFileSync(`${file}.json`, val);
-            console.log(`Done ! ${file}`.green);
-        });
+function convertToSVG(file){
+    if(file == null){return;}
+    var out = `${file}.svg`
+ 
+    potrace.posterize(file, function(err, svg) {
+        if (err) throw err;
+        fs.writeFileSync(out, svg);
     });
 }
