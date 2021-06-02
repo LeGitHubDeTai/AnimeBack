@@ -1,13 +1,11 @@
 {
   "Black": [
-    "./images/preview/anime/Shelter.png",
-    "./images/preview/anime/Tokyo goule.png",
     "./images/preview/anime/Violet evergarden sincerely.png",
-    "./images/preview/anime/Wandering witch the journey of elaina.png",
-    "./images/preview/anime/Wind chimes.png",
-    "./images/preview/anime/Your lie in april.png",
-    "./images/preview/anime/Yukinoshita.png",
-    "./images/preview/art/Arsenal.png"
+    "./images/preview/art/Citylife.png",
+    "./images/preview/art/Corasair collection.png",
+    "./images/preview/art/Demon core.png",
+    "./images/preview/art/Dna fragment.png",
+    "./images/preview/art/Eagle flag.png"
   ],
   "Other": [
     "./images/preview/animals/Cat space glasses.png",
@@ -186,6 +184,19 @@
     "./images/preview/anime/Your lie for april.png",
     "./images/preview/animeback/AnimeBack.png",
     "./images/preview/animeback/Animeback illusioner.png",
-    "./images/preview/art/Artifact.png"
+    "./images/preview/art/Artifact.png",
+    "./images/preview/anime/Violet evergarden sincerely.png",
+    "./images/preview/anime/Wind chimes.png",
+    "./images/preview/anime/Yukinoshita.png",
+    "./images/preview/anime/Your lie in april.png",
+    "./images/preview/art/Arsenal.png",
+    "./images/preview/art/Asus rog.png",
+    "./images/preview/art/Autumn rain.png",
+    "./images/preview/art/Ball windows 10.png",
+    "./images/preview/art/Blue fire.png",
+    "./images/preview/art/Calm but cold evening.png",
+    "./images/preview/art/Cozy room.png",
+    "./images/preview/art/Dragon attacks ship.png",
+    "./images/preview/art/Floating cube.png"
   ]
 }
