@@ -26,56 +26,61 @@ if(!fs.existsSync(`${testFolder}/preview`)){
     fs.mkdirSync(`${testFolder}/preview`);
 }
 
-Object.keys(nconf.stores).forEach(function(name){
-    Object.keys(nconf.stores[name].store).forEach(function(test){
-        if(test == "interactive"){return;}
-        if(!fs.existsSync(`${testFolder}/preview/${test}`)){
-            fs.mkdirSync(`${testFolder}/preview/${test}`);
-        }
-        for(i=0;i<nconf.get(`${test}`).length;i++){
-            var count = nconf.get(`${test}:${i}`).length;
-            switch(nconf.get(`${test}:${i}`).slice(count - 3, count)){
-                case "mp4":
-                    var fileName = nconf.get(`${test}:${i}`).slice(0, count - 4);
-                    if(!fs.existsSync(`${testFolder}/preview/${test}/${fileName}.png`)){
-                        extractMp4(test, fileName, 'mp4');
-                    }
-                    break;
-                case "gif":
-                    var fileName = nconf.get(`${test}:${i}`).slice(0, count - 4);
-                    if(!fs.existsSync(`${testFolder}/preview/${test}/${fileName}.png`)){
-                        var src = `${testFolder}/${test}/${fileName}.gif`,
-                            dest = `${testFolder}/preview/${test}/${fileName}.png`;
-                        extractGif(src, dest);
-                    }
-                    break;
-                case "ebm":
-                    var fileName = nconf.get(`${test}:${i}`).slice(0, count - 5);
-                    if(!fs.existsSync(`${testFolder}/preview/${test}/${fileName}.png`)){
-                        extractMp4(test, fileName, 'webm');
-                    }
-                    break;
-                case "png":
-                    var fileName = nconf.get(`${test}:${i}`);
-                    if(!fs.existsSync(`${testFolder}/preview/${test}/${fileName}.png`)){
-                        fs.copyFileSync(`${testFolder}/${test}/${fileName}`, `${testFolder}/preview/${test}/${fileName}`);
-                    }
-                    break;
-                case "jpg":
-                    var fileName = nconf.get(`${test}:${i}`).slice(0, count - 4);
-                    if(!fs.existsSync(`${testFolder}/preview/${test}/${fileName}.png`)){
-                        convertJPGtoPNG(`${testFolder}/${test}/${fileName}`, test, fileName);
-                    }
-                    break;
-                default:
-                    var fileName = nconf.get(`${test}:${i}`);
-                    console.log(`Error: ${testFolder}/${test}/${fileName}`);
+try {
+    Object.keys(nconf.stores).forEach(function(name){
+        Object.keys(nconf.stores[name].store).forEach(function(test){
+            if(test == "interactive"){return;}
+            if(!fs.existsSync(`${testFolder}/preview/${test}`)){
+                fs.mkdirSync(`${testFolder}/preview/${test}`);
             }
-        }
-    })
-});
-
-console.log('Done!'.green);
+            for(i=0;i<nconf.get(`${test}`).length;i++){
+                var count = nconf.get(`${test}:${i}`).length;
+                switch(nconf.get(`${test}:${i}`).slice(count - 3, count)){
+                    case "mp4":
+                        var fileName = nconf.get(`${test}:${i}`).slice(0, count - 4);
+                        if(!fs.existsSync(`${testFolder}/preview/${test}/${fileName}.png`) || old["Black"].includes(`${testFolder}/preview/${test}/${fileName}.png`)){
+                            extractMp4(test, fileName, 'mp4');
+                        }
+                        break;
+                    case "gif":
+                        var fileName = nconf.get(`${test}:${i}`).slice(0, count - 4);
+                        if(!fs.existsSync(`${testFolder}/preview/${test}/${fileName}.png`)){
+                            var src = `${testFolder}/${test}/${fileName}.gif`,
+                                dest = `${testFolder}/preview/${test}/${fileName}.png`;
+                            extractGif(src, dest);
+                        }
+                        break;
+                    case "ebm":
+                        var fileName = nconf.get(`${test}:${i}`).slice(0, count - 5);
+                        if(!fs.existsSync(`${testFolder}/preview/${test}/${fileName}.png`) || old["Black"].includes(`${testFolder}/preview/${test}/${fileName}.png`)){
+                            extractMp4(test, fileName, 'webm');
+                        }
+                        break;
+                    case "png":
+                        var fileName = nconf.get(`${test}:${i}`);
+                        if(!fs.existsSync(`${testFolder}/preview/${test}/${fileName}.png`)){
+                            fs.copyFileSync(`${testFolder}/${test}/${fileName}`, `${testFolder}/preview/${test}/${fileName}`);
+                        }
+                        break;
+                    case "jpg":
+                        var fileName = nconf.get(`${test}:${i}`).slice(0, count - 4);
+                        if(!fs.existsSync(`${testFolder}/preview/${test}/${fileName}.png`)){
+                            convertJPGtoPNG(`${testFolder}/${test}/${fileName}`, test, fileName);
+                        }
+                        break;
+                    default:
+                        var fileName = nconf.get(`${test}:${i}`);
+                        console.log(`Error: ${testFolder}/${test}/${fileName}`);
+                }
+            }
+        })
+    });
+} catch (error) {
+    console.log(error);
+}
+finally{
+    console.log('Done!'.green);
+}
 
 function extractMp4(test, fileName, ext){
     if(tempBuf > 20){return;}

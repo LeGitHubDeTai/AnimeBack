@@ -74,23 +74,26 @@ function getColor(file){
             console.log(error);
         }
         finally{
+            var fileN = file.replace('./log', './images');
             if(black > other){
                 console.log('Black Image !'.red);
-                if (!allBlack.includes(file.replace('./log', './images'))){
-                    allBlack.push(file.replace('./log', './images'));
-                    nconf.set('Black', allBlack);
-                    nconf.save();
+                if (!allBlack.includes(fileN)){
+                    allBlack.push(fileN);
                 }
             }
             else{
                 console.log('Best Image !'.green);
                 fs.unlinkSync(file);
-                if (!allOther.includes(file.replace('./log', './images'))){
-                    allOther.push(file.replace('./log', './images'));
-                    nconf.set('Other', allOther);
-                    nconf.save();
+                if (!allOther.includes(fileN)){
+                    if(allBlack.includes(fileN)){
+                        allBlack = allBlack.filter((id) => id === fileN);
+                    }
+                    allOther.push(fileN);
                 }
             }
+            nconf.set('Other', allOther);
+            nconf.set('Black', allBlack);
+            nconf.save();
         }
     });
 }

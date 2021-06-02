@@ -49,7 +49,7 @@ function getBase64(file){
         if (err) console.log(err);
         image.getBase64(Jimp.MIME_PNG, (err, val) => {
             fs.writeFileSync(`${file}.json`, val);
-            console.log('Done !'.green);
+            console.log(`Done ! ${file}`.green);
         });
     });
 }
