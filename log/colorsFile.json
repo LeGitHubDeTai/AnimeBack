@@ -1,11 +1,13 @@
 {
   "Black": [
-    "./images/preview/anime/Cant stop lovin you.png",
     "./images/preview/anime/Demonslayer butterfly.png",
-    "./images/preview/anime/Eromanga sensei.png",
-    "./images/preview/anime/Fallen angel.png",
-    "./images/preview/anime/Fate grand order jeanne darc.png",
-    "./images/preview/anime/Forest dream.png"
+    "./images/preview/anime/Gakkou gurashi kurumi.png",
+    "./images/preview/anime/Gun gale online.png",
+    "./images/preview/anime/Hatsune miku.png",
+    "./images/preview/anime/Horror.png",
+    "./images/preview/anime/Illyasviel von einzbern.png",
+    "./images/preview/anime/Howls moving castle.png",
+    "./images/preview/anime/Jeanne.png"
   ],
   "Other": [
     "./images/preview/animals/Cat space glasses.png",
@@ -108,6 +110,19 @@
     "./images/preview/anime/Dragonball.png",
     "./images/preview/anime/Dragon maid relaxing asleep kanna.png",
     "./images/preview/anime/Dragonball2.png",
-    "./images/preview/anime/Elfy.png"
+    "./images/preview/anime/Elfy.png",
+    "./images/preview/anime/Demonslayer butterfly.png",
+    "./images/preview/anime/Eromanga sensei.png",
+    "./images/preview/anime/Fallen angel.png",
+    "./images/preview/anime/Fate grand order jeanne darc.png",
+    "./images/preview/anime/Forest dream.png",
+    "./images/preview/anime/Ghost maid.png",
+    "./images/preview/anime/Ghost of tsushima.png",
+    "./images/preview/anime/Girl with headphones.png",
+    "./images/preview/anime/Homework girl.png",
+    "./images/preview/anime/Horimiya sakura.png",
+    "./images/preview/anime/Horimiya.png",
+    "./images/preview/anime/Itachi naruto sharingan.png",
+    "./images/preview/anime/Itachi uchiha.png"
   ]
 }
