@@ -1,11 +1,8 @@
 {
   "Black": [
-    "./images/preview/art/Rainy day.png",
-    "./images/preview/art/Scifi.png",
-    "./images/preview/art/Techno.png",
     "./images/preview/art/Tomorrows ark.png",
-    "./images/preview/cars/G's走行シーン.png",
-    "./images/preview/cars/Neon car in the rain.png"
+    "./images/preview/christmas/Christmas time.png",
+    "./images/preview/christmas/Relaxing christmas fire.png"
   ],
   "Other": [
     "./images/preview/animals/Cat space glasses.png",
@@ -238,6 +235,23 @@
     "./images/preview/cars/Bugatti abstract shapes.png",
     "./images/preview/art/车站.png",
     "./images/preview/cars/Nissan skyline.png",
-    "./images/preview/cars/SingleTurn t2.png"
+    "./images/preview/cars/SingleTurn t2.png",
+    "./images/preview/art/Tomorrows ark.png",
+    "./images/preview/art/Techno.png",
+    "./images/preview/cars/G's走行シーン.png",
+    "./images/preview/christmas/Attack on titan christmas.png",
+    "./images/preview/cars/Neon car in the rain.png",
+    "./images/preview/christmas/Christmas eve animated.png",
+    "./images/preview/christmas/Christmas eve.png",
+    "./images/preview/christmas/Christmas overwatch.png",
+    "./images/preview/christmas/Christmas rossdraws.png",
+    "./images/preview/christmas/Christmas.png",
+    "./images/preview/christmas/League of legends jinx gaming.png",
+    "./images/preview/christmas/Pepe.png",
+    "./images/preview/christmas/Santa claus chase animated.png",
+    "./images/preview/christmas/The christmas shoe.png",
+    "./images/preview/christmas/Winter house.png",
+    "./images/preview/christmas/Weird christmas animated.png",
+    "./images/preview/christmas/Winter magic.png"
   ]
 }
