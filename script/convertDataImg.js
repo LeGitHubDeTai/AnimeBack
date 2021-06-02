@@ -54,6 +54,7 @@ finally{
 }
 
 function convertToSVG(file){
+    return;
     if(file == null){return;}
     var out = `${file}.svg`
     
