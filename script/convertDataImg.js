@@ -33,9 +33,11 @@ try {
                                 getFiles(name, files_);
                             } else {
                                 files_.push(name);
-                                if(fs.existsSync(`${name}`)){
-                                    if(!fs.existsSync(`${name}.svg`)){
-                                        convertToSVG(name);
+                                if(!name.lastIndexOf('.svg')){
+                                    if(fs.existsSync(`${name}`)){
+                                        if(!fs.existsSync(`${name}.svg`)){
+                                            convertToSVG(name);
+                                        }
                                     }
                                 }
                             }
