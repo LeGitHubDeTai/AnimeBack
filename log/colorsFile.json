@@ -1,25 +1,7 @@
 {
   "Black": [
-    "./images/preview/gaming/Dnf mistress second awakening.png",
-    "./images/preview/gaming/Gamer.png",
-    "./images/preview/animals/Pony parade.png",
-    "./images/preview/anime/Black clover opening 2.png",
-    "./images/preview/anime/Gakkou gurashi kurumi.png",
-    "./images/preview/anime/Horror.png",
-    "./images/preview/anime/Shooting time.png",
-    "./images/preview/anime/Midoriya toga.png",
-    "./images/preview/anime/Tokyo goule.png",
-    "./images/preview/anime/Wandering witch the journey of elaina.png",
-    "./images/preview/art/Corasair collection.png",
-    "./images/preview/art/Golden city.png",
-    "./images/preview/art/Scifi.png",
-    "./images/preview/gaming/Among us bouncing around.png",
-    "./images/preview/gaming/Among us 2.png",
-    "./images/preview/gaming/Among us ejected.png",
     "./images/preview/gaming/God of war.png",
-    "./images/preview/gaming/Gwent the witcher card game.png",
-    "./images/preview/gaming/Hollow knight.png",
-    "./images/preview/gaming/Honkai impact third anniversary.png"
+    "./images/preview/gaming/Hollow knight.png"
   ],
   "Other": [
     "./images/preview/animals/Cat space glasses.png",
@@ -349,6 +331,10 @@
     "./images/preview/gaming/Halo 4K.png",
     "./images/preview/gaming/Halo infinite splash screen.png",
     "./images/preview/gaming/Hello neighbor title screen.png",
-    "./images/preview/gaming/Halo infinite.png"
+    "./images/preview/gaming/Halo infinite.png",
+    "./images/preview/gaming/God of war.png",
+    "./images/preview/gaming/Gwent the witcher card game.png",
+    "./images/preview/gaming/Invitational black rainbow6 siege.png",
+    "./images/preview/gaming/Honkai impact third anniversary.png"
   ]
 }
