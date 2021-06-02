@@ -1,11 +1,13 @@
 {
   "Black": [
-    "./images/preview/anime/Violet evergarden sincerely.png",
-    "./images/preview/art/Citylife.png",
-    "./images/preview/art/Corasair collection.png",
     "./images/preview/art/Demon core.png",
-    "./images/preview/art/Dna fragment.png",
-    "./images/preview/art/Eagle flag.png"
+    "./images/preview/art/Her room.png",
+    "./images/preview/art/Golden city.png",
+    "./images/preview/art/Hooded kitty neon cyberpunk.png",
+    "./images/preview/art/I need speed.png",
+    "./images/preview/art/Meditation.png",
+    "./images/preview/art/Msi.png",
+    "./images/preview/art/Neon sunset.png"
   ],
   "Other": [
     "./images/preview/animals/Cat space glasses.png",
@@ -197,6 +199,18 @@
     "./images/preview/art/Calm but cold evening.png",
     "./images/preview/art/Cozy room.png",
     "./images/preview/art/Dragon attacks ship.png",
-    "./images/preview/art/Floating cube.png"
+    "./images/preview/art/Floating cube.png",
+    "./images/preview/art/Demon core.png",
+    "./images/preview/art/Citylife.png",
+    "./images/preview/art/Dna fragment.png",
+    "./images/preview/art/Eagle flag.png",
+    "./images/preview/art/Ice dragon vera velichko.png",
+    "./images/preview/art/Jellyfish ocean gift.png",
+    "./images/preview/art/Lumo by jaime staite.png",
+    "./images/preview/art/Macintosh t rex audio.png",
+    "./images/preview/art/Matter.png",
+    "./images/preview/art/Metal gears circle.png",
+    "./images/preview/art/Nvidia geforce gtx.png",
+    "./images/preview/art/Radeon vega.png"
   ]
 }
