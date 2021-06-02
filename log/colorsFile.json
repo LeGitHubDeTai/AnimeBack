@@ -1,27 +1,23 @@
 {
   "Black": [
-    "./images/preview/landscape/Summer festival.png",
-    "./images/preview/movies/Stranger things intro opening credits.png",
-    "./images/preview/gaming/Hollow knight.png",
-    "./images/preview/particle/Golden 48569.png",
-    "./images/preview/gaming/Undertale your soulmate.png",
-    "./images/preview/particle/Shockwave.png",
-    "./images/preview/gaming/Payday 2 what is love.png",
-    "./images/preview/anime/Black clover opening 2.png",
-    "./images/preview/anime/Horror.png",
-    "./images/preview/animals/Pony parade.png",
     "./images/preview/anime/Midoriya toga.png",
-    "./images/preview/anime/Gakkou gurashi kurumi.png",
-    "./images/preview/anime/Tokyo goule.png",
+    "./images/preview/anime/Horror.png",
     "./images/preview/anime/Shooting time.png",
     "./images/preview/anime/Wandering witch the journey of elaina.png",
-    "./images/preview/art/Scifi.png",
+    "./images/preview/anime/Tokyo goule.png",
     "./images/preview/art/Corasair collection.png",
+    "./images/preview/art/Golden city.png",
+    "./images/preview/art/Scifi.png",
+    "./images/preview/gaming/Among us 2.png",
     "./images/preview/gaming/Among us bouncing around.png",
     "./images/preview/gaming/Among us ejected.png",
     "./images/preview/gaming/Gamer.png",
-    "./images/preview/art/Golden city.png",
-    "./images/preview/gaming/Among us 2.png"
+    "./images/preview/gaming/Hollow knight.png",
+    "./images/preview/gaming/Payday 2 what is love.png",
+    "./images/preview/gaming/Undertale your soulmate.png",
+    "./images/preview/movies/Stranger things intro opening credits.png",
+    "./images/preview/particle/Golden 48569.png",
+    "./images/preview/particle/Shockwave.png"
   ],
   "Other": [
     "./images/preview/animals/Cat space glasses.png",
@@ -516,6 +512,7 @@
     "./images/preview/space/Space girl.png",
     "./images/preview/space/Stars fall.png",
     "./images/preview/space/Space journey.png",
-    "./images/preview/space/Wind mills.png"
+    "./images/preview/space/Wind mills.png",
+    "./images/preview/anime/Midoriya toga.png"
   ]
 }
