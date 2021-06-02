@@ -56,10 +56,14 @@ finally{
 function convertToSVG(file){
     if(file == null){return;}
     var out = `${file}.svg`
- 
-    potrace.posterize(file, function(err, svg) {
-        if (err) throw err;
-        fs.writeFileSync(out, svg);
-        console.log(`INFO: ${file} Converted`.cyan);
-    });
+    
+    try {
+        potrace.posterize(file, function(err, svg) {
+            if (err) throw err;
+            fs.writeFileSync(out, svg);
+            console.log(`INFO: ${file} Converted`.cyan);
+        });
+    } catch (error) {
+        console.log(`ERROR: ${error}`.red);
+    }
 }
