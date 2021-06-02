@@ -25,18 +25,7 @@ Object.keys(nconf.stores).forEach(function(name){
             if(nconf.get(`${test}:${i}`).slice(count - 3, count) == "mp4"){
                 var fileName = nconf.get(`${test}:${i}`).slice(0, count - 4);
                 if(fs.existsSync(`${testFolder}/preview/${test}/${fileName}.png`)){
-                    Jimp.read(`${testFolder}/preview/${test}/${fileName}.png`)
-                    .then(image => {
-                        if(image.getHeight() != 1080 || image.getWidth() != 1920){
-                            image.resize(1920, 1080);
-                            image.write(`${testFolder}/preview/${test}/${fileName}.png`);
-                            console.log(`INFO: ${testFolder}/preview/${test}/${fileName}.png`.cyan, 'Resized !'.gray);
-                        }
-                    })
-                    .catch(err => {
-                        console.error(err);
-                        console.log(`ERROR: ${testFolder}/preview/${test}/${fileName}.png`.red);
-                    });
+                    resize(`${testFolder}/preview/${test}/${fileName}.png`);
                 }
             }
         }
@@ -44,3 +33,18 @@ Object.keys(nconf.stores).forEach(function(name){
 });
 
 console.log('Done!'.green);
+
+function resize(file){
+    Jimp.read(file)
+    .then(image => {
+        if(image.getHeight() != 1080 && image.getWidth() != 1920){
+            image.resize(1920, 1080)
+            .write(file);
+            console.log(`INFO: ${file}`.cyan, 'Resized !'.gray);
+        }
+    })
+    .catch(err => {
+        console.error(err);
+        console.log(`ERROR: ${file}.png`.red);
+    });
+}

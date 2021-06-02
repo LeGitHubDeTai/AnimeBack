@@ -54,9 +54,8 @@ finally{
 }
 
 function convertToSVG(file){
-    return;
     if(file == null){return;}
-    var out = `${file}.svg`
+    var out = `${file.replace('png', 'svg')}`
     
     try {
         potrace.posterize(file, function(err, svg) {
