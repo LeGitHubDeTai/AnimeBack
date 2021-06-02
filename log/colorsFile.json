@@ -1,11 +1,15 @@
 {
   "Black": [
-    "./images/preview/gaming/Metal gear solid v big boss.png",
-    "./images/preview/gaming/Among us 2.png",
-    "./images/preview/gaming/Gamer.png",
-    "./images/preview/gaming/Payday 2 what is love.png",
-    "./images/preview/gaming/Hollow knight.png",
-    "./images/preview/gaming/Resident evil 2 remake.png"
+    "./images/preview/gaming/Resident evil 2 remake.png",
+    "./images/preview/gaming/Among us bouncing around.png",
+    "./images/preview/gaming/Skyrim cat.png",
+    "./images/preview/gaming/Skyrim enderal meditation.png",
+    "./images/preview/gaming/Skyrim.png",
+    "./images/preview/gaming/Star guardian soraka league of legends.png",
+    "./images/preview/gaming/Soma.png",
+    "./images/preview/gaming/The division.png",
+    "./images/preview/gaming/Terraria the destroyer.png",
+    "./images/preview/gaming/The emperor.png"
   ],
   "Other": [
     "./images/preview/animals/Cat space glasses.png",
@@ -379,6 +383,19 @@
     "./images/preview/gaming/Razer chroma.png",
     "./images/preview/gaming/Red dead redemption 2.png",
     "./images/preview/gaming/Red dead redemption 2 arthur morgan his good girl.png",
-    "./images/preview/gaming/Zelda cyber link.png"
+    "./images/preview/gaming/Zelda cyber link.png",
+    "./images/preview/gaming/Rocket league.png",
+    "./images/preview/gaming/Resident evil 2 remake.png",
+    "./images/preview/gaming/Ruiner no file.png",
+    "./images/preview/gaming/Resident evil 4 leon s kennedy.png",
+    "./images/preview/gaming/Showcasing halo infinite.png",
+    "./images/preview/gaming/Rog rgb 4k.png",
+    "./images/preview/gaming/Star wars battlefront darth vader.png",
+    "./images/preview/gaming/Spiral knights.png",
+    "./images/preview/gaming/StarCitizen.png",
+    "./images/preview/gaming/Stalker.png",
+    "./images/preview/gaming/Super mario odyssey.png",
+    "./images/preview/gaming/Summer pockets.png",
+    "./images/preview/gaming/The last of us loading screen.png"
   ]
 }
