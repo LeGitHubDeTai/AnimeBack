@@ -48,6 +48,8 @@ try {
                         } else {
                             files_.push(name);
                             
+                            if(name.lastIndexOf('.svg')){return;}
+
                             var tester = false,
                                 ext = "null";
                             if(fs.existsSync(`${name.replace('png', 'mp4').replace('preview/', '')}`)){

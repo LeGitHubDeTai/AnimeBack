@@ -60,6 +60,6 @@ function convertToSVG(file){
     potrace.posterize(file, function(err, svg) {
         if (err) throw err;
         fs.writeFileSync(out, svg);
-        console.log(`INFO: ${file} Converted`);
+        console.log(`INFO: ${file} Converted`.cyan);
     });
 }
