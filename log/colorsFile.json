@@ -1,13 +1,11 @@
 {
   "Black": [
-    "./images/preview/anime/Demonslayer butterfly.png",
-    "./images/preview/anime/Gakkou gurashi kurumi.png",
     "./images/preview/anime/Gun gale online.png",
-    "./images/preview/anime/Hatsune miku.png",
     "./images/preview/anime/Horror.png",
-    "./images/preview/anime/Illyasviel von einzbern.png",
-    "./images/preview/anime/Howls moving castle.png",
-    "./images/preview/anime/Jeanne.png"
+    "./images/preview/anime/Kabaneri of the iron fortress mumei.png",
+    "./images/preview/anime/Kiyohime.png",
+    "./images/preview/anime/Kochiya sanae.png",
+    "./images/preview/anime/La pucelle.png"
   ],
   "Other": [
     "./images/preview/animals/Cat space glasses.png",
@@ -123,6 +121,20 @@
     "./images/preview/anime/Horimiya sakura.png",
     "./images/preview/anime/Horimiya.png",
     "./images/preview/anime/Itachi naruto sharingan.png",
-    "./images/preview/anime/Itachi uchiha.png"
+    "./images/preview/anime/Itachi uchiha.png",
+    "./images/preview/anime/Gun gale online.png",
+    "./images/preview/anime/Hatsune miku.png",
+    "./images/preview/anime/Howls moving castle.png",
+    "./images/preview/anime/Illyasviel von einzbern.png",
+    "./images/preview/anime/Jeanne.png",
+    "./images/preview/anime/Jojos bizarre adventure cosmic meeting.png",
+    "./images/preview/anime/Jojos bizarre adventure giorno giovanna.png",
+    "./images/preview/anime/Jojos bizarre adventure.png",
+    "./images/preview/anime/Jojos bizarre adventure vento aureo.png",
+    "./images/preview/anime/K on christmas.png",
+    "./images/preview/anime/Kimi no na wa.png",
+    "./images/preview/anime/Krul tepes owari no seraph.png",
+    "./images/preview/anime/Kyouko kirigiri danganronpa.png",
+    "./images/preview/anime/Lady omen alice.png"
   ]
 }
