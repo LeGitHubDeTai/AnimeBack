@@ -1,15 +1,13 @@
 {
   "Black": [
-    "./images/preview/anime/Ponyo.png",
     "./images/preview/anime/Shelter.png",
-    "./images/preview/anime/Shooting time.png",
-    "./images/preview/anime/Silent voice koe no katachi.png",
-    "./images/preview/anime/Snow girl.png",
-    "./images/preview/anime/Steins gate 0 arc light of the sky.png",
-    "./images/preview/anime/Telephone booth.png",
-    "./images/preview/anime/Sword art online kiritoxasuna.png",
     "./images/preview/anime/Tokyo goule.png",
-    "./images/preview/anime/Towards the light.png"
+    "./images/preview/anime/Violet evergarden sincerely.png",
+    "./images/preview/anime/Wandering witch the journey of elaina.png",
+    "./images/preview/anime/Wind chimes.png",
+    "./images/preview/anime/Your lie in april.png",
+    "./images/preview/anime/Yukinoshita.png",
+    "./images/preview/art/Arsenal.png"
   ],
   "Other": [
     "./images/preview/animals/Cat space glasses.png",
@@ -176,6 +174,18 @@
     "./images/preview/anime/Shenron.png",
     "./images/preview/anime/Spice wolf holo.png",
     "./images/preview/anime/Totoro 2.png",
-    "./images/preview/anime/Twin neko.png"
+    "./images/preview/anime/Twin neko.png",
+    "./images/preview/anime/Shelter.png",
+    "./images/preview/anime/Silent voice koe no katachi.png",
+    "./images/preview/anime/Snow girl.png",
+    "./images/preview/anime/Telephone booth.png",
+    "./images/preview/anime/Steins gate 0 arc light of the sky.png",
+    "./images/preview/anime/Sword art online kiritoxasuna.png",
+    "./images/preview/anime/Towards the light.png",
+    "./images/preview/anime/Violet evergarden.png",
+    "./images/preview/anime/Your lie for april.png",
+    "./images/preview/animeback/AnimeBack.png",
+    "./images/preview/animeback/Animeback illusioner.png",
+    "./images/preview/art/Artifact.png"
   ]
 }
