@@ -28,7 +28,6 @@ function getFiles (dir, files_){
             rimraf.sync(`${name}/*.sfk`);
             rimraf.sync(`${name}/*.crdownload`);
             rimraf.sync(`${name}/*-1920.png`);
-            rimraf.sync(`${name}/*.svg`);
             if(name == "./images/preview"){
                 rimraf.sync(`${name}/.json`);
             }
