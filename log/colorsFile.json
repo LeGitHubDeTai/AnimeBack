@@ -1,9 +1,13 @@
 {
   "Black": [
-    "./images/preview/landscape/Monday chill (VJ loop 009).png",
-    "./images/preview/movies/Doctor who 2.png",
     "./images/preview/movies/Spiderman.png",
-    "./images/preview/movies/Stranger things intro opening credits.png"
+    "./images/preview/particle/3d particle.png",
+    "./images/preview/particle/Golden 48569.png",
+    "./images/preview/particle/Shockwave.png",
+    "./images/preview/space/Deep space.png",
+    "./images/preview/space/Drowning in space.png",
+    "./images/preview/space/Outside the earth.png",
+    "./images/preview/space/Sci fi world the ring.png"
   ],
   "Other": [
     "./images/preview/animals/Cat space glasses.png",
@@ -472,6 +476,22 @@
     "./images/preview/movies/Terminator genisys.png",
     "./images/preview/movies/Venom.png",
     "./images/preview/movies/Walt disney studios.png",
-    "./images/preview/movies/Whats up danger spiderman.png"
+    "./images/preview/movies/Whats up danger spiderman.png",
+    "./images/preview/movies/Spiderman.png",
+    "./images/preview/particle/AE plexus 1080i.png",
+    "./images/preview/particle/Blue particle.png",
+    "./images/preview/particle/Pink particle.png",
+    "./images/preview/space/2nd gen by fred gambino.png",
+    "./images/preview/space/3D earth loop.png",
+    "./images/preview/space/4k earth at night lights 3d.png",
+    "./images/preview/space/Astro in space.png",
+    "./images/preview/space/Floating full hD.png",
+    "./images/preview/space/Galaxy in glass from bottle.png",
+    "./images/preview/space/Nebula by tim.png",
+    "./images/preview/space/Noire night v2.png",
+    "./images/preview/space/Nebula.png",
+    "./images/preview/space/Science fiction planet.png",
+    "./images/preview/space/Singularity.png",
+    "./images/preview/space/Solar system.png"
   ]
 }
