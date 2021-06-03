@@ -33,7 +33,7 @@ try {
                                 getFiles(name, files_);
                             } else {
                                 files_.push(name);
-                                if(!name.lastIndexOf('.webp')){
+                                if(name.lastIndexOf('.webp') == -1){
                                     if(fs.existsSync(`${name}`)){
                                         if(!fs.existsSync(`${name.replace('png', 'webp')}`)){
                                             convertToSVG(name);
@@ -62,7 +62,6 @@ function convertToSVG(file){
     sharp(file)
     .webp()
     .toFile(out, (err, data) => {
-        console.log(err);
-        console.log(data);
+        console.log(`INFO: ${file} Converted`.cyan);
     })
 }
