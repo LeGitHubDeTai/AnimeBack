@@ -18,6 +18,9 @@ jobs:
           name: Install ffmpeg
           command: sudo apt update && sudo apt install ffmpeg && ffmpeg -version
       - run:
+          name: Install python
+          command: sudo apt install python3.8 && python ––version
+      - run:
           name: "Execute all system"
           command: bash ./script/auto.sh
 
