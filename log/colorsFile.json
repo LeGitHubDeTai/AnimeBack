@@ -1,9 +1,9 @@
 {
   "Black": [
-    "./images/preview/animals/Wake up.png",
     "./images/preview/animated/Cyberpunk anime girl.png",
-    "./images/preview/animated/Falling asleep.png",
-    "./images/preview/animated/Imitation of princess mononoke.png"
+    "./images/preview/animated/The thorn in the ordinary day.png",
+    "./images/preview/animated/Young jinyiwei.png",
+    "./images/preview/anime/Aion.png"
   ],
   "Other": [
     "./images/preview/animals/Cat space glasses.png",
@@ -49,6 +49,28 @@
     "./images/preview/animated/Lo fi girl 1 am.png",
     "./images/preview/animated/Night city streets.png",
     "./images/preview/animated/Oni mask.png",
-    "./images/preview/animated/Momo in the cityscape.png"
+    "./images/preview/animated/Momo in the cityscape.png",
+    "./images/preview/animated/Cyberpunk anime girl.png",
+    "./images/preview/animated/Falling asleep.png",
+    "./images/preview/animated/Imitation of princess mononoke.png",
+    "./images/preview/animated/Pain.png",
+    "./images/preview/animated/Persica.png",
+    "./images/preview/animated/Portal to a new world.png",
+    "./images/preview/animated/Princess ghost blade.png",
+    "./images/preview/animated/Rewind.png",
+    "./images/preview/animated/Room.png",
+    "./images/preview/animated/Samurai girl.png",
+    "./images/preview/animated/Shinobi.png",
+    "./images/preview/animated/Shipwreck.png",
+    "./images/preview/animated/Smoke.png",
+    "./images/preview/animated/Snowing kimono.png",
+    "./images/preview/animated/Sorceress.png",
+    "./images/preview/animated/The incarnation of dawn.png",
+    "./images/preview/animated/Vending machine.png",
+    "./images/preview/animated/Traveling companions cyberpunk city.png",
+    "./images/preview/animated/Where is the star.png",
+    "./images/preview/anime/All might my hero academia.png",
+    "./images/preview/anime/Anime art devushka neko.png",
+    "./images/preview/anime/Anime crossover one punch man and attack on titan.png"
   ]
 }
