@@ -1,14 +1,16 @@
 {
   "Black": [
-    "./images/preview/anime/Shelter.png",
-    "./images/preview/anime/Shooting time.png",
-    "./images/preview/anime/Tokyo goule.png",
-    "./images/preview/anime/Wandering witch the journey of elaina.png",
     "./images/preview/anime/Wind chimes.png",
-    "./images/preview/anime/Your lie in april.png",
-    "./images/preview/anime/Yukinoshita.png",
-    "./images/preview/art/Arsenal.png",
-    "./images/preview/art/Citylife.png"
+    "./images/preview/anime/Tokyo goule.png",
+    "./images/preview/art/Corasair collection.png",
+    "./images/preview/art/Demon core.png",
+    "./images/preview/art/Dna fragment.png",
+    "./images/preview/art/Eagle flag.png",
+    "./images/preview/art/Golden city.png",
+    "./images/preview/art/Her room.png",
+    "./images/preview/art/Hooded kitty neon cyberpunk.png",
+    "./images/preview/art/I need speed.png",
+    "./images/preview/art/Meditation.png"
   ],
   "Other": [
     "./images/preview/animals/Cat space glasses.png",
@@ -193,6 +195,19 @@
     "./images/preview/art/Autumn rain.png",
     "./images/preview/art/Ball windows 10.png",
     "./images/preview/art/Calm but cold evening.png",
-    "./images/preview/art/Blue fire.png"
+    "./images/preview/art/Blue fire.png",
+    "./images/preview/anime/Wind chimes.png",
+    "./images/preview/art/Arsenal.png",
+    "./images/preview/anime/Your lie in april.png",
+    "./images/preview/anime/Yukinoshita.png",
+    "./images/preview/art/Citylife.png",
+    "./images/preview/art/Cozy room.png",
+    "./images/preview/art/Dragon attacks ship.png",
+    "./images/preview/art/Floating cube.png",
+    "./images/preview/art/Ice dragon vera velichko.png",
+    "./images/preview/art/Jellyfish ocean gift.png",
+    "./images/preview/art/Lumo by jaime staite.png",
+    "./images/preview/art/Macintosh t rex audio.png",
+    "./images/preview/art/Matter.png"
   ]
 }
