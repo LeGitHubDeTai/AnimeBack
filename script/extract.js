@@ -88,7 +88,7 @@ finally{
 }
 
 function extractMp4(test, fileName, ext){
-    if(tempBuf > 50){return;}
+    if(tempBuf > 10){return;}
     tempBuf++;
     if(!old["Black"].includes(`${testFolder}/preview/${test}/${fileName}.png`)){
         extractFrames({input: `${testFolder}/${test}/${fileName}.${ext}`, output: `${testFolder}/preview/${test}/${fileName}.png`,offsets: [1]});

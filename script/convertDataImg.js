@@ -11,7 +11,7 @@
 var colors = require('colors');
 const fs = require('fs');
 const nconf = require('nconf');
-var potrace = require('potrace');
+var sharp = require('sharp');
 
 var config = `./log/colorsFile.json`;
 nconf.file(config);
@@ -33,9 +33,9 @@ try {
                                 getFiles(name, files_);
                             } else {
                                 files_.push(name);
-                                if(!name.lastIndexOf('.svg')){
+                                if(!name.lastIndexOf('.webp')){
                                     if(fs.existsSync(`${name}`)){
-                                        if(!fs.existsSync(`${name}.svg`)){
+                                        if(!fs.existsSync(`${name}.webp`)){
                                             convertToSVG(name);
                                         }
                                     }
@@ -57,15 +57,12 @@ finally{
 
 function convertToSVG(file){
     if(file == null){return;}
-    var out = `${file.replace('png', 'svg')}`
-    
-    try {
-        potrace.posterize(file, function(err, svg) {
-            if (err) throw err;
-            fs.writeFileSync(out, svg);
-            console.log(`INFO: ${file} Converted`.cyan);
-        });
-    } catch (error) {
-        console.log(`ERROR: ${error}`.red);
-    }
+    var out = `${file.replace('png', 'webp')}`
+
+    sharp(file)
+    .webp()
+    .toFile(out, (err, data) => {
+        console.log(err);
+        console.log(data);
+    })
 }
