@@ -12,7 +12,8 @@ var colors = require('colors');
 const fs = require('fs');
 const path = require('path');
 const nconf = require('nconf');
-var Jimp = require('jimp');
+const sharp = require('sharp');
+const imagemin = require('imagemin');
 const testFolder = './images';
 var config = `${testFolder}/categories.json`;
 
@@ -25,7 +26,7 @@ Object.keys(nconf.stores).forEach(function(name){
             if(nconf.get(`${test}:${i}`).slice(count - 3, count) == "mp4"){
                 var fileName = nconf.get(`${test}:${i}`).slice(0, count - 4);
                 if(fs.existsSync(`${testFolder}/preview/${test}/${fileName}.png`)){
-                    resize(`${testFolder}/preview/${test}/${fileName}.png`);
+                    resize(`${testFolder}/preview/${test}/${fileName}.png`, 1920, 1080);
                 }
             }
         }
@@ -34,18 +35,26 @@ Object.keys(nconf.stores).forEach(function(name){
 
 console.log('Done!'.green);
 
-function resize(file){
-    if(file.lastIndexOf('.webp')){return;}
-    Jimp.read(file)
-    .then(image => {
-        if(image.getHeight() != 1080 && image.getWidth() != 1920){
-            image.resize(1920, 1080)
-            .write(file);
-            console.log(`INFO: ${file}`.cyan, 'Resized !'.gray);
-        }
-    })
-    .catch(err => {
-        console.error(err);
-        console.log(`ERROR: ${file}`.red);
-    });
-}
+
+function resize(file, size, size2) {
+    const newFile = file;
+
+    // skip files that are up to date
+    if (
+      fs.existsSync(newFile) &&
+      fs.statSync(newFile).mtime > fs.statSync(file).mtime
+    ) {
+      return Promise.resolve(null)
+    }
+
+    console.log(`INFO: ${file}`.cyan, 'Resized !'.gray);
+    
+    return (
+      sharp(fs.readFileSync(file))
+        .resize(size, size2, { fit: 'cover' })
+        .toFormat('png')
+        .toBuffer()
+        .then((buf) => imagemin.buffer(buf))
+        .then((buf) => fs.writeFileSync(newFile, buf))
+    )
+} 
