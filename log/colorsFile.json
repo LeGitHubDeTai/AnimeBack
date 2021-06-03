@@ -1,8 +1,9 @@
 {
   "Black": [
-    "./images/preview/animals/Pony parade.png",
     "./images/preview/animals/Wake up.png",
-    "./images/preview/animals/Whale and sea.png"
+    "./images/preview/animated/Cyberpunk anime girl.png",
+    "./images/preview/animated/Falling asleep.png",
+    "./images/preview/animated/Imitation of princess mononoke.png"
   ],
   "Other": [
     "./images/preview/animals/Cat space glasses.png",
@@ -27,6 +28,27 @@
     "./images/preview/animals/Winter fox.png",
     "./images/preview/animals/Wolf stare in the snow.png",
     "./images/preview/movies/Doctor who.png",
-    "./images/preview/animated/A different reindeer dao trong le art.png"
+    "./images/preview/animated/A different reindeer dao trong le art.png",
+    "./images/preview/animals/Wake up.png",
+    "./images/preview/animated/Amelia watson.png",
+    "./images/preview/animated/Anime art.png",
+    "./images/preview/animated/Android.png",
+    "./images/preview/animated/Auquaman mera.png",
+    "./images/preview/animated/Commence onslaught.png",
+    "./images/preview/animals/Whale and sea.png",
+    "./images/preview/animated/Cyberpunk combat cyborg.png",
+    "./images/preview/animated/Cyberpunk cybergirl.png",
+    "./images/preview/animated/Cyberpunk rain firework.png",
+    "./images/preview/animated/Enchanted terraces.png",
+    "./images/preview/animated/Exercise cyberpunk.png",
+    "./images/preview/animated/Fantasy woman.png",
+    "./images/preview/animated/Ellenuviel fantasy girl.png",
+    "./images/preview/animated/Futuristic samurai.png",
+    "./images/preview/animated/Half devil lancer girl.png",
+    "./images/preview/animated/Game of thrones drogon in battle.png",
+    "./images/preview/animated/Lo fi girl 1 am.png",
+    "./images/preview/animated/Night city streets.png",
+    "./images/preview/animated/Oni mask.png",
+    "./images/preview/animated/Momo in the cityscape.png"
   ]
 }
