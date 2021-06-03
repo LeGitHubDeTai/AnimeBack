@@ -35,6 +35,7 @@ Object.keys(nconf.stores).forEach(function(name){
 console.log('Done!'.green);
 
 function resize(file){
+    if(file.lastIndexOf('.webp')){return;}
     Jimp.read(file)
     .then(image => {
         if(image.getHeight() != 1080 && image.getWidth() != 1920){
@@ -45,6 +46,6 @@ function resize(file){
     })
     .catch(err => {
         console.error(err);
-        console.log(`ERROR: ${file}.png`.red);
+        console.log(`ERROR: ${file}`.red);
     });
 }
