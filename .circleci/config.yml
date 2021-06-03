@@ -14,15 +14,12 @@ jobs:
       Discord_Token: $Discord_Token
     steps:
       - checkout
-      parallelism: 0
       - run:
           name: Install ffmpeg
           command: sudo apt update && sudo apt install ffmpeg && ffmpeg -version
-          parallelism: 1
       - run:
           name: Install python
           command: sudo apt-get install software-properties-common && sudo add-apt-repository ppa:deadsnakes/ppa && sudo apt-get update && sudo apt install python3.8 && python ––version
-          parallelism: 2
       - run:
           name: "Execute all system"
           command: bash ./script/auto.sh
