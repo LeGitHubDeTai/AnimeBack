@@ -8,6 +8,7 @@
     "test": "npm run build",
     "build": "npm-run-all build:*",
     "build:TS": "node ./script/TS_logo.js",
+    "build:youtube": "node ./script/youtube.js",
     "build:rename": "node ./script/rename.js",
     "build:wizard": "node ./script/wizard.js",
     "build:extract": "node ./script/extract.js",
@@ -39,6 +40,7 @@
   "homepage": "https://github.com/LeGitHubDeTai/AnimeBack#readme",
   "dependencies": {
     "colors": "^1.4.0",
+    "decompose-url": "^0.1.2",
     "ffmpeg": "^0.0.4",
     "ffmpeg-extract-frames": "^2.0.2",
     "fluent-ffmpeg": "^2.1.2",
@@ -54,6 +56,7 @@
     "request": "^2.88.2",
     "rimraf": "^3.0.2",
     "sharp": "^0.28.3",
-    "util": "^0.12.3"
+    "util": "^0.12.3",
+    "youtube-dl-progress": "^1.13.3"
   }
 }
