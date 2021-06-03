@@ -13,6 +13,10 @@ const fs = require('fs');
 const nconf = require('nconf');
 var sharp = require('sharp');
 
+if(fs.existsSync('./log/colorsFile.json')){
+    var old = require('../log/colorsFile.json');
+}
+
 var config = `./log/colorsFile.json`;
 nconf.file(config);
 
@@ -35,7 +39,8 @@ try {
                                 files_.push(name);
                                 if(name.lastIndexOf('.webp') == -1){
                                     if(fs.existsSync(`${name}`)){
-                                        if(!fs.existsSync(`${name.replace('png', 'webp')}`)){
+                                        if(old == null){return;}
+                                        if(!old['Black'].includes(name)){
                                             convertToSVG(name);
                                         }
                                     }
