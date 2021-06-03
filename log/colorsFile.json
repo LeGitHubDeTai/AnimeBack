@@ -1,15 +1,14 @@
 {
   "Black": [
-    "./images/preview/anime/Howls moving castle.png",
     "./images/preview/anime/Kiyohime.png",
-    "./images/preview/anime/Kochiya sanae.png",
-    "./images/preview/anime/Lillie.png",
     "./images/preview/anime/Midoriya toga.png",
-    "./images/preview/anime/Nakano azusa in snow.png",
-    "./images/preview/anime/No game no life zero.png",
-    "./images/preview/anime/La pucelle.png",
-    "./images/preview/anime/Gakkou gurashi kurumi.png",
-    "./images/preview/anime/Black clover opening 2.png"
+    "./images/preview/anime/One punch man.png",
+    "./images/preview/anime/Overlord silent solitude.png",
+    "./images/preview/anime/Ponyo.png",
+    "./images/preview/anime/Raphtalia in the rain.png",
+    "./images/preview/anime/Rem christmas rezero.png",
+    "./images/preview/anime/Sakura saber.png",
+    "./images/preview/anime/Sakura scattered.png"
   ],
   "Other": [
     "./images/preview/animals/Cat space glasses.png",
@@ -148,6 +147,21 @@
     "./images/preview/anime/My neighbor totoro nap time.png",
     "./images/preview/anime/Naruto.png",
     "./images/preview/anime/Night magic girl.png",
-    "./images/preview/animated/Aeolion.png"
+    "./images/preview/animated/Aeolion.png",
+    "./images/preview/anime/Kiyohime.png",
+    "./images/preview/anime/Kochiya sanae.png",
+    "./images/preview/anime/La pucelle.png",
+    "./images/preview/anime/Lillie.png",
+    "./images/preview/anime/Nakano azusa in snow.png",
+    "./images/preview/anime/No game no life zero.png",
+    "./images/preview/anime/Overlord albedo.png",
+    "./images/preview/anime/Pokemon first generation charizard fly.png",
+    "./images/preview/anime/Pokemon mewtwo mew.png",
+    "./images/preview/anime/Relaxing radio.png",
+    "./images/preview/anime/Rezero rem by rui li.png",
+    "./images/preview/anime/Rivendel.png",
+    "./images/preview/anime/Saber artoria pendragon fate stay night.png",
+    "./images/preview/anime/SSJ rose godlik3.png",
+    "./images/preview/anime/Sailor moon mars rainy.png"
   ]
 }
