@@ -35,7 +35,7 @@ try {
                                 files_.push(name);
                                 if(!name.lastIndexOf('.webp')){
                                     if(fs.existsSync(`${name}`)){
-                                        if(!fs.existsSync(`${name}.webp`)){
+                                        if(!fs.existsSync(`${name.replace('png', 'webp')}`)){
                                             convertToSVG(name);
                                         }
                                     }
