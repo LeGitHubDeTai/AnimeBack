@@ -27,7 +27,7 @@ function getFiles (dir, files_){
                     getFiles(name, files_);
                 } else {
                     files_.push(name);
-                    var newName = dir + '/' +capitalizeFirstLetter(lowersWords(files[i]));
+                    var newName = dir + '/' + capitalizeFirstLetter(lowersWords(files[i]));
                    
                     var renamer = getFirstLetter(newName);
                         renamer = replaceAll(renamer, 'wallpaper', '');
