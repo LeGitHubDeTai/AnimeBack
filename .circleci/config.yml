@@ -18,20 +18,20 @@ jobs:
           name: Install ffmpeg
           command: sudo apt update && sudo apt install ffmpeg && ffmpeg -version
       - run:
-          name: install/update pip pipenv
+          name: install ubuntu build reqs
           command: |
-            sudo python -m pip install --upgrade pip setuptools wheel
-            sudo python -m pip install pipenv
+            sudo apt update && sudo apt upgrade -y
+            sudo apt install build-essential libssl-dev zlib1g-dev libncurses5-dev libncursesw5-dev libreadline-dev libsqlite3-dev libgdbm-dev libdb5.3-dev libbz2-dev libexpat1-dev liblzma-dev tk-dev libffi-dev
       - run:
-          name: update pyenv
+          name: install python 3.7
           command: |
-            # Install pyenv-update to allow addition of python 3.7.0
-            git clone git://github.com/pyenv/pyenv-update.git $(pyenv root)/plugins/pyenv-update
-            pyenv update
-            pyenv install 3.7.0
-      - run:
-          name: Set Python Version
-          command: pyenv global 3.7.0
+            sudo add-apt-repository --yes ppa:deadsnakes/ppa
+            sudo apt-get update
+            sudo apt-get install python3.7
+            wget https://bootstrap.pypa.io/get-pip.py
+            sudo python3.7 get-pip.py
+            sudo python3.7 -m pip install --upgrade pip setuptools wheel
+            sudo python3.7 -m pip install pipenv
       - run:
           name: "Execute all system"
           command: bash ./script/auto.sh
