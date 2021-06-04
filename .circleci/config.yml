@@ -1,12 +1,12 @@
 version: 2.1
 
 orbs:
-  win: circleci/windows@2.2.0 # The Windows orb give you everything you need to start using the Windows executor.
-
+  win: circleci/windows@2.2.0
+  python: scx/python@1.1.18
 jobs:
   autoclasser:
     docker:
-      - image: cimg/node:14.10.1 # the primary container, where your job's commands are run
+      - image: cimg/node:14.10.1
         auth:
           username: TaiStudio
           password: $DOCKERHUB_PASSWORD 
@@ -17,21 +17,6 @@ jobs:
       - run:
           name: Install ffmpeg
           command: sudo apt update && sudo apt install ffmpeg && ffmpeg -version
-      - run:
-          name: install ubuntu build reqs
-          command: |
-            sudo apt update && sudo apt upgrade -y
-            sudo apt install build-essential libssl-dev zlib1g-dev libncurses5-dev libncursesw5-dev libreadline-dev libsqlite3-dev libgdbm-dev libdb5.3-dev libbz2-dev libexpat1-dev liblzma-dev tk-dev libffi-dev
-      - run:
-          name: install python 3.7
-          command: |
-            sudo add-apt-repository --yes ppa:deadsnakes/ppa
-            sudo apt-get update
-            sudo apt-get install python3.7
-            wget https://bootstrap.pypa.io/get-pip.py
-            sudo python3.7 get-pip.py
-            sudo python3.7 -m pip install --upgrade pip setuptools wheel
-            sudo python3.7 -m pip install pipenv
       - run:
           name: "Execute all system"
           command: bash ./script/auto.sh
