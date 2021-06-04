@@ -1,5 +1,5 @@
 {
-    "schedule": "daily", // daily|weekly|monthly
+    "schedule": "daily",
     "ignoredFiles": [
         "icon.png",
         "assets/*",
