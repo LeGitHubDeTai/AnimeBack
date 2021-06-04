@@ -31,7 +31,7 @@ function getFiles (dir, files_){
             if(name == "./images/preview"){
                 rimraf.sync(`${name}/.json`);
             }
-            console.log(name)
+            console.log(`INFO: Clean ${name}`.cyan)
             getFiles(name, files_);
         }
     }
