@@ -1,14 +1,12 @@
 {
   "Black": [
-    "./images/preview/animals/Pony parade.png",
-    "./images/preview/anime/Black clover opening 2.png",
-    "./images/preview/gaming/Payday 2 what is love.png",
-    "./images/preview/anime/Tokyo goule.png",
+    "./images/preview/anime/Girl and fireflies.png",
     "./images/preview/anime/Midoriya toga.png",
-    "./images/preview/movies/Stranger things intro opening credits.png",
-    "./images/preview/particle/Shockwave.png",
+    "./images/preview/anime/Tokyo goule.png",
+    "./images/preview/gaming/Payday 2 what is love.png",
     "./images/preview/movies/Doctor who 2.png",
-    "./images/preview/anime/Girl and fireflies.png"
+    "./images/preview/particle/Shockwave.png",
+    "./images/preview/movies/Stranger things intro opening credits.png"
   ],
   "Other": [
     "./images/preview/particle/Golden 48569.png",
@@ -527,6 +525,10 @@
     "./images/preview/anime/ black clover charmy.png",
     "./images/preview/anime/Crossover one punch man and attack on titan.png",
     "./images/preview/anime/Devushka neko.png",
-    "./images/preview/gaming/Gaming katana zero.png"
+    "./images/preview/gaming/Gaming katana zero.png",
+    "./images/preview/anime/ black clover yami sukehiro.png",
+    "./images/preview/anime/ black clover yuno.png",
+    "./images/preview/anime/ jujutsu kaisen sukuna and itadori.png",
+    "./images/preview/anime/Girl and fireflies.png"
   ]
 }
