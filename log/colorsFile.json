@@ -6,7 +6,9 @@
     "./images/preview/gaming/Payday 2 what is love.png",
     "./images/preview/movies/Doctor who 2.png",
     "./images/preview/particle/Shockwave.png",
-    "./images/preview/movies/Stranger things intro opening credits.png"
+    "./images/preview/movies/Stranger things intro opening credits.png",
+    "./images/preview/animals/Pony parade.png",
+    "./images/preview/anime/Black clover opening 2.png"
   ],
   "Other": [
     "./images/preview/particle/Golden 48569.png",
@@ -529,6 +531,9 @@
     "./images/preview/anime/ black clover yami sukehiro.png",
     "./images/preview/anime/ black clover yuno.png",
     "./images/preview/anime/ jujutsu kaisen sukuna and itadori.png",
-    "./images/preview/anime/Girl and fireflies.png"
+    "./images/preview/anime/Girl and fireflies.png",
+    "./images/preview/anime/Jujutsu kaisen 2.png",
+    "./images/preview/cars/Jdm neon.png",
+    "./images/preview/gaming/Katana zero.png"
   ]
 }
