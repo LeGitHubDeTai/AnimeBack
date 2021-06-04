@@ -33,6 +33,7 @@ function getFiles (dir, files_){
                         renamer = replaceAll(renamer, '_', ' ');
                         renamer = replaceAll(renamer, '  ', ' ');
                         renamer = replaceAll(renamer, ' .', '.');
+                        renamer = replaceAll(renamer, ')', '');
                         renamer = replaceAll(renamer, 'wallpaper', '');
                         renamer = replaceAll(renamer, 'Wallpaper', '');
                         console.log(`INFO: ${renamer}`.cyan);
