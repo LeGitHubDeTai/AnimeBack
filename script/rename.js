@@ -28,14 +28,19 @@ function getFiles (dir, files_){
                 } else {
                     files_.push(name);
                     var newName = dir + '/' +capitalizeFirstLetter(lowersWords(files[i]));
-                    var renamer = replaceAll(newName, '-', ' ');
+                   
+                    var renamer = getFirstLetter(newName);
+                        renamer = replaceAll(renamer, 'wallpaper', '');
+                        renamer = replaceAll(renamer, 'Wallpaper', '');
+                        renamer = replaceAll(renamer, 'anime-', '');
+                        renamer = replaceAll(renamer, 'animated-', '');
+                        renamer = replaceAll(renamer, 'gaming-', '');
+                        renamer = replaceAll(newName, '-', ' ');
                         renamer = replaceAll(renamer, '-', ' ');
                         renamer = replaceAll(renamer, '_', ' ');
                         renamer = replaceAll(renamer, '  ', ' ');
                         renamer = replaceAll(renamer, ' .', '.');
                         renamer = replaceAll(renamer, ')', '');
-                        renamer = replaceAll(renamer, 'wallpaper', '');
-                        renamer = replaceAll(renamer, 'Wallpaper', '');
                         console.log(`INFO: ${renamer}`.cyan);
                     fs.renameSync(name, renamer);
                 }
@@ -56,5 +61,13 @@ function capitalizeFirstLetter(string) {
 function lowersWords(string) {
     return string.replace(/(?:^|\s)\S/g, function(a) { return a.toLowerCase(); });
 };
+function getFirstLetter(string) {
+    if(string.charAt(0) == " "){
+        return string.slice(1);
+    }
+    else{
+        return string;
+    }
+}
 
 console.log('Done!'.green);
