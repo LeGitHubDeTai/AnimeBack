@@ -18,13 +18,6 @@ jobs:
           name: Install ffmpeg
           command: sudo apt update && sudo apt install ffmpeg && ffmpeg -version
       - run:
-          name: update pyenv
-          command: |
-            # Install pyenv-update to allow addition of python 3.7.0
-            git clone git://github.com/pyenv/pyenv-update.git $(pyenv root)/plugins/pyenv-update
-            pyenv update
-            pyenv install 3.7.0
-      - run:
           name: Set Python Version
           command: pyenv global 3.7.0
       - run:
@@ -32,6 +25,13 @@ jobs:
           command: |
             sudo python -m pip install --upgrade pip setuptools wheel
             sudo python -m pip install pipenv
+      - run:
+          name: update pyenv
+          command: |
+            # Install pyenv-update to allow addition of python 3.7.0
+            git clone git://github.com/pyenv/pyenv-update.git $(pyenv root)/plugins/pyenv-update
+            pyenv update
+            pyenv install 3.7.0
       - run:
           name: "Execute all system"
           command: bash ./script/auto.sh
