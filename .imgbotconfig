@@ -4,6 +4,18 @@
         "icon.png",
         "assets/*",
         "images/animals/*",
+        "images/animated/*",
+        "images/anime/*",
+        "images/animeback/*",
+        "images/art/*",
+        "images/cars/*",
+        "images/christmas/*",
+        "images/generator/*",
+        "images/interactive/*",
+        "images/landscape/*",
+        "images/movies/*",
+        "images/particle/*",
+        "images/space/*"
     ],
     "aggressiveCompression": "true"
 }
