@@ -10,7 +10,10 @@
     "./images/preview/animals/Pony parade.png",
     "./images/preview/anime/Black clover opening 2.png",
     "./images/preview/gaming/Katana zero 4.png",
-    "./images/preview/anime/Hunter x hunter hisoka 2.png"
+    "./images/preview/anime/Hunter x hunter hisoka 2.png",
+    "./images/preview/anime/Gogeta ssj4 dragon ball gt.png",
+    "./images/preview/anime/Dragonball super vegeta.png",
+    "./images/preview/gaming/Dead by daylight purple huntress.png"
   ],
   "Other": [
     "./images/preview/particle/Golden 48569.png",
@@ -585,6 +588,13 @@
     "./images/preview/animated/Cyber girl.png",
     "./images/preview/gaming/Samus.png",
     "./images/preview/gaming/Spirit blossom festival league of legends.png",
-    "./images/preview/landscape/Night.png"
+    "./images/preview/landscape/Night.png",
+    "./images/preview/animated/The remains of a steam fighter.png",
+    "./images/preview/cars/Nissan skyline gtr32.png",
+    "./images/preview/gaming/Dead by daylight 2.png",
+    "./images/preview/gaming/Dead by daylight king of the hookstrapper.png",
+    "./images/preview/gaming/Dead by daylight legion.png",
+    "./images/preview/gaming/Dead by daylight the legion.png",
+    "./images/preview/gaming/Valorant omen.png"
   ]
 }
