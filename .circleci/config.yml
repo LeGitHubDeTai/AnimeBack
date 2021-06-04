@@ -2,7 +2,7 @@ version: 2.1
 
 orbs:
   win: circleci/windows@2.2.0
-  python: scx/python@1.1.18
+
 jobs:
   autoclasser:
     docker:
