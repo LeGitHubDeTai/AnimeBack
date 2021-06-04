@@ -1,0 +1,9 @@
+{
+    "schedule": "daily", // daily|weekly|monthly
+    "ignoredFiles": [
+        "icon.png",
+        "assets/*",
+        "images/animals/*",
+    ],
+    "aggressiveCompression": "true"
+}
