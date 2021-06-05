@@ -10,6 +10,7 @@
 
 var colors = require('colors');
 const fs = require('fs');
+const path = require('path');
 const nconf = require('nconf');
 var sharp = require('sharp');
 
@@ -32,7 +33,7 @@ try {
                 if(dir != `${testFolder}/generator`){ //remove
                     if(dir != `${testFolder}/interactive`){
                         if(files[i].slice(files[i].length - 5, files[i].length) != '.json'){
-                            var name = dir + '/' + files[i];
+                            var name = path.join(dir, files[i]);
                             if (fs.statSync(name).isDirectory()){
                                 getFiles(name, files_);
                             } else {

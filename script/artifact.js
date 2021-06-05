@@ -10,6 +10,7 @@
 
 var colors = require('colors');
 const fs = require('fs');
+const path = require('path');
 const nconf = require('nconf');
 const testFolder = './images';
 var config = `${testFolder}/categories.json`;
@@ -42,7 +43,7 @@ try {
                 var files = fs.readdirSync(dir);
                 for (var i in files){
                     if(dir != `${testFolder}/interactive`){
-                        var name = dir + '/' + files[i];
+                        var name = path.join(dir, files[i]);
                         if (fs.statSync(name).isDirectory()){
                             getFiles(name, files_);
                         } else {

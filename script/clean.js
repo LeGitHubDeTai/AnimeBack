@@ -10,6 +10,7 @@
 
 var colors = require('colors');
 const fs = require('fs');
+const path = require('path');
 const rimraf = require('rimraf');
 const testFolder = './images';
 const nconf = require('nconf');
@@ -23,7 +24,7 @@ function getFiles (dir, files_){
     files_ = files_ || [];
     var files = fs.readdirSync(dir);
     for (var i in files){
-        var name = dir + '/' + files[i];
+        var name = path.join(dir, files[i]);
         if (fs.statSync(name).isDirectory()){
             rimraf.sync(`${name}/*.sfk`);
             rimraf.sync(`${name}/*.crdownload`);

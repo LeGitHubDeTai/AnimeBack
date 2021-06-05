@@ -10,6 +10,7 @@
 
 var colors = require('colors');
 const fs = require('fs');
+const path = require('path');
 const testFolder = './images';
 
 if(fs.existsSync('./log/colorsFile.json')){
@@ -22,7 +23,7 @@ function getFiles (dir, files_){
     for (var i in files){
         if(dir != `${testFolder}/categories.json`){
             if(dir != `${testFolder}/interactive`){
-                var name = dir + '/' + files[i];
+                var name = path.join(dir, files[i]);
                 if (fs.statSync(name).isDirectory()){
                     getFiles(name, files_);
                 } else {

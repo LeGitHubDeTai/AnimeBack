@@ -10,6 +10,7 @@
 
 var colors = require('colors');
 const fs = require('fs');
+const path = require('path');
 const nconf = require('nconf');
 const testFolder = './images';
 var config = `${testFolder}/categories.json`;
@@ -28,12 +29,12 @@ function getFiles (dir, files_){
                 if(dir != `${testFolder}/animals/Categories.json`){
                     if(dir != `${testFolder}/generator`){ //remove
                         if(dir == `${testFolder}/interactive`){
-                            var name = dir + '/' + files[i];
+                            var name = path.join(dir, files[i]);
                             files_.push(name);
                             temp.push(files[i]);
                             nconf.set(`${dir.replace(`${testFolder}/`, '')}`, temp);
                         }else{
-                            var name = dir + '/' + files[i];
+                            var name = path.join(dir, files[i]);
                             if (fs.statSync(name).isDirectory()){
                                 getFiles(name, files_);
                                 temp = [];
