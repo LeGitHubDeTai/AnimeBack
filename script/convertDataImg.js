@@ -33,7 +33,7 @@ try {
                 if(dir != `${testFolder}/generator`){ //remove
                     if(dir != `${testFolder}/interactive`){
                         if(files[i].slice(files[i].length - 5, files[i].length) != '.json'){
-                            var name = path.join(dir, files[i]);
+                            var name = dir + '/' + files[i];
                             if (fs.statSync(name).isDirectory()){
                                 getFiles(name, files_);
                             } else {

@@ -23,7 +23,7 @@ function getFiles (dir, files_){
     for (var i in files){
         if(dir != `${testFolder}/categories.json`){
             if(dir != `${testFolder}/interactive`){
-                var name = path.join(dir, files[i]);
+                var name = dir + '/' + files[i];
                 if (fs.statSync(name).isDirectory()){
                     getFiles(name, files_);
                 } else {

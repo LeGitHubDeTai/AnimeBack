@@ -24,7 +24,7 @@ function getFiles (dir, files_){
     files_ = files_ || [];
     var files = fs.readdirSync(dir);
     for (var i in files){
-        var name = path.join(dir, files[i]);
+        var name = dir + '/' + files[i];
         if (fs.statSync(name).isDirectory()){
             rimraf.sync(`${name}/*.sfk`);
             rimraf.sync(`${name}/*.crdownload`);

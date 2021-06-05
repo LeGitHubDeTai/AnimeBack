@@ -31,7 +31,7 @@ function getFiles (dir, files_){
         if(dir != `${testFolder}/animals/Categories.json`){
             if(dir != `${testFolder}/generator`){ //remove
                 if(dir != `${testFolder}/interactive`){
-                    var name = path.join(dir, files[i]);
+                    var name = dir + '/' + files[i];
                     if (fs.statSync(name).isDirectory()){
                         getFiles(name, files_);
                         temp = [];

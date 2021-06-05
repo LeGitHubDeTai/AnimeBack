@@ -43,7 +43,7 @@ try {
                 var files = fs.readdirSync(dir);
                 for (var i in files){
                     if(dir != `${testFolder}/interactive`){
-                        var name = path.join(dir, files[i]);
+                        var name = dir + '/' + files[i];
                         if (fs.statSync(name).isDirectory()){
                             getFiles(name, files_);
                         } else {
