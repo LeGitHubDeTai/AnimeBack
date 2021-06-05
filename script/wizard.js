@@ -29,19 +29,19 @@ function getFiles (dir, files_){
                 if(dir != `${testFolder}/animals/Categories.json`){
                     if(dir != `${testFolder}/generator`){ //remove
                         if(dir == `${testFolder}/interactive`){
-                            var name = path.join(dir, files[i]);
+                            var name = dir + '/' + files[i];
                             files_.push(name);
                             temp.push(files[i]);
-                            nconf.set(`${dir.replace(`${testFolder}/`, '')}`, temp);
+                            nconf.set(`${replaceAll(dir, `${testFolder}/`, '')}`, temp);
                         }else{
-                            var name = path.join(dir, files[i]);
+                            var name = dir + '/' + files[i];
                             if (fs.statSync(name).isDirectory()){
                                 getFiles(name, files_);
                                 temp = [];
                             } else {
                                 files_.push(name);
                                 temp.push(files[i]);
-                                nconf.set(`${dir.replace(`${testFolder}/`, '')}`, temp);
+                                nconf.set(`${replaceAll(dir, `${testFolder}/`, '')}`, temp);
                                 console.log('INFO:'.cyan, `${name}`.cyan);
                             }
                         }
@@ -53,6 +53,12 @@ function getFiles (dir, files_){
     return files_;
 }
 getFiles(testFolder);
-nconf.clear('./images');
+nconf.clear(`${testFolder}/`);
 nconf.save();
 console.log('Done!'.green);
+
+
+function replaceAll(str, find, replace) {
+    var escapedFind=find.replace(/([.*+?^=!:${}()|\[\]\/\\])/g, "\\$1");
+    return str.replace(new RegExp(escapedFind, 'g'), replace);
+}
