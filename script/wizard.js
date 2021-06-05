@@ -53,7 +53,7 @@ function getFiles (dir, files_){
     return files_;
 }
 getFiles(testFolder);
-nconf.clear(`${testFolder}/`);
+nconf.clear(`${testFolder}`);
 nconf.save();
 console.log('Done!'.green);
 
