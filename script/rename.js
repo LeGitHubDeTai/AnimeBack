@@ -23,28 +23,30 @@ function getFiles (dir, files_){
     for (var i in files){
         if(dir != `${testFolder}/categories.json`){
             if(dir != `${testFolder}/interactive`){
-                var name = dir + '/' + files[i];
-                if (fs.statSync(name).isDirectory()){
-                    getFiles(name, files_);
-                } else {
-                    files_.push(name);
-                    var newName = dir + '/' + capitalizeFirstLetter(lowersWords(files[i]));
-                   
-                    var renamer = getFirstLetter(newName);
-                        renamer = replaceAll(renamer, 'wallpaper', '');
-                        renamer = replaceAll(renamer, 'Wallpaper', '');
-                        renamer = replaceAll(renamer, 'anime-', '');
-                        renamer = replaceAll(renamer, 'animated-', '');
-                        renamer = replaceAll(renamer, 'gaming-', '');
-                        renamer = replaceAll(newName, '-', ' ');
-                        renamer = replaceAll(renamer, '-', ' ');
-                        renamer = replaceAll(renamer, '_', ' ');
-                        renamer = replaceAll(renamer, '  ', ' ');
-                        renamer = replaceAll(renamer, ' .', '.');
-                        renamer = replaceAll(renamer, ')', '');
-                        renamer = replaceAll(renamer, '(', '');
-                        console.log(`INFO: ${renamer}`.cyan);
-                    fs.renameSync(name, renamer);
+                if(test != "generator"){
+                    var name = dir + '/' + files[i];
+                    if (fs.statSync(name).isDirectory()){
+                        getFiles(name, files_);
+                    } else {
+                        files_.push(name);
+                        var newName = dir + '/' + capitalizeFirstLetter(lowersWords(files[i]));
+                    
+                        var renamer = getFirstLetter(newName);
+                            renamer = replaceAll(renamer, 'wallpaper', '');
+                            renamer = replaceAll(renamer, 'Wallpaper', '');
+                            renamer = replaceAll(renamer, 'anime-', '');
+                            renamer = replaceAll(renamer, 'animated-', '');
+                            renamer = replaceAll(renamer, 'gaming-', '');
+                            renamer = replaceAll(newName, '-', ' ');
+                            renamer = replaceAll(renamer, '-', ' ');
+                            renamer = replaceAll(renamer, '_', ' ');
+                            renamer = replaceAll(renamer, '  ', ' ');
+                            renamer = replaceAll(renamer, ' .', '.');
+                            renamer = replaceAll(renamer, ')', '');
+                            renamer = replaceAll(renamer, '(', '');
+                            console.log(`INFO: ${renamer}`.cyan);
+                        fs.renameSync(name, renamer);
+                    }
                 }
             }
         }
