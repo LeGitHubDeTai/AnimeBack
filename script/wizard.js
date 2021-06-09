@@ -15,6 +15,12 @@ const nconf = require('nconf');
 const testFolder = './images';
 var config = `${testFolder}/categories.json`;
 
+if(fs.existsSync('./log/colorsFile.json')){
+    var old = require('../log/colorsFile.json');
+}else{
+    var old = {"Detect":[], "Black":[],"Other":[]};
+}
+
 if(fs.existsSync(config)){
     fs.unlinkSync(config);
 }
@@ -41,8 +47,41 @@ function getFiles (dir, files_){
                             } else {
                                 files_.push(name);
                                 temp.push(files[i]);
+                                
+                                var count = files[i].length;
+                                switch(files[i].slice(count - 3, count)){
+                                    case "mp4":
+                                        var preview = dir.replace(`${testFolder}`, `${testFolder}/preview`) + '/' + replaceAll(files[i], '.mp4', '.png');
+                                        break;
+                                    case "gif":
+                                        var preview = dir.replace(`${testFolder}`, `${testFolder}/preview`) + '/' + replaceAll(files[i], '.gif', '.png');
+                                        break;
+                                    case "ebm":
+                                        var preview = dir.replace(`${testFolder}`, `${testFolder}/preview`) + '/' + replaceAll(files[i], '.webm', '.png');
+                                        break;
+                                    case "png":
+                                        var preview = dir.replace(`${testFolder}`, `${testFolder}/preview`) + '/' + replaceAll(files[i], '.png', '.png');
+                                        break;
+                                    case "jpg":
+                                        var preview = dir.replace(`${testFolder}`, `${testFolder}/preview`) + '/' + replaceAll(files[i], '.jpg', '.png');
+                                        break;
+                                    default:
+                                        var preview = dir.replace(`${testFolder}`, `${testFolder}/preview`) + '/' + replaceAll(files[i], files[i].slice(count - 3, count), '.png');
+                                }
+
+                                if(fs.existsSync(preview)){
+                                    if(old.Black.includes(preview)){
+                                        var Index = temp.indexOf(files[i]);
+                                        temp.splice(Index, 1);
+                                    }
+                                    if(old.Detect.includes(preview)){
+                                        var Index = temp.indexOf(files[i]);
+                                        temp.splice(Index, 1);
+                                    }
+                                    console.log(preview);
+                                }
                                 nconf.set(`${replaceAll(dir, `${testFolder}/`, '')}`, temp);
-                                console.log('INFO:'.cyan, `${name}`.cyan);
+                                // console.log('INFO:'.cyan, `${name}`.cyan);
                             }
                         }
                     }

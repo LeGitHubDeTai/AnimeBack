@@ -21,7 +21,8 @@
     "youtube": "node ./script/youtube.js",
     "auto": "script/auto.sh",
     "clean": "node ./script/clean.js",
-    "extract": "node ./script/extract.js"
+    "extract": "node ./script/extract.js",
+    "reset": "node ./script/reset.js"
   },
   "repository": {
     "type": "git",

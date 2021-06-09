@@ -11,6 +11,7 @@
 var colors = require('colors');
 const extractFrames = require('ffmpeg-extract-frames');
 const fs = require('fs');
+const rimraf = require('rimraf');
 const nconf = require('nconf');
 var gifFrames = require('gif-frames');
 var Jimp = require('jimp');
@@ -22,7 +23,7 @@ var tempBuf = 0;
 if(fs.existsSync('./log/colorsFile.json')){
     var old = require('../log/colorsFile.json');
 }else{
-    var old = {"Black":[],"Other":[]};
+    var old = {"Detect":[], "Black":[],"Other":[]};
 }
 
 nconf.file(config);
@@ -34,9 +35,24 @@ if(!fs.existsSync(`${testFolder}/preview`)){
 try {
     Object.keys(nconf.stores).forEach(function(name){
         Object.keys(nconf.stores[name].store).forEach(function(test){
-            if(test == "interactive"){return;}
             if(!fs.existsSync(`${testFolder}/preview/${test}`)){
                 fs.mkdirSync(`${testFolder}/preview/${test}`);
+            }
+            if(test == "interactive"){
+                for(i=0;i<nconf.get(`${test}`).length;i++){
+                    var count = nconf.get(`${test}:${i}`).length;
+                    var fileName = nconf.get(`${test}:${i}`);
+                    
+                    if(!fs.existsSync(`${testFolder}/preview/${test}/${fileName}`)){
+                        fs.mkdirSync(`${testFolder}/preview/${test}/${fileName}`);
+
+                        let file = require(`.${testFolder}/${test}/${fileName}/main.json`)
+                        if(fs.existsSync(`${testFolder}/${test}/${fileName}/${file.preview}`)){
+                            fs.copyFileSync(`${testFolder}/${test}/${fileName}/${file.preview}`, `${testFolder}/preview/${test}/${fileName}/${file.preview}`);
+                        }
+                    }
+                }
+                return;
             }
             for(i=0;i<nconf.get(`${test}`).length;i++){
                 var count = nconf.get(`${test}:${i}`).length;
@@ -95,6 +111,7 @@ function extractMp4(test, fileName, ext){
         old["Black"].filter((id) => id !== `${testFolder}/preview/${test}/${fileName}.png`);
 
         var data = {
+            "Detect": old["Detect"],
             "Black": old["Black"],
             "Other": old["Other"]
         }

@@ -20,7 +20,8 @@ nconf.file(config);
 const testFolder = './log/preview';
 
 var allBlack = nconf.get('Black') || [],
-    allOther = nconf.get('Other') || [];
+    allOther = nconf.get('Other') || [],
+    allDetect = nconf.get('Detect') || [];
 
 var temp = [];
 var files = getFiles(testFolder);
@@ -78,8 +79,16 @@ function getColor(file){
             var fileN = file.replace('./log', './images');
             if(black > other){
                 console.log(`ERROR:`.red, `${file}`.cyan, "It's".gray, 'Black Image !'.red);
-                if (!allBlack.includes(fileN)){
-                    allBlack.push(fileN);
+                if(!allBlack.includes(fileN)){
+                    if(!allDetect.includes(fileN)){
+                        allBlack.push(fileN);
+                    }
+                }
+                else{
+                    if(!allDetect.includes(fileN)){
+                        allBlack = allBlack.filter((id) => id === fileN);
+                        allDetect.push(fileN);
+                    }
                 }
             }
             else{
@@ -94,6 +103,7 @@ function getColor(file){
             }
             nconf.set('Other', allOther);
             nconf.set('Black', allBlack);
+            nconf.set('Detect', allDetect);
             nconf.save();
         }
     });
