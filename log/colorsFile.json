@@ -18,12 +18,12 @@
     "./images/preview/gaming/Among us bouncing around.png",
     "./images/preview/gaming/Dead by daylight purple huntress.png",
     "./images/preview/gaming/Far cry 5.png",
-    "./images/preview/gaming/Final fantasy 6.png"
+    "./images/preview/gaming/Final fantasy 6.png",
+    "./images/preview/gaming/Gamer.png"
   ],
   "Black": [
-    "./images/preview/gaming/Final fantasy 6.png",
-    "./images/preview/gaming/Final fantasy 7 aerith.png",
-    "./images/preview/gaming/Gamer.png"
+    "./images/preview/gaming/Gamer.png",
+    "./images/preview/gaming/Final fantasy 7 aerith.png"
   ],
   "Other": [
     "./images/preview/animals/Cat space glasses.png",
