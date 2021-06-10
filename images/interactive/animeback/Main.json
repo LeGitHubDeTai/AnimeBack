@@ -1,6 +1,7 @@
 {
   "config": "animeback.json",
   "wallpaper": "animeback.mp4",
+  "type": ".mp4",
   "particle": "effect.png",
   "preview": "AnimeBack.png"
 }
