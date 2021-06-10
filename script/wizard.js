@@ -75,7 +75,7 @@ function getFiles (dir, files_){
                                         var preview = dir.replace(`${testFolder}`, `${testFolder}/preview`) + '/' + replaceAll(files[i], files[i].slice(count - 3, count), '.png');
                                 }
 
-                                if(env.first == true){
+                                if(env.first == false){
                                     if(fs.existsSync(preview)){
                                         if(old.Black.includes(preview)){
                                             var Index = temp.indexOf(files[i]);
