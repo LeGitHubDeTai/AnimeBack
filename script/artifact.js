@@ -32,6 +32,18 @@ try {
                         }
                     }
                 }
+                else{
+                    for(i=0;i<nconf.get(`${test}`).length;i++){
+                        var count = nconf.get(`${test}:${i}`).length;
+                        var fileName = nconf.get(`${test}:${i}`).slice(0, count - (nconf.get(`${test}:${i}`).split('.').pop().length + 1));
+                        if(fs.existsSync(`${testFolder}/${test}/${fileName}/Main.json`)){
+                            let file = require(`.${testFolder}/${test}/${fileName}/Main.json`);
+                            if(!fs.existsSync(`${testFolder}/preview/${test}/${fileName}/${file.preview}`)){
+                                console.log(`ERROR: ${testFolder}/preview/${test}/${fileName}/${file.preview} NOT FOUND !`.red);
+                            }
+                        }
+                    }
+                }
             })
         });
     } catch (error) {

@@ -45,12 +45,12 @@ try {
                     
                     if(!fs.existsSync(`${testFolder}/preview/${test}/${fileName}`)){
                         fs.mkdirSync(`${testFolder}/preview/${test}/${fileName}`);
-
-                        if(fs.existsSync(`${testFolder}/${test}/${fileName}/main.json`)){
-                            let file = require(`${testFolder}/${test}/${fileName}/main.json`);
+                        
+                        if(fs.existsSync(`${testFolder}/${test}/${fileName}/Main.json`)){
+                            let file = require(`.${testFolder}/${test}/${fileName}/Main.json`);
                             switch(file.type){
                                 case ".mp4":
-                                    extractMp4(test, `${testFolder}/${test}/${fileName}/${file.preview}`, 'mp4');
+                                    extractMp4(test, `${fileName}/${file.preview.replace('.png', '')}`, 'mp4');
                                     break;
                                 default:
                                     if(fs.existsSync(`${testFolder}/${test}/${fileName}/${file.preview}`)){
@@ -59,7 +59,7 @@ try {
                             }
                         }
                         else{
-                            console.log(`ERROR: ${testFolder}/${test}/${fileName}/main.json NOT FOUND`.red);
+                            console.log(`ERROR: ${testFolder}/${test}/${fileName}/Main.json NOT FOUND`.red);
                         }
                     }
                 }

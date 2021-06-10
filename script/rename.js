@@ -22,7 +22,7 @@ function getFiles (dir, files_){
     var files = fs.readdirSync(dir);
     for (var i in files){
         if(dir != `${testFolder}/categories.json`){
-            if(dir != `${testFolder}/interactive`){
+            if(dir != `interactive`){
                 if(dir != "generator"){
                     var name = dir + '/' + files[i];
                     if (fs.statSync(name).isDirectory()){
