@@ -24,12 +24,13 @@
     "./images/preview/gaming/Among us ejected.png"
   ],
   "Black": [
-    "./images/preview/gaming/Among us ejected.png",
-    "./images/preview/gaming/God of war.png",
     "./images/preview/gaming/Gwent the witcher card game.png",
     "./images/preview/gaming/Hollow knight.png",
-    "./images/preview/gaming/Honkai impact third anniversary.png",
-    "./images/preview/gaming/Katana zero 4.png"
+    "./images/preview/gaming/Katana zero 4.png",
+    "./images/preview/gaming/Kda girls drum go dum league of legends.png",
+    "./images/preview/gaming/Kingdom hearts 3 master of the masters.png",
+    "./images/preview/gaming/Kingdom hearts 3.png",
+    "./images/preview/gaming/Metal gear solid 3 naked snake.png"
   ],
   "Other": [
     "./images/preview/animals/Cat space glasses.png",
@@ -413,6 +414,25 @@
     "./images/preview/gaming/Hello neighbor title screen.png",
     "./images/preview/gaming/Invitational black rainbow6 siege.png",
     "./images/preview/gaming/Katana zero 2.png",
-    "./images/preview/gaming/Katana zero 3.png"
+    "./images/preview/gaming/Katana zero 3.png",
+    "./images/preview/gaming/Gwent the witcher card game.png",
+    "./images/preview/gaming/God of war.png",
+    "./images/preview/gaming/Honkai impact third anniversary.png",
+    "./images/preview/gaming/Katana zero snow.png",
+    "./images/preview/gaming/Katana zero dancing.png",
+    "./images/preview/gaming/Katana zero.png",
+    "./images/preview/gaming/League of legends ahri cold fire mask.png",
+    "./images/preview/gaming/League of legends ashe.png",
+    "./images/preview/gaming/League of legends cyberpunk ahri.png",
+    "./images/preview/gaming/League of legends dark cosmic jhin.png",
+    "./images/preview/gaming/League of legends esports season 2014 finals.png",
+    "./images/preview/gaming/League of legends dark cosmic lux.png",
+    "./images/preview/gaming/League of legends galaxy slayer zed.png",
+    "./images/preview/gaming/League of legends fire element lux.png",
+    "./images/preview/gaming/League of legends rune king viego.png",
+    "./images/preview/gaming/Lobotomy corporation blue star.png",
+    "./images/preview/gaming/Mad max.png",
+    "./images/preview/gaming/Mad max 2.png",
+    "./images/preview/gaming/Mario cube.png"
   ]
 }
