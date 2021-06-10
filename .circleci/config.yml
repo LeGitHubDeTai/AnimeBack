@@ -15,14 +15,22 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Install ffmpeg
-          command: sudo apt update && sudo apt install ffmpeg && ffmpeg -version
-      - run:
           name: "Execute all system"
           command: bash ./script/auto.sh
+  ffmpeg:
+    docker:
+      - image: cimg/node:14.10.1
+        auth:
+          username: TaiStudio
+          password: $DOCKERHUB_PASSWORD 
+    steps:
+      - run:
+          name: Install ffmpeg
+          command: sudo apt update && sudo apt install ffmpeg && ffmpeg -version
 
 workflows:
   autoClasser:
     jobs:
       - autoclasser
+      - ffmpeg
             

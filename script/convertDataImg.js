@@ -42,7 +42,9 @@ try {
                                     if(fs.existsSync(`${name}`)){
                                         if(old == null){return;}
                                         if(!old['Black'].includes(name)){
-                                            convertToSVG(name);
+                                            if(!old['Detect'].includes(name)){
+                                                convertToSVG(name);
+                                            }
                                         }
                                     }
                                 }

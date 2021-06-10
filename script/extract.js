@@ -47,9 +47,15 @@ try {
                         fs.mkdirSync(`${testFolder}/preview/${test}/${fileName}`);
 
                         if(fs.existsSync(`${testFolder}/${test}/${fileName}/main.json`)){
-                            let file = require(`${testFolder}/${test}/${fileName}/main.json`)
-                            if(fs.existsSync(`${testFolder}/${test}/${fileName}/${file.preview}`)){
-                                fs.copyFileSync(`${testFolder}/${test}/${fileName}/${file.preview}`, `${testFolder}/preview/${test}/${fileName}/${file.preview}`);
+                            let file = require(`${testFolder}/${test}/${fileName}/main.json`);
+                            switch(file.type){
+                                case ".mp4":
+                                    extractMp4(test, `${testFolder}/${test}/${fileName}/${file.preview}`, 'mp4');
+                                    break;
+                                default:
+                                    if(fs.existsSync(`${testFolder}/${test}/${fileName}/${file.preview}`)){
+                                        fs.copyFileSync(`${testFolder}/${test}/${fileName}/${file.preview}`, `${testFolder}/preview/${test}/${fileName}/${file.preview}`);
+                                    }
                             }
                         }
                         else{
