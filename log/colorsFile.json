@@ -1,9 +1,11 @@
 {
-  "Detect": [],
+  "Detect": [
+    "./images/preview/animals/Pony parade.png"
+  ],
   "Black": [
     "./images/preview/animals/Pony parade.png",
-    "./images/preview/animals/Whale and sea.png",
-    "./images/preview/animals/Wake up.png"
+    "./images/preview/animals/Wake up.png",
+    "./images/preview/animals/Whale and sea.png"
   ],
   "Other": [
     "./images/preview/animals/Cat space glasses.png",
