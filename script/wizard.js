@@ -21,6 +21,12 @@ if(fs.existsSync('./log/colorsFile.json')){
     var old = {"Detect":[], "Black":[],"Other":[]};
 }
 
+if(fs.existsSync('./log/env.json')){
+    var env = require('../log/env.json');
+}else{
+    var env = {"first": true};
+}
+
 if(fs.existsSync(config)){
     fs.unlinkSync(config);
 }
@@ -69,19 +75,20 @@ function getFiles (dir, files_){
                                         var preview = dir.replace(`${testFolder}`, `${testFolder}/preview`) + '/' + replaceAll(files[i], files[i].slice(count - 3, count), '.png');
                                 }
 
-                                if(fs.existsSync(preview)){
-                                    if(old.Black.includes(preview)){
-                                        var Index = temp.indexOf(files[i]);
-                                        temp.splice(Index, 1);
+                                if(env.first == true){
+                                    if(fs.existsSync(preview)){
+                                        if(old.Black.includes(preview)){
+                                            var Index = temp.indexOf(files[i]);
+                                            temp.splice(Index, 1);
+                                        }
+                                        if(old.Detect.includes(preview)){
+                                            var Index = temp.indexOf(files[i]);
+                                            temp.splice(Index, 1);
+                                        }
                                     }
-                                    if(old.Detect.includes(preview)){
-                                        var Index = temp.indexOf(files[i]);
-                                        temp.splice(Index, 1);
-                                    }
-                                    console.log(preview);
                                 }
                                 nconf.set(`${replaceAll(dir, `${testFolder}/`, '')}`, temp);
-                                // console.log('INFO:'.cyan, `${name}`.cyan);
+                                console.log('INFO:'.cyan, `${name}`.cyan);
                             }
                         }
                     }
@@ -94,6 +101,15 @@ function getFiles (dir, files_){
 getFiles(testFolder);
 nconf.clear(`${testFolder}`);
 nconf.save();
+if(env.first == false){
+    env.first = true;
+}
+else{
+    env.first = false;
+}
+fs.writeFileSync('./log/env.json', JSON.stringify(env), (err) => {
+    console.log(err);
+})
 console.log('Done!'.green);
 
 
