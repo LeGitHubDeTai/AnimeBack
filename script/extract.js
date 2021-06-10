@@ -46,9 +46,14 @@ try {
                     if(!fs.existsSync(`${testFolder}/preview/${test}/${fileName}`)){
                         fs.mkdirSync(`${testFolder}/preview/${test}/${fileName}`);
 
-                        let file = require(`.${testFolder}/${test}/${fileName}/main.json`)
-                        if(fs.existsSync(`${testFolder}/${test}/${fileName}/${file.preview}`)){
-                            fs.copyFileSync(`${testFolder}/${test}/${fileName}/${file.preview}`, `${testFolder}/preview/${test}/${fileName}/${file.preview}`);
+                        if(fs.existsSync(`.${testFolder}/${test}/${fileName}/main.json`)){
+                            let file = require(`.${testFolder}/${test}/${fileName}/main.json`)
+                            if(fs.existsSync(`${testFolder}/${test}/${fileName}/${file.preview}`)){
+                                fs.copyFileSync(`${testFolder}/${test}/${fileName}/${file.preview}`, `${testFolder}/preview/${test}/${fileName}/${file.preview}`);
+                            }
+                        }
+                        else{
+                            console.log(`ERROR: .${testFolder}/${test}/${fileName}/main.json NOT FOUND`.red);
                         }
                     }
                 }

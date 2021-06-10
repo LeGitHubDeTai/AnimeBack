@@ -86,6 +86,10 @@ function getFiles (dir, files_){
                                             temp.splice(Index, 1);
                                         }
                                     }
+                                    else{
+                                        var Index = temp.indexOf(files[i]);
+                                        temp.splice(Index, 1);
+                                    }
                                 }
                                 nconf.set(`${replaceAll(dir, `${testFolder}/`, '')}`, temp);
                                 console.log('INFO:'.cyan, `${name}`.cyan);
