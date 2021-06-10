@@ -20,10 +20,10 @@
     "./images/preview/gaming/Far cry 5.png",
     "./images/preview/gaming/Final fantasy 6.png",
     "./images/preview/gaming/Gamer.png",
-    "./images/preview/gaming/Final fantasy 7 aerith.png"
+    "./images/preview/gaming/Final fantasy 7 aerith.png",
+    "./images/preview/gaming/Among us ejected.png"
   ],
   "Black": [
-    "./images/preview/gaming/Final fantasy 7 aerith.png",
     "./images/preview/gaming/Among us ejected.png"
   ],
   "Other": [
@@ -386,6 +386,8 @@
     "./images/preview/gaming/Forza dreamscene.png",
     "./images/preview/gaming/Genshin impact barbara.png",
     "./images/preview/gaming/Genshin impact cooking.png",
-    "./images/preview/gaming/Genshin impact fischl.png"
+    "./images/preview/gaming/Genshin impact fischl.png",
+    "./images/preview/gaming/Final fantasy 7 aerith.png",
+    "./images/preview/gaming/Genshin impact ganyu coconut milk shake.png"
   ]
 }
