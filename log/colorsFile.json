@@ -12,20 +12,18 @@
     "./images/preview/anime/Tokyo goule.png",
     "./images/preview/anime/Wandering witch the journey of elaina.png",
     "./images/preview/art/Corasair collection.png",
-    "./images/preview/art/Golden city.png"
+    "./images/preview/art/Golden city.png",
+    "./images/preview/art/Scifi.png"
   ],
   "Black": [
-    "./images/preview/art/Golden city.png",
     "./images/preview/art/Scifi.png",
     "./images/preview/gaming/Among us 2.png",
     "./images/preview/gaming/Among us bouncing around.png",
     "./images/preview/gaming/Among us ejected.png",
-    "./images/preview/gaming/Arthas world of warcraft.png",
-    "./images/preview/gaming/Assassins creed syndicate hidden blade.png",
-    "./images/preview/gaming/Atri my dear moments.png",
-    "./images/preview/gaming/Battlefield 1 anime art.png",
-    "./images/preview/gaming/Bioshock infinite elizabeth dancing.png",
-    "./images/preview/gaming/Blood moon jhin league of legends.png"
+    "./images/preview/gaming/Dark souls 3 fire keeper.png",
+    "./images/preview/gaming/Dark souls 3 pontiff sulyvahn.png",
+    "./images/preview/gaming/Dark souls gaming.png",
+    "./images/preview/gaming/Dark souls.png"
   ],
   "Other": [
     "./images/preview/animals/Cat space glasses.png",
@@ -339,6 +337,23 @@
     "./images/preview/gaming/Auriga log cabin.png",
     "./images/preview/gaming/Biomutant hero.png",
     "./images/preview/gaming/Bioshock underwater city.png",
-    "./images/preview/gaming/Cave subnautica below zero.png"
+    "./images/preview/gaming/Cave subnautica below zero.png",
+    "./images/preview/gaming/Arthas world of warcraft.png",
+    "./images/preview/gaming/Assassins creed syndicate hidden blade.png",
+    "./images/preview/gaming/Atri my dear moments.png",
+    "./images/preview/gaming/Bioshock infinite elizabeth dancing.png",
+    "./images/preview/gaming/Battlefield 1 anime art.png",
+    "./images/preview/gaming/Clip from fortnite.png",
+    "./images/preview/gaming/Blood moon jhin league of legends.png",
+    "./images/preview/gaming/Cyberpunk 2077 judy s apartment.png",
+    "./images/preview/gaming/Cyberpunk 2077 v s apartment.png",
+    "./images/preview/gaming/Cypher.png",
+    "./images/preview/gaming/Dagger of warhammer.png",
+    "./images/preview/gaming/Dark souls artorias.png",
+    "./images/preview/gaming/Dark souls artorias the abysswalker.png",
+    "./images/preview/gaming/Dark souls fire keeper.png",
+    "./images/preview/gaming/Ddlc horror.png",
+    "./images/preview/gaming/Dead by daylight 2.png",
+    "./images/preview/gaming/Dead by daylight king of the hookstrapper.png"
   ]
 }
