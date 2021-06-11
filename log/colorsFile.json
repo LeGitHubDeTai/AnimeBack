@@ -1,0 +1,32 @@
+{
+  "Detect": [],
+  "Black": [
+    "./images/preview/animals/Pony parade.png",
+    "./images/preview/animals/Wake up.png",
+    "./images/preview/animals/Whale and sea.png"
+  ],
+  "Other": [
+    "./images/preview/animals/Cat space glasses.png",
+    "./images/preview/animals/Chicken danse.png",
+    "./images/preview/animals/Chicken linear.png",
+    "./images/preview/animals/Chicken move.png",
+    "./images/preview/animals/Chicken round.png",
+    "./images/preview/animals/Chicken.png",
+    "./images/preview/animals/Colibris.png",
+    "./images/preview/animals/Cool cat.png",
+    "./images/preview/animals/Cosmic wolf.png",
+    "./images/preview/animals/Dog corgi.png",
+    "./images/preview/animals/Elf girl and horse.png",
+    "./images/preview/animals/Fox cute.png",
+    "./images/preview/animals/Frog in rain.png",
+    "./images/preview/animals/Music cat.png",
+    "./images/preview/animals/Frogs in water.png",
+    "./images/preview/animals/Polar bear.png",
+    "./images/preview/animals/Poney.png",
+    "./images/preview/animals/Silence tigersnowflake.png",
+    "./images/preview/animals/Winter fox.png",
+    "./images/preview/animals/Wolf final.png",
+    "./images/preview/animals/Wolf stare in the snow.png",
+    "./images/preview/animated/A different reindeer dao trong le art.png"
+  ]
+}
