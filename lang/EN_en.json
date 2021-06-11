@@ -27,5 +27,6 @@
         "Fix:Change .AnimeBack Location (BETA)": "Change .AnimeBack Location (BETA)",
         "Fix:Import": "Import",
         "Fix:Export": "Export"
-    }
+    },
+    "comment": "REMOVE FOR UPGRADE SYSTEM"
 }
