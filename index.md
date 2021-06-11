@@ -1,37 +1,85 @@
-## Welcome to GitHub Pages
+![GitHub Logo](https://github.com/LeGitHubDeTai/AnimeBack/blob/main/assets/images/logo%20white2.png?raw=true)
 
-You can use the [editor on GitHub](https://github.com/LeGitHubDeTai/AnimeBack/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<p align='center'>
+  <a href="https://buymeacoffee.com/taistudio" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png" alt="Buy Me A Coffee"></a>
+</p>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<p align='center'>
+  <a href="https://legithubdetai.github.io/AnimeBack/">
+    <img src="https://img.shields.io/github/downloads/LeGitHubDeTai/AnimeBack/total">
+    <img src="https://img.shields.io/github/v/release/LeGitHubDeTai/AnimeBack">
+    <img src="https://img.shields.io/website?url=http%3A%2F%2Flegithubdetai.github.io%2FAnimeBack">
+    <img src="https://img.shields.io/github/release-date/LeGitHubDeTai/AnimeBack">
+    <img src="https://img.shields.io/github/license/LeGitHubDeTai/AnimeBack">
+  </a>
+  <a href="https://discord.gg/zctFdAPUzP">
+    <img src="https://img.shields.io/discord/788853994264723456">
+  </a>
+  <br/>
+  <a href="http://www.youtube.com/watch?v=JpFKSTRth4M">
+    <img src="https://img.shields.io/youtube/views/JpFKSTRth4M?style=social">
+  </a>
+  <a href="https://github.com/LeGitHubDeTai/">
+    <img src="https://img.shields.io/github/followers/LeGitHubDeTai?style=social">
+  </a>
+  <a href="https://www.youtube.com/channel/UCZiVWB8_UNH4NLzr7XbaI8A">
+    <img src="https://img.shields.io/youtube/channel/subscribers/UCZiVWB8_UNH4NLzr7XbaI8A?style=social">
+  </a>
+  <a href="https://github.com/LeGitHubDeTai/AnimeBack">
+    <img src="https://img.shields.io/github/stars/LeGitHubDeTai/AnimeBack?style=social">
+  </a>
+</p>
 
-### Markdown
+<p align='center'>
+  <a href="https://github.com/LeGitHubDeTai/AnimeBack/releases">
+    <img src="https://img.shields.io/circleci/build/github/LeGitHubDeTai/AnimeBack/main?label=AnimeBOT">
+  </a>
+</p>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<p align='center'>
+  <a href="https://github.com/LeGitHubDeTai/AnimeBack/releases">
+    <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fassets%2Fcustom%2Fcustom.json">
+  </a>
+</p>
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+## ⚙️ Create your extenions
+If you are a developer and / or you want to create an extension
+please read the [Wiki](https://github.com/LeGitHubDeTai/AnimeBack/wiki/Extensions).
 
-- Bulleted
-- List
+## 🚀 Adding your extensions
 
-1. Numbered
-2. List
+If you have an Extensions you'd like to see added,
+please read the [Contributions](https://github.com/TaiStudio/animeback-submit/blob/master/CONTRIBUTING.md) doc.
 
-**Bold** and _Italic_ and `Code` text
+## 🔑 How it Works
 
-[Link](url) and ![Image](src)
-```
+See [Contributions.md#how-it-works](https://github.com/TaiStudio/animeback-submit/blob/master/CONTRIBUTING.md#how-it-works)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## 📜 License
 
-### Jekyll Themes
+MIT
+<p align='center'>
+  <a href="http://www.youtube.com/watch?v=JpFKSTRth4M">
+    <img src="https://github.com/LeGitHubDeTai/AnimeBack/blob/main/assets/images/Trailer%20Animeback.jpg?raw=true" width="45%" ></img>
+  </a>
+  
+  <br/>
+  
+  <img src="https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/assets/images/tray.png" width="45%" ></img>
+  <img src="https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/assets/images/changelog.png" width="45%" ></img>
+  <img src="https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/assets/images/desktop.png" width="45%" ></img>
+  <img src="https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/assets/images/options.png" width="45%" ></img>
+  <img src="https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/assets/images/wikigit.png" width="45%" ></img>
+  <img src="https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/assets/images/github.png" width="45%" ></img>
+  
+  <br/>
+  
+  <img src="https://github.com/LeGitHubDeTai/AnimeBack/blob/main/assets/images/tray%20options.png?raw=true" width="45%" ></img>
+  <img src="https://github.com/LeGitHubDeTai/AnimeBack/blob/main/assets/images/options%20window.png?raw=true" width="45%" ></img>
+  <img src="https://github.com/LeGitHubDeTai/AnimeBack/blob/main/assets/images/changelog%20window.png?raw=true" width="45%" ></img>
+  <img src="https://github.com/LeGitHubDeTai/AnimeBack/blob/main/assets/images/add%20extensions.png?raw=true" width="45%" ></img>
+  <img src="https://github.com/LeGitHubDeTai/AnimeBack/blob/main/assets/images/add%20custom.png?raw=true" width="45%" ></img>
+  <img src="https://github.com/LeGitHubDeTai/AnimeBack/blob/main/assets/images/add%20custom.png?raw=true" width="45%" ></img>
+ </p>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/LeGitHubDeTai/AnimeBack/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
