@@ -7,18 +7,22 @@
     "./images/preview/anime/Gakkou gurashi kurumi.png",
     "./images/preview/anime/Horror.png",
     "./images/preview/anime/Hunter x hunter hisoka 2.png",
-    "./images/preview/anime/Midoriya toga.png"
+    "./images/preview/anime/Midoriya toga.png",
+    "./images/preview/anime/Shooting time.png"
   ],
   "Black": [
-    "./images/preview/anime/Midoriya toga.png",
     "./images/preview/anime/Shooting time.png",
     "./images/preview/anime/Tokyo goule.png",
-    "./images/preview/anime/Violet evergarden sincerely.png",
     "./images/preview/anime/Wandering witch the journey of elaina.png",
-    "./images/preview/anime/Wind chimes.png",
-    "./images/preview/anime/Your lie in april.png",
-    "./images/preview/anime/Yukinoshita.png",
-    "./images/preview/art/Arsenal.png"
+    "./images/preview/art/Citylife.png",
+    "./images/preview/art/Corasair collection.png",
+    "./images/preview/art/Demon core.png",
+    "./images/preview/art/Dna fragment.png",
+    "./images/preview/art/Eagle flag.png",
+    "./images/preview/art/Her room.png",
+    "./images/preview/art/Golden city.png",
+    "./images/preview/art/Hooded kitty neon cyberpunk.png",
+    "./images/preview/art/I need speed.png"
   ],
   "Other": [
     "./images/preview/animals/Cat space glasses.png",
@@ -243,6 +247,19 @@
     "./images/preview/animeback/AnimeBack.png",
     "./images/preview/animeback/Animeback illusioner.png",
     "./images/preview/anime/Yuki x ishikawa horimiya.png",
-    "./images/preview/art/Artifact.png"
+    "./images/preview/art/Artifact.png",
+    "./images/preview/anime/Violet evergarden sincerely.png",
+    "./images/preview/anime/Wind chimes.png",
+    "./images/preview/anime/Your lie in april.png",
+    "./images/preview/anime/Yukinoshita.png",
+    "./images/preview/art/Arsenal.png",
+    "./images/preview/art/Asus rog.png",
+    "./images/preview/art/Ball windows 10.png",
+    "./images/preview/art/Blue fire.png",
+    "./images/preview/art/Calm but cold evening.png",
+    "./images/preview/art/Cozy room.png",
+    "./images/preview/art/Dragon attacks ship.png",
+    "./images/preview/art/Autumn rain.png",
+    "./images/preview/art/Floating cube.png"
   ]
 }
