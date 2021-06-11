@@ -11,15 +11,21 @@
     "./images/preview/anime/Shooting time.png",
     "./images/preview/anime/Tokyo goule.png",
     "./images/preview/anime/Wandering witch the journey of elaina.png",
-    "./images/preview/art/Corasair collection.png"
+    "./images/preview/art/Corasair collection.png",
+    "./images/preview/art/Golden city.png"
   ],
   "Black": [
-    "./images/preview/art/Corasair collection.png",
     "./images/preview/art/Golden city.png",
     "./images/preview/art/Scifi.png",
-    "./images/preview/cars/G's走行シーン.png",
-    "./images/preview/cars/Neon car in the rain.png",
-    "./images/preview/christmas/Christmas time.png"
+    "./images/preview/christmas/Relaxing christmas fire.png",
+    "./images/preview/gaming/Abyss watcher dark souls 3.png",
+    "./images/preview/gaming/Ahri godness league of legends.png",
+    "./images/preview/gaming/Altissia.png",
+    "./images/preview/gaming/Among us bouncing around.png",
+    "./images/preview/gaming/Among us 2.png",
+    "./images/preview/gaming/Among us ejected.png",
+    "./images/preview/gaming/Arthas world of warcraft.png",
+    "./images/preview/gaming/Assassins creed syndicate hidden blade.png"
   ],
   "Other": [
     "./images/preview/animals/Cat space glasses.png",
@@ -310,6 +316,20 @@
     "./images/preview/christmas/Christmas overwatch.png",
     "./images/preview/christmas/Christmas.png",
     "./images/preview/christmas/Pepe.png",
-    "./images/preview/christmas/League of legends jinx gaming.png"
+    "./images/preview/christmas/League of legends jinx gaming.png",
+    "./images/preview/cars/G's走行シーン.png",
+    "./images/preview/cars/Neon car in the rain.png",
+    "./images/preview/christmas/Christmas time.png",
+    "./images/preview/christmas/Santa claus chase animated.png",
+    "./images/preview/christmas/The christmas shoe.png",
+    "./images/preview/christmas/Weird christmas animated.png",
+    "./images/preview/christmas/Winter house.png",
+    "./images/preview/christmas/Winter magic.png",
+    "./images/preview/gaming/Alien isolation menu.png",
+    "./images/preview/gaming/Ak 47.png",
+    "./images/preview/gaming/Among us.png",
+    "./images/preview/gaming/Arknights frostleaf.png",
+    "./images/preview/gaming/Assassins creed ezio.png",
+    "./images/preview/gaming/Assassins creed rogue.png"
   ]
 }
