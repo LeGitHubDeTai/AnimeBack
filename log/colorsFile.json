@@ -3,16 +3,19 @@
     "./images/preview/animals/Pony parade.png",
     "./images/preview/anime/Black clover opening 2.png",
     "./images/preview/anime/Dragonball super vegeta.png",
-    "./images/preview/anime/Gogeta ssj4 dragon ball gt.png"
+    "./images/preview/anime/Gogeta ssj4 dragon ball gt.png",
+    "./images/preview/anime/Gakkou gurashi kurumi.png"
   ],
   "Black": [
-    "./images/preview/anime/Gogeta ssj4 dragon ball gt.png",
     "./images/preview/anime/Gakkou gurashi kurumi.png",
     "./images/preview/anime/Horror.png",
     "./images/preview/anime/Hunter x hunter hisoka 2.png",
-    "./images/preview/anime/Illyasviel von einzbern.png",
-    "./images/preview/anime/Jeanne.png",
-    "./images/preview/anime/Kabaneri of the iron fortress mumei.png"
+    "./images/preview/anime/Kiyohime.png",
+    "./images/preview/anime/Kochiya sanae.png",
+    "./images/preview/anime/La pucelle.png",
+    "./images/preview/anime/Lillie.png",
+    "./images/preview/anime/Midoriya toga.png",
+    "./images/preview/anime/Nakano azusa in snow.png"
   ],
   "Other": [
     "./images/preview/animals/Cat space glasses.png",
@@ -177,6 +180,22 @@
     "./images/preview/anime/Jujutsu kaisen sukuna 2.png",
     "./images/preview/anime/Jujutsu kaisen.png",
     "./images/preview/anime/K on christmas.png",
-    "./images/preview/anime/Jujutsu kaisen satoru gojo.png"
+    "./images/preview/anime/Jujutsu kaisen satoru gojo.png",
+    "./images/preview/anime/Illyasviel von einzbern.png",
+    "./images/preview/anime/Jeanne.png",
+    "./images/preview/anime/Kabaneri of the iron fortress mumei.png",
+    "./images/preview/anime/Kimi no na wa.png",
+    "./images/preview/anime/Karasuma chitose as maid.png",
+    "./images/preview/anime/Krul tepes owari no seraph.png",
+    "./images/preview/anime/Kyouko kirigiri danganronpa.png",
+    "./images/preview/anime/Lady omen alice.png",
+    "./images/preview/anime/Made in abyss fishing nanachi.png",
+    "./images/preview/anime/Megalo box.png",
+    "./images/preview/anime/Migatte100.png",
+    "./images/preview/anime/Miko fox.png",
+    "./images/preview/anime/Mob psycho 100.png",
+    "./images/preview/anime/My neighbor totoro nap time.png",
+    "./images/preview/anime/Naruto.png",
+    "./images/preview/anime/Night magic girl.png"
   ]
 }
