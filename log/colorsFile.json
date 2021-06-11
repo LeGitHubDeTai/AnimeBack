@@ -12,19 +12,20 @@
     "./images/preview/anime/Tokyo goule.png",
     "./images/preview/anime/Wandering witch the journey of elaina.png",
     "./images/preview/art/Corasair collection.png",
-    "./images/preview/art/Golden city.png"
+    "./images/preview/art/Golden city.png",
+    "./images/preview/art/Scifi.png"
   ],
   "Black": [
-    "./images/preview/christmas/Relaxing christmas fire.png",
     "./images/preview/art/Scifi.png",
     "./images/preview/gaming/Among us 2.png",
     "./images/preview/gaming/Among us bouncing around.png",
     "./images/preview/gaming/Among us ejected.png",
-    "./images/preview/gaming/Atri my dear moments.png",
-    "./images/preview/gaming/Battlefield 1 anime art.png",
-    "./images/preview/gaming/Bioshock infinite elizabeth dancing.png",
-    "./images/preview/gaming/Blood moon jhin league of legends.png",
-    "./images/preview/gaming/Dark souls 3 fire keeper.png"
+    "./images/preview/gaming/Dark souls 3 pontiff sulyvahn.png",
+    "./images/preview/gaming/Dark souls gaming.png",
+    "./images/preview/gaming/Dark souls.png",
+    "./images/preview/gaming/Dead by daylight purple huntress.png",
+    "./images/preview/gaming/Dead space.png",
+    "./images/preview/gaming/Detroit become human.png"
   ],
   "Other": [
     "./images/preview/animals/Cat space glasses.png",
@@ -345,6 +346,21 @@
     "./images/preview/gaming/Cyberpunk 2077 judy s apartment.png",
     "./images/preview/gaming/Cyberpunk 2077 v s apartment.png",
     "./images/preview/gaming/Cypher.png",
-    "./images/preview/gaming/Dagger of warhammer.png"
+    "./images/preview/gaming/Dagger of warhammer.png",
+    "./images/preview/gaming/Atri my dear moments.png",
+    "./images/preview/gaming/Battlefield 1 anime art.png",
+    "./images/preview/gaming/Bioshock infinite elizabeth dancing.png",
+    "./images/preview/gaming/Blood moon jhin league of legends.png",
+    "./images/preview/gaming/Dark souls 3 fire keeper.png",
+    "./images/preview/gaming/Dark souls artorias the abysswalker.png",
+    "./images/preview/gaming/Dark souls artorias.png",
+    "./images/preview/gaming/Dark souls fire keeper.png",
+    "./images/preview/gaming/Ddlc horror.png",
+    "./images/preview/gaming/Dead by daylight 2.png",
+    "./images/preview/gaming/Dead by daylight king of the hookstrapper.png",
+    "./images/preview/gaming/Dead by daylight legion.png",
+    "./images/preview/gaming/Dead by daylight the legion.png",
+    "./images/preview/gaming/Destiny ghost animation.png",
+    "./images/preview/gaming/Devil may cry 4 nero dante.png"
   ]
 }
