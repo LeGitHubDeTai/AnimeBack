@@ -15,17 +15,16 @@
     "./images/preview/art/Golden city.png"
   ],
   "Black": [
-    "./images/preview/art/Golden city.png",
-    "./images/preview/art/Scifi.png",
     "./images/preview/christmas/Relaxing christmas fire.png",
-    "./images/preview/gaming/Abyss watcher dark souls 3.png",
-    "./images/preview/gaming/Ahri godness league of legends.png",
-    "./images/preview/gaming/Altissia.png",
-    "./images/preview/gaming/Among us bouncing around.png",
+    "./images/preview/art/Scifi.png",
     "./images/preview/gaming/Among us 2.png",
+    "./images/preview/gaming/Among us bouncing around.png",
     "./images/preview/gaming/Among us ejected.png",
-    "./images/preview/gaming/Arthas world of warcraft.png",
-    "./images/preview/gaming/Assassins creed syndicate hidden blade.png"
+    "./images/preview/gaming/Atri my dear moments.png",
+    "./images/preview/gaming/Battlefield 1 anime art.png",
+    "./images/preview/gaming/Bioshock infinite elizabeth dancing.png",
+    "./images/preview/gaming/Blood moon jhin league of legends.png",
+    "./images/preview/gaming/Dark souls 3 fire keeper.png"
   ],
   "Other": [
     "./images/preview/animals/Cat space glasses.png",
@@ -330,6 +329,22 @@
     "./images/preview/gaming/Among us.png",
     "./images/preview/gaming/Arknights frostleaf.png",
     "./images/preview/gaming/Assassins creed ezio.png",
-    "./images/preview/gaming/Assassins creed rogue.png"
+    "./images/preview/gaming/Assassins creed rogue.png",
+    "./images/preview/christmas/Relaxing christmas fire.png",
+    "./images/preview/gaming/Abyss watcher dark souls 3.png",
+    "./images/preview/gaming/Ahri godness league of legends.png",
+    "./images/preview/gaming/Altissia.png",
+    "./images/preview/gaming/Assassins creed syndicate hidden blade.png",
+    "./images/preview/gaming/Arthas world of warcraft.png",
+    "./images/preview/gaming/Assassins creed syndicate logo.png",
+    "./images/preview/gaming/Auriga log cabin.png",
+    "./images/preview/gaming/Biomutant hero.png",
+    "./images/preview/gaming/Bioshock underwater city.png",
+    "./images/preview/gaming/Cave subnautica below zero.png",
+    "./images/preview/gaming/Clip from fortnite.png",
+    "./images/preview/gaming/Cyberpunk 2077 judy s apartment.png",
+    "./images/preview/gaming/Cyberpunk 2077 v s apartment.png",
+    "./images/preview/gaming/Cypher.png",
+    "./images/preview/gaming/Dagger of warhammer.png"
   ]
 }
