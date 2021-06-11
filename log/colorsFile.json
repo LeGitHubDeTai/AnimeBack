@@ -25,12 +25,11 @@
     "./images/preview/gaming/Undertale your soulmate.png"
   ],
   "Black": [
-    "./images/preview/gaming/World of tank.png",
     "./images/preview/landscape/Landscape mix hD.png",
-    "./images/preview/landscape/Monday chill vJ loop 009.png",
-    "./images/preview/landscape/Night city midnight ads.png",
-    "./images/preview/landscape/Night lantern.png",
-    "./images/preview/landscape/Night market.png"
+    "./images/preview/landscape/Summer festival.png",
+    "./images/preview/movies/Doctor who 2.png",
+    "./images/preview/movies/Spiderman.png",
+    "./images/preview/movies/Stranger things intro opening credits.png"
   ],
   "Other": [
     "./images/preview/animals/Cat space glasses.png",
@@ -545,6 +544,26 @@
     "./images/preview/landscape/Sakura city.png",
     "./images/preview/landscape/Sakura tree.png",
     "./images/preview/landscape/Sakura.png",
-    "./images/preview/landscape/Seashore.png"
+    "./images/preview/landscape/Seashore.png",
+    "./images/preview/landscape/Landscape mix hD.png",
+    "./images/preview/landscape/Monday chill vJ loop 009.png",
+    "./images/preview/landscape/Night city midnight ads.png",
+    "./images/preview/landscape/Night lantern.png",
+    "./images/preview/landscape/Night market.png",
+    "./images/preview/landscape/Windmill.png",
+    "./images/preview/landscape/Windy.png",
+    "./images/preview/landscape/Winter town.png",
+    "./images/preview/movies/Baby yoda loop.png",
+    "./images/preview/movies/Catwoman girl.png",
+    "./images/preview/movies/Doctor who animation 50 years in time and space.png",
+    "./images/preview/movies/Doctor who intro.png",
+    "./images/preview/movies/Doctor who title.png",
+    "./images/preview/movies/Godzilla.png",
+    "./images/preview/movies/Ironman hud.png",
+    "./images/preview/movies/Rick morty.png",
+    "./images/preview/movies/Shadow of the tomb raider.png",
+    "./images/preview/movies/Shrek all star.png",
+    "./images/preview/movies/Star wars.png",
+    "./images/preview/movies/StarWars.png"
   ]
 }
