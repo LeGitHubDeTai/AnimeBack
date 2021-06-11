@@ -9,17 +9,18 @@
     "./images/preview/anime/Hunter x hunter hisoka 2.png",
     "./images/preview/anime/Midoriya toga.png",
     "./images/preview/anime/Shooting time.png",
-    "./images/preview/anime/Tokyo goule.png"
+    "./images/preview/anime/Tokyo goule.png",
+    "./images/preview/anime/Wandering witch the journey of elaina.png"
   ],
   "Black": [
-    "./images/preview/anime/Tokyo goule.png",
     "./images/preview/anime/Wandering witch the journey of elaina.png",
     "./images/preview/art/Corasair collection.png",
     "./images/preview/art/Golden city.png",
-    "./images/preview/art/Meditation.png",
-    "./images/preview/art/Neon sunset.png",
-    "./images/preview/art/Msi.png",
-    "./images/preview/art/Rainy day.png"
+    "./images/preview/art/Scifi.png",
+    "./images/preview/art/Sun particles.png",
+    "./images/preview/art/Sword.png",
+    "./images/preview/art/Techno.png",
+    "./images/preview/art/Tomorrows ark.png"
   ],
   "Other": [
     "./images/preview/animals/Cat space glasses.png",
@@ -274,6 +275,23 @@
     "./images/preview/art/Nvidia geforce gtx.png",
     "./images/preview/art/Radeon vega.png",
     "./images/preview/art/Random abstract neon lines.png",
-    "./images/preview/art/Red flame blue fire.png"
+    "./images/preview/art/Red flame blue fire.png",
+    "./images/preview/art/Meditation.png",
+    "./images/preview/art/Msi.png",
+    "./images/preview/art/Neon sunset.png",
+    "./images/preview/art/Rainy day.png",
+    "./images/preview/art/Rgb triangle.png",
+    "./images/preview/art/Scarecrow.png",
+    "./images/preview/art/Scary halloween.png",
+    "./images/preview/art/Science fiction.png",
+    "./images/preview/art/Sphere.png",
+    "./images/preview/art/Steelseries.png",
+    "./images/preview/art/Steampunk.png",
+    "./images/preview/art/Touhou project onozuka komachi.png",
+    "./images/preview/art/Touhou project.png",
+    "./images/preview/art/Videogames.png",
+    "./images/preview/art/Underwater.png",
+    "./images/preview/art/XTC trip.png",
+    "./images/preview/art/车站.png"
   ]
 }
