@@ -1,12 +1,18 @@
 {
   "Detect": [
-    "./images/preview/animals/Pony parade.png"
+    "./images/preview/animals/Pony parade.png",
+    "./images/preview/anime/Black clover opening 2.png"
   ],
   "Black": [
-    "./images/preview/animated/The thorn in the ordinary day.png",
     "./images/preview/anime/Black clover opening 2.png",
-    "./images/preview/anime/Cant stop lovin you.png",
-    "./images/preview/anime/Chinese new year.png"
+    "./images/preview/anime/Demonslayer butterfly.png",
+    "./images/preview/anime/Dragonball super vegeta.png",
+    "./images/preview/anime/Eromanga sensei.png",
+    "./images/preview/anime/Fallen angel.png",
+    "./images/preview/anime/Fate grand order jeanne darc.png",
+    "./images/preview/anime/Forest dream.png",
+    "./images/preview/anime/Gakkou gurashi kurumi.png",
+    "./images/preview/anime/Girl and fireflies.png"
   ],
   "Other": [
     "./images/preview/animals/Cat space glasses.png",
@@ -120,6 +126,22 @@
     "./images/preview/anime/Dark tokyo goule.png",
     "./images/preview/anime/Darling in the franxx klaxosaur princess.png",
     "./images/preview/anime/Darling in the franxx.png",
-    "./images/preview/anime/Darling in the franxx zero two sporty.png"
+    "./images/preview/anime/Darling in the franxx zero two sporty.png",
+    "./images/preview/anime/Cant stop lovin you.png",
+    "./images/preview/anime/Chinese new year.png",
+    "./images/preview/anime/Demon slayer nezuko kamado.png",
+    "./images/preview/anime/Demon slayer shinobu kocho.png",
+    "./images/preview/anime/Demon slayer zenitsu agatsuma.png",
+    "./images/preview/anime/Desktop girl.png",
+    "./images/preview/anime/Devushka neko.png",
+    "./images/preview/anime/Dragon ball super.png",
+    "./images/preview/anime/Dragon ball.png",
+    "./images/preview/anime/Dragon maid relaxing asleep kanna.png",
+    "./images/preview/anime/Dragonball.png",
+    "./images/preview/anime/Dragonball2.png",
+    "./images/preview/anime/Elfy.png",
+    "./images/preview/anime/Ghost maid.png",
+    "./images/preview/anime/Ghost of tsushima.png",
+    "./images/preview/anime/Girl with headphones.png"
   ]
 }
