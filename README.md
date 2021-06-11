@@ -61,7 +61,7 @@ See [Contributions.md#how-it-works](https://github.com/TaiStudio/animeback-submi
 MIT
 <p align='center'>
   <a href="http://www.youtube.com/watch?v=JpFKSTRth4M">
-    <img src="https://github.com/LeGitHubDeTai/AnimeBack/blob/main/assets/Trailer%20Animeback.jpg?raw=true" width="45%" ></img>
+    <img src="https://github.com/LeGitHubDeTai/AnimeBack/blob/main/assets/images/Trailer%20Animeback.jpg?raw=true" width="45%" ></img>
   </a>
   
   <br/>
