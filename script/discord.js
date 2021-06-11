@@ -48,7 +48,7 @@ try {
                   "url": `${replaceAll(newer, ' ', '%20')}`
                 },
                 "thumbnail": {
-                  "url": "https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/assets/checkGreen.png"
+                  "url": "https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/assets/images/checkGreen.png"
                 },
                 "footer": {
                   "text": "- Tai Studio © 2021 -",
