@@ -38,7 +38,7 @@
 
 <p align='center'>
   <a href="https://github.com/LeGitHubDeTai/AnimeBack/releases">
-    <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fcustom.json">
+    <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fassets%2Fcustom%2Fcustom.json">
   </a>
 </p>
 
@@ -66,20 +66,20 @@ MIT
   
   <br/>
   
-  <img src="https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/assets/tray.png" width="45%" ></img>
-  <img src="https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/assets/changelog.png" width="45%" ></img>
-  <img src="https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/assets/desktop.png" width="45%" ></img>
-  <img src="https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/assets/options.png" width="45%" ></img>
-  <img src="https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/assets/wikigit.png" width="45%" ></img>
-  <img src="https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/assets/github.png" width="45%" ></img>
+  <img src="https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/assets/images/tray.png" width="45%" ></img>
+  <img src="https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/assets/images/changelog.png" width="45%" ></img>
+  <img src="https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/assets/images/desktop.png" width="45%" ></img>
+  <img src="https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/assets/images/options.png" width="45%" ></img>
+  <img src="https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/assets/images/wikigit.png" width="45%" ></img>
+  <img src="https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/assets/images/github.png" width="45%" ></img>
   
   <br/>
   
-  <img src="https://github.com/LeGitHubDeTai/AnimeBack/blob/main/assets/tray%20options.png?raw=true" width="45%" ></img>
-  <img src="https://github.com/LeGitHubDeTai/AnimeBack/blob/main/assets/options%20window.png?raw=true" width="45%" ></img>
-  <img src="https://github.com/LeGitHubDeTai/AnimeBack/blob/main/assets/changelog%20window.png?raw=true" width="45%" ></img>
-  <img src="https://github.com/LeGitHubDeTai/AnimeBack/blob/main/assets/add%20extensions.png?raw=true" width="45%" ></img>
-  <img src="https://github.com/LeGitHubDeTai/AnimeBack/blob/main/assets/add%20custom.png?raw=true" width="45%" ></img>
-  <img src="https://github.com/LeGitHubDeTai/AnimeBack/blob/main/assets/add%20custom.png?raw=true" width="45%" ></img>
+  <img src="https://github.com/LeGitHubDeTai/AnimeBack/blob/main/assets/images/tray%20options.png?raw=true" width="45%" ></img>
+  <img src="https://github.com/LeGitHubDeTai/AnimeBack/blob/main/assets/images/options%20window.png?raw=true" width="45%" ></img>
+  <img src="https://github.com/LeGitHubDeTai/AnimeBack/blob/main/assets/images/changelog%20window.png?raw=true" width="45%" ></img>
+  <img src="https://github.com/LeGitHubDeTai/AnimeBack/blob/main/assets/images/add%20extensions.png?raw=true" width="45%" ></img>
+  <img src="https://github.com/LeGitHubDeTai/AnimeBack/blob/main/assets/images/add%20custom.png?raw=true" width="45%" ></img>
+  <img src="https://github.com/LeGitHubDeTai/AnimeBack/blob/main/assets/images/add%20custom.png?raw=true" width="45%" ></img>
  </p>
 
