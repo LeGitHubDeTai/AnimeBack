@@ -21,11 +21,16 @@
     "./images/preview/gaming/Gamer.png",
     "./images/preview/gaming/Katana zero 4.png",
     "./images/preview/gaming/Hollow knight.png",
-    "./images/preview/gaming/Payday 2 what is love.png"
-  ],
-  "Black": [
     "./images/preview/gaming/Payday 2 what is love.png",
     "./images/preview/gaming/Undertale your soulmate.png"
+  ],
+  "Black": [
+    "./images/preview/gaming/Undertale your soulmate.png",
+    "./images/preview/gaming/World of tank.png",
+    "./images/preview/landscape/Anime backyard rain.png",
+    "./images/preview/landscape/At night when fireworks twinkle.png",
+    "./images/preview/landscape/Beach.png",
+    "./images/preview/landscape/Fantasy.png"
   ],
   "Other": [
     "./images/preview/animals/Cat space glasses.png",
@@ -504,6 +509,23 @@
     "./images/preview/gaming/Undertale ruins.png",
     "./images/preview/gaming/Undertale sans at the snowdin forest.png",
     "./images/preview/gaming/Undertale sans.png",
-    "./images/preview/gaming/Undertale souls.png"
+    "./images/preview/gaming/Undertale souls.png",
+    "./images/preview/gaming/Unravel.png",
+    "./images/preview/gaming/Valorant omen.png",
+    "./images/preview/gaming/Viper valorant green.png",
+    "./images/preview/gaming/Warframe chroma prime.png",
+    "./images/preview/gaming/Warframe mesa prime.png",
+    "./images/preview/gaming/Warframe umbra 2.png",
+    "./images/preview/gaming/Warframe umbra.png",
+    "./images/preview/gaming/Witch weapon.png",
+    "./images/preview/gaming/World of warcraft silvanas windrunner.png",
+    "./images/preview/gaming/Yasuo nightbringer league of legends.png",
+    "./images/preview/gaming/Zelda cyber link.png",
+    "./images/preview/landscape/A warriors death.png",
+    "./images/preview/landscape/Alps mountains windy & snowing.png",
+    "./images/preview/landscape/Chillhop cabin no dog.png",
+    "./images/preview/landscape/Creux de van.png",
+    "./images/preview/landscape/Edge of the world.png",
+    "./images/preview/landscape/Ephemeral.png"
   ]
 }
