@@ -25,10 +25,10 @@
     "./images/preview/gaming/Undertale your soulmate.png",
     "./images/preview/movies/Doctor who 2.png",
     "./images/preview/movies/Stranger things intro opening credits.png",
-    "./images/preview/particle/Golden 48569.png"
+    "./images/preview/particle/Golden 48569.png",
+    "./images/preview/particle/Shockwave.png"
   ],
   "Black": [
-    "./images/preview/particle/Golden 48569.png",
     "./images/preview/particle/Shockwave.png"
   ],
   "Other": [
