@@ -1,9 +1,12 @@
 {
-  "Detect": [],
+  "Detect": [
+    "./images/preview/animals/Pony parade.png"
+  ],
   "Black": [
     "./images/preview/animals/Pony parade.png",
-    "./images/preview/animals/Wake up.png",
-    "./images/preview/animals/Whale and sea.png"
+    "./images/preview/animated/Aeolion.png",
+    "./images/preview/animated/Cyberpunk anime girl.png",
+    "./images/preview/animated/Falling asleep.png"
   ],
   "Other": [
     "./images/preview/animals/Cat space glasses.png",
@@ -27,6 +30,28 @@
     "./images/preview/animals/Winter fox.png",
     "./images/preview/animals/Wolf final.png",
     "./images/preview/animals/Wolf stare in the snow.png",
-    "./images/preview/animated/A different reindeer dao trong le art.png"
+    "./images/preview/animated/A different reindeer dao trong le art.png",
+    "./images/preview/animals/Wake up.png",
+    "./images/preview/animals/Whale and sea.png",
+    "./images/preview/animated/Aesthetic city girl.png",
+    "./images/preview/animated/Amelia watson.png",
+    "./images/preview/animated/Android.png",
+    "./images/preview/animated/Anime art.png",
+    "./images/preview/animated/Auquaman mera.png",
+    "./images/preview/animated/Anime girl.png",
+    "./images/preview/animated/Black ocean.png",
+    "./images/preview/animated/Bubbles.png",
+    "./images/preview/animated/City lights.png",
+    "./images/preview/animated/Coding desk.png",
+    "./images/preview/animated/Commence onslaught.png",
+    "./images/preview/animated/Cyber girl.png",
+    "./images/preview/animated/Cyberpunk combat cyborg.png",
+    "./images/preview/animated/Cyberpunk cybergirl.png",
+    "./images/preview/animated/Cyberpunk rain firework.png",
+    "./images/preview/animated/Cyberpunk.png",
+    "./images/preview/animated/Ellenuviel fantasy girl.png",
+    "./images/preview/animated/Enchanted terraces.png",
+    "./images/preview/animated/Exercise cyberpunk.png",
+    "./images/preview/animated/Fantasy woman.png"
   ]
 }
