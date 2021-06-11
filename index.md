@@ -1,3 +1,5 @@
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
 ![GitHub Logo](https://github.com/LeGitHubDeTai/AnimeBack/blob/main/assets/images/logo%20white2.png?raw=true)
 
 <p align='center'>
