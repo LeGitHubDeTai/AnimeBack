@@ -1,4 +1,4 @@
-![GitHub Logo](https://github.com/LeGitHubDeTai/AnimeBack/blob/main/assets/logo%20white2.png?raw=true)
+![GitHub Logo](https://github.com/LeGitHubDeTai/AnimeBack/blob/main/assets/images/logo%20white2.png?raw=true)
 
 <p align='center'>
   <a href="https://buymeacoffee.com/taistudio" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png" alt="Buy Me A Coffee"></a>
