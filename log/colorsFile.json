@@ -17,16 +17,15 @@
     "./images/preview/gaming/Among us 2.png",
     "./images/preview/gaming/Among us bouncing around.png",
     "./images/preview/gaming/Among us ejected.png",
-    "./images/preview/gaming/Dead by daylight purple huntress.png"
+    "./images/preview/gaming/Dead by daylight purple huntress.png",
+    "./images/preview/gaming/Gamer.png"
   ],
   "Black": [
-    "./images/preview/gaming/Dead by daylight purple huntress.png",
     "./images/preview/gaming/Gamer.png",
     "./images/preview/gaming/Hollow knight.png",
     "./images/preview/gaming/Katana zero 4.png",
-    "./images/preview/gaming/Kda girls drum go dum league of legends.png",
-    "./images/preview/gaming/Kingdom hearts 3 master of the masters.png",
-    "./images/preview/gaming/Kingdom hearts 3.png"
+    "./images/preview/gaming/Metal gear solid 3 naked snake.png",
+    "./images/preview/gaming/Metal gear solid v big boss.png"
   ],
   "Other": [
     "./images/preview/animals/Cat space glasses.png",
@@ -430,6 +429,26 @@
     "./images/preview/gaming/League of legends rune king viego.png",
     "./images/preview/gaming/Lobotomy corporation blue star.png",
     "./images/preview/gaming/Mad max.png",
-    "./images/preview/gaming/Mad max 2.png"
+    "./images/preview/gaming/Mad max 2.png",
+    "./images/preview/gaming/Mario cube.png",
+    "./images/preview/gaming/Kda girls drum go dum league of legends.png",
+    "./images/preview/gaming/Kingdom hearts 3 master of the masters.png",
+    "./images/preview/gaming/Mobile legends benedetta.png",
+    "./images/preview/gaming/Kingdom hearts 3.png",
+    "./images/preview/gaming/Minecraft fox.png",
+    "./images/preview/gaming/Mobile legends lunox.png",
+    "./images/preview/gaming/Mortal kombat 11.png",
+    "./images/preview/gaming/Nekopara maplecinnamon.png",
+    "./images/preview/gaming/Nier automata.png",
+    "./images/preview/gaming/Monster hunter lagiacrus.png",
+    "./images/preview/gaming/Nier reincarnation akeha.png",
+    "./images/preview/gaming/Omen valorant.png",
+    "./images/preview/gaming/Outlast 2.png",
+    "./images/preview/gaming/Ori and the blind forest scene.png",
+    "./images/preview/gaming/Overwatch ashe.png",
+    "./images/preview/gaming/Overwatch lonely widow.png",
+    "./images/preview/gaming/Overwatch dva neon drop.png",
+    "./images/preview/gaming/Overwatch pharah.png",
+    "./images/preview/gaming/Overwatch space energy.png"
   ]
 }
