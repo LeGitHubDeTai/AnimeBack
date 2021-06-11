@@ -3,8 +3,10 @@
     "./images/preview/animals/Pony parade.png"
   ],
   "Black": [
-    "./images/preview/animated/Aeolion.png",
-    "./images/preview/animated/Imitation of princess mononoke.png"
+    "./images/preview/animated/Imitation of princess mononoke.png",
+    "./images/preview/animated/The thorn in the ordinary day.png",
+    "./images/preview/animated/Young jinyiwei.png",
+    "./images/preview/anime/Aion.png"
   ],
   "Other": [
     "./images/preview/animals/Cat space glasses.png",
@@ -74,6 +76,28 @@
     "./images/preview/animated/Room.png",
     "./images/preview/animated/Shipwreck.png",
     "./images/preview/animated/Shinobi.png",
-    "./images/preview/animated/Smoke.png"
+    "./images/preview/animated/Smoke.png",
+    "./images/preview/animated/Imitation of princess mononoke.png",
+    "./images/preview/animated/Snowing kimono.png",
+    "./images/preview/animated/Sorceress.png",
+    "./images/preview/animated/Studying girl.png",
+    "./images/preview/animated/Surtr.png",
+    "./images/preview/animated/The incarnation of dawn.png",
+    "./images/preview/animated/The remains of a steam fighter.png",
+    "./images/preview/animated/Traveling companions cyberpunk city.png",
+    "./images/preview/animated/Vending machine.png",
+    "./images/preview/animated/Wear your mask.png",
+    "./images/preview/animated/Where is the star.png",
+    "./images/preview/animated/Your gps is wrong.png",
+    "./images/preview/anime/ attack on titan eren final season.png",
+    "./images/preview/anime/ black clover asta.png",
+    "./images/preview/anime/ black clover charmy.png",
+    "./images/preview/anime/ black clover yami sukehiro.png",
+    "./images/preview/anime/ black clover yuno.png",
+    "./images/preview/anime/ black clover.png",
+    "./images/preview/anime/ jujutsu kaisen sukuna and itadori.png",
+    "./images/preview/anime/ jujutsu kaisen sukuna.png",
+    "./images/preview/anime/All might my hero academia.png",
+    "./images/preview/anime/Asta.png"
   ]
 }
