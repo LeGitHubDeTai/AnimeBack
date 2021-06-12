@@ -51,6 +51,6 @@ console.log('Done!'.green);
 
 function randColor(){
     var colors = ['brightgreen', 'green', 'yellowgreen', 'yellow', 'orange', 'red', 'blue', 'lightgrey', 'success', 'important', 'critical', 'informational', 'inactive', 'blueviolet', 'ff69b4', '9cf'];
-    var number = Math.random() * (colors.length - 0) + 0;
+    var number = Math.ceil(Math.random() * (colors.length - 0) + 0);
     return colors[number];
 }
