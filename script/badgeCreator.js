@@ -25,15 +25,32 @@ Object.keys(nconf.stores).forEach(function(name){
             "message": count,
             "color": randColor()
         };
+        if(fs.existsSync(`./assets/badge/${test}.json`)){
+            var old = require(`../assets/badge/${test}.json`);
+
+            if(old.message >= count){
+                badge = old;
+            }
+        }
         fs.writeFileSync(`./assets/badge/${test}.json`, JSON.stringify(badge));
-        console.log("INFO: Write badge", test, 'DONE !'.cyan);
+
+        console.log(`INFO: Write badge ${test}`.cyan, `Color: ${badge.color}`.blue);
     })
 })
+
+if(!fs.existsSync(`./assets/badge/download.json`)){
+    fs.writeFileSync(`./assets/badge/download.json`, JSON.stringify({
+        "schemaVersion": 1,
+        "label": "Animeback",
+        "message": "Download Now For Free !",
+        "color": "green"
+      }));
+}
 
 console.log('Done!'.green);
 
 function randColor(){
     var colors = ['brightgreen', 'green', 'yellowgreen', 'yellow', 'orange', 'red', 'blue', 'lightgrey', 'success', 'important', 'critical', 'informational', 'inactive', 'blueviolet', 'ff69b4', '9cf'];
-    var number = Math.ceil(Math.random(colors.length + 1));
+    var number = Math.random() * (colors.length - 0) + 0;
     return colors[number];
 }
