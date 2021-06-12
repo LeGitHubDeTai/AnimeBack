@@ -19,7 +19,7 @@
     "build:wizard2": "node ./script/wizard.js",
     "build:clean": "node ./script/clean.js",
     "build:discord": "node ./script/discord.js",
-    "build:badge": "node ./script/badgeCreator.js",
+    "badge": "node ./script/badgeCreator.js",
     "youtube": "node ./script/youtube.js",
     "auto": "script/auto.sh",
     "clean": "node ./script/clean.js",
@@ -42,7 +42,6 @@
   },
   "homepage": "https://github.com/LeGitHubDeTai/AnimeBack#readme",
   "dependencies": {
-    "cheerio": "1.0.0-rc.10",
     "colors": "^1.4.0",
     "decompose-url": "^0.1.2",
     "ffmpeg": "^0.0.4",
