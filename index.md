@@ -60,22 +60,22 @@
         <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fassets%2Fbadge%2Fspace.json">
 </p>
 
-<h2>⚙️ Create your extenions</h2>
 <br/>
+<h2>⚙️ Create your extenions</h2>
 If you are a developer and / or you want to create an extension
 please read the <a href="https://github.com/LeGitHubDeTai/AnimeBack/wiki/Extensions">Wiki</a>.
 <br/>
-<h2>🚀 Adding your extensions</h2>
 <br/>
+<h2>🚀 Adding your extensions</h2>
 If you have an Extensions you'd like to see added,
 please read the <a href="https://github.com/TaiStudio/animeback-submit/blob/master/CONTRIBUTING.md">Contributions</a> doc.
 <br/>
-<h2>🔑 How it Works</h2>
 <br/>
+<h2>🔑 How it Works</h2>
 See <a href="https://github.com/TaiStudio/animeback-submit/blob/master/CONTRIBUTING.md#how-it-works">Contributions.md#how-it-works</a>
 <br/>
-<h2>📜 License</h2>
 <br/>
+<h2>📜 License</h2>
 MIT
 <br/>
 <p align="center">
