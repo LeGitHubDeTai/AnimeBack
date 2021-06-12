@@ -58,7 +58,8 @@ if(!fs.existsSync(`./assets/badge/download.json`)){
       }));
 }
 
-$('.badge').html(badges);
+$('.badge').html(`${badges}
+`);
 fs.writeFileSync('./README.md', $.html());
 console.log('Done!'.green);
 

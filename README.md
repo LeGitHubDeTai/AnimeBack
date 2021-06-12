@@ -1,6 +1,6 @@
 <html><head></head><body>
 
-![GitHub Logo](https://github.com/LeGitHubDeTai/AnimeBack/blob/main/assets/images/logo%20white2.png?raw=true)
+<img src="https://github.com/LeGitHubDeTai/AnimeBack/blob/main/assets/images/logo%20white2.png?raw=true" alt="GitHub Logo">
 
 <p align="center">
   <a href="https://buymeacoffee.com/taistudio" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png" alt="Buy Me A Coffee" /></a>
@@ -57,24 +57,27 @@
         <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fassets%2Fbadge%2Flandscape.json" />
         <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fassets%2Fbadge%2Fmovies.json" />
         <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fassets%2Fbadge%2Fparticle.json" />
-        <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fassets%2Fbadge%2Fspace.json"></p>
+        <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fassets%2Fbadge%2Fspace.json">
+</p>
 
-## ⚙️ Create your extenions
+<br/>
+<h2>⚙️ Create your extenions</h2>
 If you are a developer and / or you want to create an extension
-please read the [Wiki](https://github.com/LeGitHubDeTai/AnimeBack/wiki/Extensions).
-
-## 🚀 Adding your extensions
-
+please read the <a href="https://github.com/LeGitHubDeTai/AnimeBack/wiki/Extensions">Wiki</a>.
+<br/>
+<br/>
+<h2>🚀 Adding your extensions</h2>
 If you have an Extensions you'd like to see added,
-please read the [Contributions](https://github.com/TaiStudio/animeback-submit/blob/master/CONTRIBUTING.md) doc.
-
-## 🔑 How it Works
-
-See [Contributions.md#how-it-works](https://github.com/TaiStudio/animeback-submit/blob/master/CONTRIBUTING.md#how-it-works)
-
-## 📜 License
-
+please read the <a href="https://github.com/TaiStudio/animeback-submit/blob/master/CONTRIBUTING.md">Contributions</a> doc.
+<br/>
+<br/>
+<h2>🔑 How it Works</h2>
+See <a href="https://github.com/TaiStudio/animeback-submit/blob/master/CONTRIBUTING.md#how-it-works">Contributions.md#how-it-works</a>
+<br/>
+<br/>
+<h2>📜 License</h2>
 MIT
+<br/>
 <p align="center">
   <a href="http://www.youtube.com/watch?v=JpFKSTRth4M">
     <img src="https://github.com/LeGitHubDeTai/AnimeBack/blob/main/assets/images/Trailer%20Animeback.jpg?raw=true" width="45%" />
