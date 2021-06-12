@@ -13,7 +13,6 @@ const fs = require('fs');
 const path = require('path');
 const nconf = require('nconf');
 const sharp = require('sharp');
-const imagemin = require('imagemin');
 const testFolder = './images';
 var config = `${testFolder}/categories.json`;
 
@@ -54,7 +53,6 @@ function resize(file, size, size2) {
         .resize(size, size2, { fit: 'cover' })
         .toFormat('png')
         .toBuffer()
-        .then((buf) => imagemin.buffer(buf))
         .then((buf) => fs.writeFileSync(newFile, buf))
     )
 } 
