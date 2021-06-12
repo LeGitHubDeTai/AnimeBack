@@ -1,6 +1,6 @@
 <html><head></head><body>
 
-![GitHub Logo](https://github.com/LeGitHubDeTai/AnimeBack/blob/main/assets/images/logo%20white2.png?raw=true)
+<img src="https://github.com/LeGitHubDeTai/AnimeBack/blob/main/assets/images/logo%20white2.png?raw=true" alt="GitHub Logo">
 
 <p align="center">
   <a href="https://buymeacoffee.com/taistudio" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png" alt="Buy Me A Coffee" /></a>
@@ -62,16 +62,16 @@
 
 ## ⚙️ Create your extenions
 If you are a developer and / or you want to create an extension
-please read the [Wiki](https://github.com/LeGitHubDeTai/AnimeBack/wiki/Extensions).
+please read the <a href="https://github.com/LeGitHubDeTai/AnimeBack/wiki/Extensions">Wiki</a>.
 
 ## 🚀 Adding your extensions
 
 If you have an Extensions you'd like to see added,
-please read the [Contributions](https://github.com/TaiStudio/animeback-submit/blob/master/CONTRIBUTING.md) doc.
+please read the <a href="https://github.com/TaiStudio/animeback-submit/blob/master/CONTRIBUTING.md">Contributions</a> doc.
 
 ## 🔑 How it Works
 
-See [Contributions.md#how-it-works](https://github.com/TaiStudio/animeback-submit/blob/master/CONTRIBUTING.md#how-it-works)
+See <a href="https://github.com/TaiStudio/animeback-submit/blob/master/CONTRIBUTING.md#how-it-works">Contributions.md#how-it-works</a>
 
 ## 📜 License
 
