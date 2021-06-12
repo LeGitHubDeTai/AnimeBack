@@ -45,58 +45,32 @@
 </p>
 
 <p align="center" class="badge">
-            <a href="https://github.com/LeGitHubDeTai/AnimeBack/releases">
-                <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fassets%2Fbadge%2Fanimals.json" />
-            </a>
+            <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fassets%2Fbadge%2Fanimals.json">
             
-            <a href="https://github.com/LeGitHubDeTai/AnimeBack/releases">
-                <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fassets%2Fbadge%2Fanimated.json">
-            </a>
+            <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fassets%2Fbadge%2Fanimated.json">
             
-            <a href="https://github.com/LeGitHubDeTai/AnimeBack/releases">
-                <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fassets%2Fbadge%2Fanime.json">
-            </a>
+            <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fassets%2Fbadge%2Fanime.json">
             
-            <a href="https://github.com/LeGitHubDeTai/AnimeBack/releases">
-                <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fassets%2Fbadge%2Fanimeback.json">
-            </a>
+            <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fassets%2Fbadge%2Fanimeback.json">
             
-            <a href="https://github.com/LeGitHubDeTai/AnimeBack/releases">
-                <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fassets%2Fbadge%2Fart.json">
-            </a>
+            <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fassets%2Fbadge%2Fart.json">
             
-            <a href="https://github.com/LeGitHubDeTai/AnimeBack/releases">
-                <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fassets%2Fbadge%2Fcars.json">
-            </a>
+            <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fassets%2Fbadge%2Fcars.json">
             
-            <a href="https://github.com/LeGitHubDeTai/AnimeBack/releases">
-                <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fassets%2Fbadge%2Fchristmas.json">
-            </a>
+            <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fassets%2Fbadge%2Fchristmas.json">
             
-            <a href="https://github.com/LeGitHubDeTai/AnimeBack/releases">
-                <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fassets%2Fbadge%2Fgaming.json">
-            </a>
+            <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fassets%2Fbadge%2Fgaming.json">
             
-            <a href="https://github.com/LeGitHubDeTai/AnimeBack/releases">
-                <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fassets%2Fbadge%2Finteractive.json">
-            </a>
+            <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fassets%2Fbadge%2Finteractive.json">
             
-            <a href="https://github.com/LeGitHubDeTai/AnimeBack/releases">
-                <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fassets%2Fbadge%2Flandscape.json">
-            </a>
+            <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fassets%2Fbadge%2Flandscape.json">
             
-            <a href="https://github.com/LeGitHubDeTai/AnimeBack/releases">
-                <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fassets%2Fbadge%2Fmovies.json">
-            </a>
+            <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fassets%2Fbadge%2Fmovies.json">
             
-            <a href="https://github.com/LeGitHubDeTai/AnimeBack/releases">
-                <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fassets%2Fbadge%2Fparticle.json">
-            </a>
+            <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fassets%2Fbadge%2Fparticle.json">
             
-            <a href="https://github.com/LeGitHubDeTai/AnimeBack/releases">
-                <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fassets%2Fbadge%2Fspace.json">
-            </a>
-</p>
+            <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fassets%2Fbadge%2Fspace.json">
+            </p>
 
 ## ⚙️ Create your extenions
 If you are a developer and / or you want to create an extension
