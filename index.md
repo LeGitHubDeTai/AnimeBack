@@ -44,6 +44,22 @@
   </a>
 </p>
 
+<p align="center" class="badge">
+        <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fassets%2Fbadge%2Fanimals.json" />
+        <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fassets%2Fbadge%2Fanimated.json" />
+        <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fassets%2Fbadge%2Fanime.json" />
+        <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fassets%2Fbadge%2Fanimeback.json" />
+        <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fassets%2Fbadge%2Fart.json" />
+        <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fassets%2Fbadge%2Fcars.json" />
+        <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fassets%2Fbadge%2Fchristmas.json" />
+        <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fassets%2Fbadge%2Fgaming.json" />
+        <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fassets%2Fbadge%2Finteractive.json" />
+        <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fassets%2Fbadge%2Flandscape.json" />
+        <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fassets%2Fbadge%2Fmovies.json" />
+        <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fassets%2Fbadge%2Fparticle.json" />
+        <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fassets%2Fbadge%2Fspace.json">
+</p>
+
 ## ⚙️ Create your extenions
 If you are a developer and / or you want to create an extension
 please read the [Wiki](https://github.com/LeGitHubDeTai/AnimeBack/wiki/Extensions).
