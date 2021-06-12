@@ -19,6 +19,7 @@
     "build:wizard2": "node ./script/wizard.js",
     "build:clean": "node ./script/clean.js",
     "build:discord": "node ./script/discord.js",
+    "build:badge": "node ./script/badgeCreator.js",
     "youtube": "node ./script/youtube.js",
     "auto": "script/auto.sh",
     "clean": "node ./script/clean.js",
