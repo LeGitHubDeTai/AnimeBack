@@ -31,7 +31,7 @@ Object.keys(nconf.stores).forEach(function(name){
         var badge = {
             "schemaVersion": 1,
             "label": test,
-            "message": count,
+            "message": `${count}`,
             "color": randColor()
         };
         if(fs.existsSync(`./assets/badge/${test}.json`)){
