@@ -42,6 +42,7 @@
   },
   "homepage": "https://github.com/LeGitHubDeTai/AnimeBack#readme",
   "dependencies": {
+    "cheerio": "*",
     "colors": "^1.4.0",
     "decompose-url": "^0.1.2",
     "ffmpeg": "^0.0.4",
@@ -50,7 +51,7 @@
     "fs": "0.0.1-security",
     "gif-frames": "^1.0.1",
     "glob-parent": ">=5.1.2",
-    "imagemin": "^6.1.0",
+    "imagemin": "^8.0.0",
     "jimp": "^0.16.1",
     "jpeg-js": "^0.4.3",
     "nconf": "^0.11.2",

@@ -11,8 +11,13 @@
 var colors = require('colors');
 const fs = require('fs');
 const nconf = require('nconf');
+const cheerio = require('cheerio');
 const testFolder = './images';
 var config = `${testFolder}/categories.json`;
+
+var READMEfile = fs.readFileSync('./README.md').toString();
+const $ = cheerio.load(READMEfile);
+var badges = "";
 
 nconf.file(config);
 
@@ -36,6 +41,12 @@ Object.keys(nconf.stores).forEach(function(name){
                 badge = old;
             }
         }
+        badges = `
+            ${badges}
+            <a href="https://github.com/LeGitHubDeTai/AnimeBack/releases">
+                <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fassets%2Fbadge%2F${test}.json">
+            </a>
+            `;
         fs.writeFileSync(`./assets/badge/${test}.json`, JSON.stringify(badge));
 
         console.log(`INFO: Write badge ${test}`.cyan, `Color: ${badge.color}`.blue);
@@ -51,6 +62,8 @@ if(!fs.existsSync(`./assets/badge/download.json`)){
       }));
 }
 
+$('.badge').html(badges);
+fs.writeFileSync('./README.md', $.html());
 console.log('Done!'.green);
 
 function randColor(){
