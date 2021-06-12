@@ -16,6 +16,10 @@ var config = `${testFolder}/categories.json`;
 
 nconf.file(config);
 
+if(!fs.existsSync('./assets/badge')){
+    fs.mkdirSync('./assets/badge');
+}
+
 Object.keys(nconf.stores).forEach(function(name){
     Object.keys(nconf.stores[name].store).forEach(function(test){
         var count = nconf.get(test).length;
