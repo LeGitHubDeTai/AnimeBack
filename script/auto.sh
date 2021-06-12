@@ -7,7 +7,7 @@ set -o nounset    # fail on unset variables
 
 git clone "https://AnimeBack-Bot:$GH_TOKEN@github.com/LeGitHubDeTai/AnimeBack/" wallpapers
 cd wallpapers
-npm install
+npm ci
 
 npm start
 

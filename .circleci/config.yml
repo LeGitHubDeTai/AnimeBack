@@ -6,7 +6,7 @@ orbs:
 jobs:
   autoclasser:
     docker:
-      - image: cimg/node:14.10.1
+      - image: cimg/node:14.16.1
         auth:
           username: TaiStudio
           password: $DOCKERHUB_PASSWORD 
