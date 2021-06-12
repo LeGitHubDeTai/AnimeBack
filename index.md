@@ -61,21 +61,23 @@
 </p>
 
 <h2>⚙️ Create your extenions</h2>
+<br/>
 If you are a developer and / or you want to create an extension
 please read the <a href="https://github.com/LeGitHubDeTai/AnimeBack/wiki/Extensions">Wiki</a>.
-
+<br/>
 <h2>🚀 Adding your extensions</h2>
-
+<br/>
 If you have an Extensions you'd like to see added,
 please read the <a href="https://github.com/TaiStudio/animeback-submit/blob/master/CONTRIBUTING.md">Contributions</a> doc.
-
+<br/>
 <h2>🔑 How it Works</h2>
-
+<br/>
 See <a href="https://github.com/TaiStudio/animeback-submit/blob/master/CONTRIBUTING.md#how-it-works">Contributions.md#how-it-works</a>
-
+<br/>
 <h2>📜 License</h2>
-
+<br/>
 MIT
+<br/>
 <p align="center">
   <a href="http://www.youtube.com/watch?v=JpFKSTRth4M">
     <img src="https://github.com/LeGitHubDeTai/AnimeBack/blob/main/assets/images/Trailer%20Animeback.jpg?raw=true" width="45%" />
