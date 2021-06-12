@@ -42,8 +42,7 @@ Object.keys(nconf.stores).forEach(function(name){
             }
         }
         badges = `${badges}
-            <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fassets%2Fbadge%2F${test}.json" />
-            `;
+        <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeGitHubDeTai%2FAnimeBack%2Fmain%2Fassets%2Fbadge%2F${test}.json" />`;
         fs.writeFileSync(`./assets/badge/${test}.json`, JSON.stringify(badge));
 
         console.log(`INFO: Write badge ${test}`.cyan, `Color: ${badge.color}`.blue);
