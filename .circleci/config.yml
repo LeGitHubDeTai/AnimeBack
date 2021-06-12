@@ -25,8 +25,4 @@ workflows:
   autoClasser:
     jobs:
       - autoclasser
-        filters:
-          branches:
-            only:
-              - main
             
