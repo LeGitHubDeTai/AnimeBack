@@ -18,14 +18,14 @@
     "./images/preview/gaming/Among us bouncing around.png",
     "./images/preview/gaming/Among us ejected.png",
     "./images/preview/gaming/Dead by daylight purple huntress.png",
-    "./images/preview/gaming/Gamer.png"
+    "./images/preview/gaming/Gamer.png",
+    "./images/preview/gaming/Hollow knight.png"
   ],
   "Black": [
-    "./images/preview/gaming/Gamer.png",
     "./images/preview/gaming/Hollow knight.png",
     "./images/preview/gaming/Katana zero 4.png",
-    "./images/preview/gaming/Metal gear solid 3 naked snake.png",
-    "./images/preview/gaming/Metal gear solid v big boss.png"
+    "./images/preview/gaming/Payday 2 what is love.png",
+    "./images/preview/gaming/Resident evil 2 remake.png"
   ],
   "Other": [
     "./images/preview/animals/Chicken danse.png",
@@ -445,6 +445,25 @@
     "./images/preview/gaming/Omen valorant.png",
     "./images/preview/gaming/Nier automata.png",
     "./images/preview/gaming/Outlast 2.png",
-    "./images/preview/gaming/Ori and the blind forest scene.png"
+    "./images/preview/gaming/Ori and the blind forest scene.png",
+    "./images/preview/gaming/Metal gear solid 3 naked snake.png",
+    "./images/preview/gaming/Overwatch ashe.png",
+    "./images/preview/gaming/Metal gear solid v big boss.png",
+    "./images/preview/gaming/Overwatch lonely widow.png",
+    "./images/preview/gaming/Overwatch dva neon drop.png",
+    "./images/preview/gaming/Overwatch pharah.png",
+    "./images/preview/gaming/Overwatch space energy.png",
+    "./images/preview/gaming/Phoenix valorant.png",
+    "./images/preview/gaming/Princess of the warhammer.png",
+    "./images/preview/gaming/Pubg girl.png",
+    "./images/preview/gaming/Rainbow six siege.png",
+    "./images/preview/gaming/Raze valorant.png",
+    "./images/preview/gaming/Razer chroma.png",
+    "./images/preview/gaming/Red dead redemption 2 arthur morgan his good girl.png",
+    "./images/preview/gaming/Red dead redemption 2.png",
+    "./images/preview/gaming/Resident evil 4 leon s kennedy.png",
+    "./images/preview/gaming/Rog rgb 4k.png",
+    "./images/preview/gaming/Ruiner no file.png",
+    "./images/preview/gaming/Rocket league.png"
   ]
 }
