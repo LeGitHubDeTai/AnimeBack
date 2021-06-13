@@ -8,20 +8,20 @@
     "./images/preview/anime/Horror.png",
     "./images/preview/anime/Hunter x hunter hisoka 2.png",
     "./images/preview/anime/Midoriya toga.png",
-    "./images/preview/anime/Shooting time.png"
+    "./images/preview/anime/Shooting time.png",
+    "./images/preview/anime/Tokyo goule.png"
   ],
   "Black": [
-    "./images/preview/anime/Shooting time.png",
     "./images/preview/anime/Tokyo goule.png",
     "./images/preview/anime/Wandering witch the journey of elaina.png",
     "./images/preview/art/Corasair collection.png",
     "./images/preview/art/Golden city.png",
-    "./images/preview/art/Her room.png",
-    "./images/preview/art/Hooded kitty neon cyberpunk.png",
-    "./images/preview/art/I need speed.png",
-    "./images/preview/art/Meditation.png",
-    "./images/preview/art/Msi.png",
-    "./images/preview/art/Neon sunset.png"
+    "./images/preview/art/Rainy day.png",
+    "./images/preview/art/Scifi.png",
+    "./images/preview/art/Sun particles.png",
+    "./images/preview/art/Sword.png",
+    "./images/preview/art/Techno.png",
+    "./images/preview/art/Tomorrows ark.png"
   ],
   "Other": [
     "./images/preview/animals/Chicken danse.png",
@@ -272,6 +272,21 @@
     "./images/preview/art/Metal gears circle.png",
     "./images/preview/art/Macintosh t rex audio.png",
     "./images/preview/art/Radeon vega.png",
-    "./images/preview/art/Nvidia geforce gtx.png"
+    "./images/preview/art/Nvidia geforce gtx.png",
+    "./images/preview/art/Hooded kitty neon cyberpunk.png",
+    "./images/preview/art/Her room.png",
+    "./images/preview/art/I need speed.png",
+    "./images/preview/art/Meditation.png",
+    "./images/preview/art/Msi.png",
+    "./images/preview/art/Neon sunset.png",
+    "./images/preview/art/Random abstract neon lines.png",
+    "./images/preview/art/Red flame blue fire.png",
+    "./images/preview/art/Rgb triangle.png",
+    "./images/preview/art/Scarecrow.png",
+    "./images/preview/art/Scary halloween.png",
+    "./images/preview/art/Science fiction.png",
+    "./images/preview/art/Sphere.png",
+    "./images/preview/art/Steelseries.png",
+    "./images/preview/art/Steampunk.png"
   ]
 }
