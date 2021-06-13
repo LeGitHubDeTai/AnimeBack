@@ -10,15 +10,19 @@
     "./images/preview/anime/Midoriya toga.png",
     "./images/preview/anime/Shooting time.png",
     "./images/preview/anime/Tokyo goule.png",
-    "./images/preview/anime/Wandering witch the journey of elaina.png"
+    "./images/preview/anime/Wandering witch the journey of elaina.png",
+    "./images/preview/art/Corasair collection.png"
   ],
   "Black": [
-    "./images/preview/anime/Wandering witch the journey of elaina.png",
-    "./images/preview/art/Golden city.png",
     "./images/preview/art/Corasair collection.png",
+    "./images/preview/art/Golden city.png",
     "./images/preview/art/Scifi.png",
-    "./images/preview/cars/G's走行シーン.png",
-    "./images/preview/cars/Neon car in the rain.png"
+    "./images/preview/christmas/Christmas time.png",
+    "./images/preview/christmas/Relaxing christmas fire.png",
+    "./images/preview/gaming/Abyss watcher dark souls 3.png",
+    "./images/preview/gaming/Ahri godness league of legends.png",
+    "./images/preview/gaming/Altissia.png",
+    "./images/preview/gaming/Among us 2.png"
   ],
   "Other": [
     "./images/preview/animals/Chicken danse.png",
@@ -303,6 +307,22 @@
     "./images/preview/cars/Nissan skyline gtr32.png",
     "./images/preview/cars/Nissan skyline.png",
     "./images/preview/cars/SingleTurn t2.png",
-    "./images/preview/christmas/Attack on titan christmas.png"
+    "./images/preview/christmas/Attack on titan christmas.png",
+    "./images/preview/cars/G's走行シーン.png",
+    "./images/preview/christmas/Christmas eve animated.png",
+    "./images/preview/christmas/Christmas eve.png",
+    "./images/preview/cars/Neon car in the rain.png",
+    "./images/preview/christmas/Christmas overwatch.png",
+    "./images/preview/christmas/Christmas rossdraws.png",
+    "./images/preview/christmas/Christmas.png",
+    "./images/preview/christmas/League of legends jinx gaming.png",
+    "./images/preview/christmas/Pepe.png",
+    "./images/preview/christmas/Santa claus chase animated.png",
+    "./images/preview/christmas/The christmas shoe.png",
+    "./images/preview/christmas/Weird christmas animated.png",
+    "./images/preview/christmas/Winter house.png",
+    "./images/preview/christmas/Winter magic.png",
+    "./images/preview/gaming/Ak 47.png",
+    "./images/preview/gaming/Alien isolation menu.png"
   ]
 }
