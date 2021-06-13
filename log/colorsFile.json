@@ -15,16 +15,15 @@
     "./images/preview/art/Golden city.png",
     "./images/preview/art/Scifi.png",
     "./images/preview/gaming/Among us 2.png",
-    "./images/preview/gaming/Among us bouncing around.png"
+    "./images/preview/gaming/Among us bouncing around.png",
+    "./images/preview/gaming/Among us ejected.png"
   ],
   "Black": [
-    "./images/preview/gaming/Among us bouncing around.png",
     "./images/preview/gaming/Among us ejected.png",
     "./images/preview/gaming/Dead by daylight purple huntress.png",
-    "./images/preview/gaming/Far cry 5.png",
-    "./images/preview/gaming/Final fantasy 6.png",
-    "./images/preview/gaming/Final fantasy 7 aerith.png",
-    "./images/preview/gaming/Gamer.png"
+    "./images/preview/gaming/Gamer.png",
+    "./images/preview/gaming/God of war.png",
+    "./images/preview/gaming/Gwent the witcher card game.png"
   ],
   "Other": [
     "./images/preview/animals/Chicken danse.png",
@@ -387,6 +386,26 @@
     "./images/preview/gaming/Forza dreamscene.png",
     "./images/preview/gaming/Genshin impact cooking.png",
     "./images/preview/gaming/Genshin impact barbara.png",
-    "./images/preview/gaming/Genshin impact fischl.png"
+    "./images/preview/gaming/Genshin impact fischl.png",
+    "./images/preview/gaming/Far cry 5.png",
+    "./images/preview/gaming/Final fantasy 6.png",
+    "./images/preview/gaming/Final fantasy 7 aerith.png",
+    "./images/preview/gaming/Genshin impact ganyu coconut milk shake.png",
+    "./images/preview/gaming/Genshin impact ganyu.png",
+    "./images/preview/gaming/Genshin impact girls.png",
+    "./images/preview/gaming/Genshin impact klee trip.png",
+    "./images/preview/gaming/Genshin impact lisa.png",
+    "./images/preview/gaming/Genshin impact liyue lantern festival.png",
+    "./images/preview/gaming/Genshin impact lumine.png",
+    "./images/preview/gaming/Genshin impact mona.png",
+    "./images/preview/gaming/Genshin impact ningguang.png",
+    "./images/preview/gaming/Genshin impact noelle and klee.png",
+    "./images/preview/gaming/Genshin impact noelle.png",
+    "./images/preview/gaming/Ghost of tsushima jin sakai.png",
+    "./images/preview/gaming/Gwent the witcher card game gezras of leyda.png",
+    "./images/preview/gaming/Half life 2 portal storm.png",
+    "./images/preview/gaming/Halo 4K.png",
+    "./images/preview/gaming/Halo infinite splash screen.png",
+    "./images/preview/gaming/Halo infinite.png"
   ]
 }
