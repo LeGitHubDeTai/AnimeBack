@@ -24,8 +24,12 @@
     "./images/preview/gaming/Payday 2 what is love.png"
   ],
   "Black": [
-    "./images/preview/gaming/Payday 2 what is love.png",
-    "./images/preview/gaming/Tom clancys the division.png"
+    "./images/preview/gaming/Tom clancys the division.png",
+    "./images/preview/gaming/Undertale your soulmate.png",
+    "./images/preview/gaming/World of tank.png",
+    "./images/preview/landscape/At night when fireworks twinkle.png",
+    "./images/preview/landscape/Anime backyard rain.png",
+    "./images/preview/landscape/Beach.png"
   ],
   "Other": [
     "./images/preview/animals/Chicken danse.png",
@@ -501,6 +505,24 @@
     "./images/preview/gaming/Undertale rocket girl.png",
     "./images/preview/gaming/The emperor.png",
     "./images/preview/gaming/Undertale room of hearts and souls.png",
-    "./images/preview/gaming/Undertale ruins.png"
+    "./images/preview/gaming/Undertale ruins.png",
+    "./images/preview/gaming/Tom clancys the division.png",
+    "./images/preview/gaming/Undertale sans at the snowdin forest.png",
+    "./images/preview/gaming/Undertale sans.png",
+    "./images/preview/gaming/Undertale souls.png",
+    "./images/preview/gaming/Unravel.png",
+    "./images/preview/gaming/Valorant omen.png",
+    "./images/preview/gaming/Viper valorant green.png",
+    "./images/preview/gaming/Warframe chroma prime.png",
+    "./images/preview/gaming/Warframe mesa prime.png",
+    "./images/preview/gaming/Warframe umbra 2.png",
+    "./images/preview/gaming/Warframe umbra.png",
+    "./images/preview/gaming/Witch weapon.png",
+    "./images/preview/gaming/World of warcraft silvanas windrunner.png",
+    "./images/preview/gaming/Yasuo nightbringer league of legends.png",
+    "./images/preview/gaming/Zelda cyber link.png",
+    "./images/preview/landscape/A warriors death.png",
+    "./images/preview/landscape/Alps mountains windy & snowing.png",
+    "./images/preview/landscape/Chillhop cabin no dog.png"
   ]
 }
