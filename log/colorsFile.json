@@ -19,13 +19,21 @@
     "./images/preview/gaming/Among us ejected.png",
     "./images/preview/gaming/Dead by daylight purple huntress.png",
     "./images/preview/gaming/Gamer.png",
-    "./images/preview/gaming/Hollow knight.png"
+    "./images/preview/gaming/Hollow knight.png",
+    "./images/preview/gaming/Katana zero 4.png"
   ],
   "Black": [
-    "./images/preview/gaming/Hollow knight.png",
     "./images/preview/gaming/Katana zero 4.png",
     "./images/preview/gaming/Payday 2 what is love.png",
-    "./images/preview/gaming/Resident evil 2 remake.png"
+    "./images/preview/gaming/Skyrim cat.png",
+    "./images/preview/gaming/Skyrim enderal meditation.png",
+    "./images/preview/gaming/Skyrim.png",
+    "./images/preview/gaming/Soma.png",
+    "./images/preview/gaming/Star guardian soraka league of legends.png",
+    "./images/preview/gaming/Terraria the destroyer.png",
+    "./images/preview/gaming/The division.png",
+    "./images/preview/gaming/The emperor.png",
+    "./images/preview/gaming/The legend of zelda.png"
   ],
   "Other": [
     "./images/preview/animals/Chicken danse.png",
@@ -464,6 +472,20 @@
     "./images/preview/gaming/Resident evil 4 leon s kennedy.png",
     "./images/preview/gaming/Rog rgb 4k.png",
     "./images/preview/gaming/Ruiner no file.png",
-    "./images/preview/gaming/Rocket league.png"
+    "./images/preview/gaming/Rocket league.png",
+    "./images/preview/gaming/Resident evil 2 remake.png",
+    "./images/preview/gaming/Samus.png",
+    "./images/preview/gaming/Showcasing halo infinite.png",
+    "./images/preview/gaming/Scream ghostface selfie dead by daylight.png",
+    "./images/preview/gaming/Spiral knights.png",
+    "./images/preview/gaming/Spirit blossom festival league of legends.png",
+    "./images/preview/gaming/Stalker.png",
+    "./images/preview/gaming/Star wars battlefront darth vader.png",
+    "./images/preview/gaming/StarCitizen.png",
+    "./images/preview/gaming/Summer pockets.png",
+    "./images/preview/gaming/Super mario odyssey.png",
+    "./images/preview/gaming/The last of us loading screen.png",
+    "./images/preview/gaming/The legion dead by daylight.png",
+    "./images/preview/gaming/The nurse dead by daylight.png"
   ]
 }
