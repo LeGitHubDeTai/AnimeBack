@@ -24,14 +24,12 @@
     "./images/preview/gaming/Payday 2 what is love.png",
     "./images/preview/gaming/Undertale your soulmate.png",
     "./images/preview/movies/Doctor who 2.png",
-    "./images/preview/movies/Stranger things intro opening credits.png"
+    "./images/preview/movies/Stranger things intro opening credits.png",
+    "./images/preview/particle/Golden 48569.png"
   ],
   "Black": [
-    "./images/preview/movies/Stranger things intro opening credits.png",
     "./images/preview/particle/Golden 48569.png",
-    "./images/preview/particle/Shockwave.png",
-    "./images/preview/space/Outside the earth.png",
-    "./images/preview/space/Sci fi world the ring.png"
+    "./images/preview/particle/Shockwave.png"
   ],
   "Other": [
     "./images/preview/animals/Chicken danse.png",
@@ -600,6 +598,8 @@
     "./images/preview/space/Space girl.png",
     "./images/preview/space/Space journey.png",
     "./images/preview/space/Stars fall.png",
-    "./images/preview/space/Wind mills.png"
+    "./images/preview/space/Wind mills.png",
+    "./images/preview/space/Outside the earth.png",
+    "./images/preview/space/Sci fi world the ring.png"
   ]
 }
