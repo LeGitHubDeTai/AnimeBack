@@ -229,12 +229,12 @@
     "Spice wolf holo.mp4",
     "Steins gate 0 arc light of the sky.mp4",
     "Sword art online kiritoxasuna.mp4",
+    "Telephone booth.mp4",
     "Totoro 2.mp4",
     "Totoro.gif",
     "Towards the light.mp4",
     "Twin neko.mp4",
     "Violet evergarden sincerely.mp4",
-    "Violet evergarden.mp4",
     "Warm autumn.mp4",
     "Wind chimes.mp4",
     "Your lie for april.mp4",
@@ -282,6 +282,7 @@
     "Neon sunset.mp4",
     "Nvidia geforce gtx.mp4",
     "Radeon vega.mp4",
+    "Rainy day.mp4",
     "Random abstract neon lines.mp4",
     "Red flame blue fire.mp4",
     "Rgb triangle.mp4",
@@ -293,13 +294,32 @@
     "Sphere.mp4",
     "Steampunk.mp4",
     "Steelseries.mp4",
+    "Sun particles.mp4",
+    "Sword.mp4",
+    "Techno.mp4",
+    "Tomorrows ark.mp4",
+    "Touhou project onozuka komachi.mp4",
+    "Touhou project.mp4",
     "Tower.gif",
-    "Water splash.gif"
+    "Underwater.mp4",
+    "Videogames.mp4",
+    "Water splash.gif",
+    "XTC trip.mp4",
+    "车站.mp4"
   ],
   "cars": [
-    "Car.gif"
+    "AMG gT.mp4",
+    "Black lamborghini rain.mp4",
+    "Bugatti abstract shapes.mp4",
+    "Car.gif",
+    "Jdm neon.mp4",
+    "Nissan skyline gtr32.mp4",
+    "Nissan skyline.mp4",
+    "SingleTurn t2.mp4"
   ],
-  "christmas": [],
+  "christmas": [
+    "Attack on titan christmas.mp4"
+  ],
   "gaming": [
     "Adventure time.gif",
     "Dead by daylight.gif",
