@@ -81,7 +81,9 @@ function getColor(file){
                 console.log(`ERROR:`.red, `${file}`.cyan, "It's".gray, 'Black Image !'.red);
                 if(!allBlack.includes(fileN)){
                     if(!allDetect.includes(fileN)){
-                        allBlack.push(fileN);
+                        if(!allOther.includes(fileN)){
+                            allBlack.push(fileN);
+                        }
                     }
                 }
                 else{
