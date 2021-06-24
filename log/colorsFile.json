@@ -2,15 +2,15 @@
   "Detect": [
     "./images/preview/animals/Pony parade.png",
     "./images/preview/anime/Black clover opening 2.png",
-    "./images/preview/anime/Tokyo goule.png"
+    "./images/preview/anime/Tokyo goule.png",
+    "./images/preview/gaming/Payday 2 what is love.png"
   ],
   "Black": [
-    "./images/preview/anime/Tokyo goule.png",
     "./images/preview/gaming/Payday 2 what is love.png",
-    "./images/preview/gaming/Undertale your soulmate.png",
     "./images/preview/movies/Doctor who 2.png",
     "./images/preview/movies/Stranger things intro opening credits.png",
-    "./images/preview/particle/Shockwave.png"
+    "./images/preview/particle/Shockwave.png",
+    "./images/preview/gaming/Undertale your soulmate.png"
   ],
   "Other": [
     "./images/preview/animals/Chicken danse.png",
