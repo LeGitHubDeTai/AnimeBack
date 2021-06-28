@@ -43,7 +43,7 @@ try {
                                         if(old == null){return;}
                                         if(!old['Black'].includes(name)){
                                             if(!old['Detect'].includes(name)){
-                                                convertToSVG(name);
+                                                convertToWebp(name);
                                             }
                                         }
                                     }
@@ -63,7 +63,7 @@ finally{
     console.log(`Done !`.green);
 }
 
-function convertToSVG(file){
+function convertToWebp(file){
     if(file == null){return;}
     var out = `${file.replace('png', 'webp')}`
 
