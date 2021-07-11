@@ -56,7 +56,6 @@ function getColor(file){
             for(y=0;y<image.getHeight();y++){
                 for(x=0;x<image.getWidth();x++){
                     var t = image.getPixelColor(x, y);
-                    
                     switch(t){
                         case 255://BLACK
                             black++;
@@ -79,9 +78,9 @@ function getColor(file){
             var fileN = file.replace('./log', './images');
             if(black > other){
                 console.log(`ERROR:`.red, `${file}`.cyan, "It's".gray, 'Black Image !'.red);
-                if(!allBlack.includes(fileN)){
-                    if(!allDetect.includes(fileN)){
-                        if(!allOther.includes(fileN)){
+                if(!allDetect.includes(fileN)){
+                    if(!allOther.includes(fileN)){
+                        if(!allBlack.includes(fileN)){
                             allBlack.push(fileN);
                         }
                     }
