@@ -1,9 +1,11 @@
 {
   "Detect": [],
   "Black": [
-    "./images/preview/animated/Falling asleep.png",
     "./images/preview/animated/The thorn in the ordinary day.png",
-    "./images/preview/animated/Young jinyiwei.png"
+    "./images/preview/anime/Aion.png",
+    "./images/preview/anime/Black clover opening 2.png",
+    "./images/preview/anime/Cant stop lovin you.png",
+    "./images/preview/anime/Chinese new year.png"
   ],
   "Other": [
     "./images/preview/animals/Cat space glasses.png",
@@ -95,6 +97,27 @@
     "./images/preview/anime/ black clover asta.png",
     "./images/preview/anime/ black clover charmy.png",
     "./images/preview/anime/ black clover yami sukehiro.png",
-    "./images/preview/anime/ black clover yuno.png"
+    "./images/preview/anime/ black clover yuno.png",
+    "./images/preview/animated/The thorn in the ordinary day.png",
+    "./images/preview/animated/Young jinyiwei.png",
+    "./images/preview/anime/ black clover.png",
+    "./images/preview/anime/ jujutsu kaisen sukuna.png",
+    "./images/preview/anime/ jujutsu kaisen sukuna and itadori.png",
+    "./images/preview/anime/All might my hero academia.png",
+    "./images/preview/anime/Asta.png",
+    "./images/preview/anime/Attack on titan a titans wrath.png",
+    "./images/preview/anime/Attack on titan eren vs reiner.png",
+    "./images/preview/anime/Attack on titan levi ackermann.png",
+    "./images/preview/anime/Attack on titan levi.png",
+    "./images/preview/anime/Attack on titan mikasa ackerman.png",
+    "./images/preview/anime/Attack on titan mikasa.png",
+    "./images/preview/anime/Attack on titan no room for emotion.png",
+    "./images/preview/anime/Attack on titan scouting legion emblem.png",
+    "./images/preview/anime/Attack on titan shingeki no kyojin.png",
+    "./images/preview/anime/Attack on titan the coordinate.png",
+    "./images/preview/anime/Berserk anime.png",
+    "./images/preview/anime/Berserk the god hand.png",
+    "./images/preview/anime/Clear stream country night.png",
+    "./images/preview/anime/Crossover one punch man and attack on titan.png"
   ]
 }
