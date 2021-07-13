@@ -1,14 +1,9 @@
 {
   "Detect": [],
   "Black": [
-    "./images/preview/gaming/World of tank.png",
     "./images/preview/landscape/Beach.png",
-    "./images/preview/landscape/Fantasy.png",
-    "./images/preview/landscape/Landscape mix hD.png",
-    "./images/preview/landscape/Monday chill vJ loop 009.png",
-    "./images/preview/landscape/Night city midnight ads.png",
-    "./images/preview/landscape/Night lantern.png",
-    "./images/preview/landscape/Night market.png"
+    "./images/preview/landscape/Summer festival.png",
+    "./images/preview/movies/Doctor who 2.png"
   ],
   "Other": [
     "./images/preview/animals/Cat space glasses.png",
@@ -526,6 +521,29 @@
     "./images/preview/landscape/Mountain with stars.png",
     "./images/preview/landscape/Mountain.png",
     "./images/preview/landscape/Mountain2.png",
-    "./images/preview/landscape/Night.png"
+    "./images/preview/landscape/Night.png",
+    "./images/preview/landscape/Beach.png",
+    "./images/preview/landscape/Fantasy.png",
+    "./images/preview/landscape/Monday chill vJ loop 009.png",
+    "./images/preview/landscape/Landscape mix hD.png",
+    "./images/preview/landscape/Night city midnight ads.png",
+    "./images/preview/landscape/Night lantern.png",
+    "./images/preview/landscape/Night market.png",
+    "./images/preview/landscape/Noel.png",
+    "./images/preview/landscape/Pink sky.png",
+    "./images/preview/landscape/Post apocalyptic nature.png",
+    "./images/preview/landscape/Sakura city.png",
+    "./images/preview/landscape/Sakura tree.png",
+    "./images/preview/landscape/Sakura.png",
+    "./images/preview/landscape/Seashore.png",
+    "./images/preview/landscape/Windmill.png",
+    "./images/preview/landscape/Windy.png",
+    "./images/preview/movies/Baby yoda loop.png",
+    "./images/preview/landscape/Winter town.png",
+    "./images/preview/movies/Catwoman girl.png",
+    "./images/preview/movies/Godzilla.png",
+    "./images/preview/movies/Doctor who title.png",
+    "./images/preview/movies/Doctor who animation 50 years in time and space.png",
+    "./images/preview/movies/Doctor who intro.png"
   ]
 }
