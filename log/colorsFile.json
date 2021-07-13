@@ -1,9 +1,12 @@
 {
   "Detect": [],
   "Black": [
-    "./images/preview/landscape/Beach.png",
     "./images/preview/landscape/Summer festival.png",
-    "./images/preview/movies/Doctor who 2.png"
+    "./images/preview/movies/Spiderman.png",
+    "./images/preview/movies/Stranger things intro opening credits.png",
+    "./images/preview/particle/3d particle.png",
+    "./images/preview/particle/Golden 48569.png",
+    "./images/preview/particle/Shockwave.png"
   ],
   "Other": [
     "./images/preview/animals/Cat space glasses.png",
@@ -544,6 +547,25 @@
     "./images/preview/movies/Godzilla.png",
     "./images/preview/movies/Doctor who title.png",
     "./images/preview/movies/Doctor who animation 50 years in time and space.png",
-    "./images/preview/movies/Doctor who intro.png"
+    "./images/preview/movies/Doctor who intro.png",
+    "./images/preview/landscape/Summer festival.png",
+    "./images/preview/movies/Ironman hud.png",
+    "./images/preview/movies/Rick morty.png",
+    "./images/preview/movies/Shadow of the tomb raider.png",
+    "./images/preview/movies/Shrek all star.png",
+    "./images/preview/movies/Star wars.png",
+    "./images/preview/movies/StarWars.png",
+    "./images/preview/movies/Stranger things monster.png",
+    "./images/preview/movies/Stranger things movie.png",
+    "./images/preview/movies/Stranger things r u n.png",
+    "./images/preview/movies/Terminator genisys.png",
+    "./images/preview/movies/Venom.png",
+    "./images/preview/movies/Walt disney studios.png",
+    "./images/preview/movies/Whats up danger spiderman.png",
+    "./images/preview/particle/Blue particle.png",
+    "./images/preview/particle/AE plexus 1080i.png",
+    "./images/preview/particle/Pink particle.png",
+    "./images/preview/space/2nd gen by fred gambino.png",
+    "./images/preview/space/3D earth loop.png"
   ]
 }
