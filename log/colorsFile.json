@@ -1,12 +1,14 @@
 {
   "Detect": [],
   "Black": [
-    "./images/preview/gaming/Tom clancys the division.png",
-    "./images/preview/gaming/Undertale your soulmate.png",
     "./images/preview/gaming/World of tank.png",
-    "./images/preview/landscape/Alive canada 4k.png",
-    "./images/preview/landscape/Anime backyard rain.png",
-    "./images/preview/landscape/At night when fireworks twinkle.png"
+    "./images/preview/landscape/Beach.png",
+    "./images/preview/landscape/Fantasy.png",
+    "./images/preview/landscape/Landscape mix hD.png",
+    "./images/preview/landscape/Monday chill vJ loop 009.png",
+    "./images/preview/landscape/Night city midnight ads.png",
+    "./images/preview/landscape/Night lantern.png",
+    "./images/preview/landscape/Night market.png"
   ],
   "Other": [
     "./images/preview/animals/Cat space glasses.png",
@@ -507,6 +509,23 @@
     "./images/preview/gaming/Yasuo nightbringer league of legends.png",
     "./images/preview/gaming/Zelda cyber link.png",
     "./images/preview/landscape/A warriors death.png",
-    "./images/preview/landscape/Alps mountains windy & snowing.png"
+    "./images/preview/landscape/Alps mountains windy & snowing.png",
+    "./images/preview/gaming/World of tank.png",
+    "./images/preview/landscape/Alive canada 4k.png",
+    "./images/preview/landscape/Anime backyard rain.png",
+    "./images/preview/landscape/At night when fireworks twinkle.png",
+    "./images/preview/landscape/Chillhop cabin no dog.png",
+    "./images/preview/landscape/Coqui.png",
+    "./images/preview/landscape/Creux de van.png",
+    "./images/preview/landscape/Edge of the world.png",
+    "./images/preview/landscape/Ephemeral.png",
+    "./images/preview/landscape/Fishing in the old chapel.png",
+    "./images/preview/landscape/Horizon.png",
+    "./images/preview/landscape/Lonely evening.png",
+    "./images/preview/landscape/Looking at nature.png",
+    "./images/preview/landscape/Mountain with stars.png",
+    "./images/preview/landscape/Mountain.png",
+    "./images/preview/landscape/Mountain2.png",
+    "./images/preview/landscape/Night.png"
   ]
 }
