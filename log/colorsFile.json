@@ -1,32 +1,9 @@
 {
   "Detect": [],
   "Black": [
-    "./images/preview/gaming/Dnf mistress second awakening.png",
-    "./images/preview/gaming/Gamer.png",
-    "./images/preview/animals/Pony parade.png",
-    "./images/preview/anime/Black clover opening 2.png",
-    "./images/preview/anime/Dragonball super vegeta.png",
-    "./images/preview/anime/Gakkou gurashi kurumi.png",
-    "./images/preview/anime/Gogeta ssj4 dragon ball gt.png",
-    "./images/preview/anime/Horror.png",
-    "./images/preview/anime/Hunter x hunter hisoka 2.png",
-    "./images/preview/anime/Midoriya toga.png",
-    "./images/preview/anime/Shooting time.png",
-    "./images/preview/anime/Tokyo goule.png",
-    "./images/preview/anime/Wandering witch the journey of elaina.png",
-    "./images/preview/art/Corasair collection.png",
-    "./images/preview/art/Golden city.png",
-    "./images/preview/art/Scifi.png",
-    "./images/preview/gaming/Among us 2.png",
-    "./images/preview/gaming/Among us bouncing around.png",
-    "./images/preview/gaming/Among us ejected.png",
-    "./images/preview/gaming/Dead by daylight purple huntress.png",
     "./images/preview/gaming/God of war.png",
-    "./images/preview/gaming/Gwent the witcher card game.png",
     "./images/preview/gaming/Hollow knight.png",
-    "./images/preview/gaming/Honkai impact third anniversary.png",
     "./images/preview/gaming/Katana zero 4.png",
-    "./images/preview/gaming/Kda girls drum go dum league of legends.png",
     "./images/preview/gaming/Kingdom hearts 3 master of the masters.png",
     "./images/preview/gaming/Kingdom hearts 3.png"
   ],
@@ -426,6 +403,10 @@
     "./images/preview/gaming/Katana zero dancing.png",
     "./images/preview/gaming/Katana zero snow.png",
     "./images/preview/gaming/Katana zero.png",
-    "./images/preview/gaming/League of legends ahri cold fire mask.png"
+    "./images/preview/gaming/League of legends ahri cold fire mask.png",
+    "./images/preview/gaming/God of war.png",
+    "./images/preview/gaming/Gwent the witcher card game.png",
+    "./images/preview/gaming/Honkai impact third anniversary.png",
+    "./images/preview/gaming/Kda girls drum go dum league of legends.png"
   ]
 }
