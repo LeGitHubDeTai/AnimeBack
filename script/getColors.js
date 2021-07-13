@@ -78,9 +78,9 @@ function getColor(file){
             var fileN = file.replace('./log', './images');
             if(black > other){
                 console.log(`ERROR:`.red, `${file}`.cyan, "It's".gray, 'Black Image !'.red);
-                if(!allDetect.includes(fileN)){
+                if(!allBlack.includes(fileN)){
                     if(!allOther.includes(fileN)){
-                        if(!allBlack.includes(fileN)){
+                        if(!allDetect.includes(fileN)){
                             allBlack.push(fileN);
                         }
                     }
