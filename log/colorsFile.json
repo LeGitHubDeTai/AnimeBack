@@ -1,13 +1,10 @@
 {
   "Detect": [],
   "Black": [
-    "./images/preview/art/Her room.png",
     "./images/preview/art/Rainy day.png",
-    "./images/preview/art/Scifi.png",
-    "./images/preview/art/Sun particles.png",
-    "./images/preview/art/Sword.png",
-    "./images/preview/art/Techno.png",
-    "./images/preview/art/Tomorrows ark.png"
+    "./images/preview/cars/G's走行シーン.png",
+    "./images/preview/cars/Neon car in the rain.png",
+    "./images/preview/christmas/Christmas time.png"
   ],
   "Other": [
     "./images/preview/animals/Cat space glasses.png",
@@ -282,6 +279,27 @@
     "./images/preview/art/Steelseries.png",
     "./images/preview/art/Steampunk.png",
     "./images/preview/art/Touhou project onozuka komachi.png",
-    "./images/preview/art/Touhou project.png"
+    "./images/preview/art/Touhou project.png",
+    "./images/preview/art/Rainy day.png",
+    "./images/preview/art/Sun particles.png",
+    "./images/preview/art/Sword.png",
+    "./images/preview/art/Tomorrows ark.png",
+    "./images/preview/art/Techno.png",
+    "./images/preview/art/Underwater.png",
+    "./images/preview/art/Videogames.png",
+    "./images/preview/art/XTC trip.png",
+    "./images/preview/art/车站.png",
+    "./images/preview/cars/AMG gT.png",
+    "./images/preview/cars/Bugatti abstract shapes.png",
+    "./images/preview/cars/Black lamborghini rain.png",
+    "./images/preview/cars/Jdm neon.png",
+    "./images/preview/cars/Nissan skyline gtr32.png",
+    "./images/preview/cars/SingleTurn t2.png",
+    "./images/preview/cars/Nissan skyline.png",
+    "./images/preview/christmas/Attack on titan christmas.png",
+    "./images/preview/christmas/Christmas eve animated.png",
+    "./images/preview/christmas/Christmas overwatch.png",
+    "./images/preview/christmas/Christmas eve.png",
+    "./images/preview/christmas/Christmas rossdraws.png"
   ]
 }
