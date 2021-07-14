@@ -19,17 +19,17 @@
     "./images/preview/gaming/Among us ejected.png",
     "./images/preview/gaming/Dead by daylight purple huntress.png",
     "./images/preview/gaming/Gamer.png",
-    "./images/preview/gaming/Hollow knight.png"
+    "./images/preview/gaming/Hollow knight.png",
+    "./images/preview/gaming/Katana zero 4.png"
   ],
   "Black": [
-    "./images/preview/gaming/Hollow knight.png",
-    "./images/preview/movies/Doctor who 2.png",
     "./images/preview/gaming/Katana zero 4.png",
     "./images/preview/gaming/Undertale your soulmate.png",
-    "./images/preview/movies/Stranger things intro opening credits.png",
     "./images/preview/gaming/Payday 2 what is love.png",
-    "./images/preview/particle/Shockwave.png",
-    "./images/preview/particle/Golden 48569.png"
+    "./images/preview/movies/Stranger things intro opening credits.png",
+    "./images/preview/movies/Doctor who 2.png",
+    "./images/preview/particle/Golden 48569.png",
+    "./images/preview/particle/Shockwave.png"
   ],
   "Other": [
     "./images/preview/animals/Cat space glasses.png",
