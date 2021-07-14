@@ -47,20 +47,3 @@ if(categories['animals'] != null){
 }
 
 console.log('Done!'.green);
-
-
-// var preview = name.slice(0, name.length - 3);
-
-// switch(name.slice(name.length - 3, name.length)){
-//     case "ebm":
-//         var fileName = name.slice(0, name.length - 5);
-//         if(fs.existsSync(`${preview.replace(dir, `${testFolder}/preview${dir.replace(testFolder, '')}`)}.png`)){
-//             nconf.set(`${dir.replace(`${testFolder}/`, '')}`, temp);
-//         }
-//         break;
-//     default:
-//         var fileName = name.slice(0, name.length - 4);
-//         if(fs.existsSync(`${preview.replace(dir, `${testFolder}/preview${dir.replace(testFolder, '')}`)}png`)){
-//             nconf.set(`${dir.replace(`${testFolder}/`, '')}`, temp);
-//         }
-// }

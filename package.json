@@ -18,6 +18,7 @@
     "build:convertData": "node ./script/convertDataImg.js",
     "build:wizard2": "node ./script/wizard.js",
     "build:clean": "node ./script/clean.js",
+    "build:reorder": "node ./script/reorder.js",
     "build:discord": "node ./script/discord.js",
     "build:badge": "node ./script/badgeCreator.js",
     "youtube": "node ./script/youtube.js",
