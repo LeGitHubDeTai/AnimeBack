@@ -11,11 +11,14 @@
 var colors = require('colors');
 const fs = require('fs');
 const path = require('path');
+const rimraf = require('rimraf');
 const nconf = require('nconf');
 const testFolder = './images';
 var config = `${testFolder}/categories.json`;
 
 nconf.file(config);
+
+rimraf('./log/preview/', (err) => console.error('Done !'));
 
 try {
     try {
