@@ -18,7 +18,7 @@ var config = `${testFolder}/categories.json`;
 
 nconf.file(config);
 
-rimraf('./log/preview/', (err) => console.error('Done !'));
+rimraf('../log/preview/', (err) => console.error('Done !'));
 
 try {
     try {
