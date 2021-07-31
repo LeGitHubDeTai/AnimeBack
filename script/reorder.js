@@ -22,32 +22,32 @@ var allBlack = nconf.get('Black') || [],
     allDetect = nconf.get('Detect') || [];
 
 try {
-    Object.keys(nconf.stores).forEach(function(name){
-        Object.keys(nconf.stores[name].store).forEach(function(test){
-            switch(test){
-                case "Black":
-                    for(i=0;i<nconf.get(`${test}`).length;i++){
-                        console.log(test,nconf.get(`${test}:${i}`));
-                        if(allDetect.includes(nconf.get(`${test}:${i}`))){
-                            if(allBlack.length == 1){
-                                allBlack = [];
-                            }
-                            else{
-                                allBlack = allBlack.filter((id) => id === nconf.get(`${test}:${i}`));
-                            }
-                        }
-                    }
-                    break;
-                default:
-                    console.log(test);
-            }
-        })
-    });
+    // Object.keys(nconf.stores).forEach(function(name){
+    //     Object.keys(nconf.stores[name].store).forEach(function(test){
+    //         switch(test){
+    //             case "Black":
+    //                 for(i=0;i<nconf.get(`${test}`).length;i++){
+    //                     console.log(test,nconf.get(`${test}:${i}`));
+    //                     if(allDetect.includes(nconf.get(`${test}:${i}`))){
+    //                         if(allBlack.length == 1){
+    //                             allBlack = [];
+    //                         }
+    //                         else{
+    //                             allBlack = allBlack.filter((id) => id === nconf.get(`${test}:${i}`));
+    //                         }
+    //                     }
+    //                 }
+    //                 break;
+    //             default:
+    //                 console.log(test);
+    //         }
+    //     })
+    // });
 } catch (error) {
     console.log(error);
 }
 finally{
-    nconf.set('Black', allBlack);
-    nconf.save();
+    // nconf.set('Black', allBlack);
+    // nconf.save();
     console.log('Done!'.green);
 }
