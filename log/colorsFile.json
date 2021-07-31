@@ -13,10 +13,10 @@
     "./images/preview/anime/Tokyo goule.png",
     "./images/preview/anime/Wandering witch the journey of elaina.png",
     "./images/preview/art/Corasair collection.png",
-    "./images/preview/art/Golden city.png"
+    "./images/preview/art/Golden city.png",
+    "./images/preview/art/Scifi.png"
   ],
   "Black": [
-    "./images/preview/art/Golden city.png",
     "./images/preview/art/Scifi.png",
     "./images/preview/gaming/Among us 2.png",
     "./images/preview/gaming/Among us bouncing around.png",
