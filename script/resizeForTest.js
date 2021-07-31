@@ -17,7 +17,7 @@ const testFolder = './images';
 var config = `${testFolder}/categories.json`;
 
 if(!fs.existsSync('./log/colorsFile.json')){
-    fs.writeFileSync('./log/colorsFile.json', '{}');
+    fs.writeFileSync('./log/colorsFile.json', '{"Black":[],"Detect":[], "Other":[]}');
 }
 var old = require('../log/colorsFile.json');
 
