@@ -16,6 +16,9 @@ const sharp = require('sharp');
 const testFolder = './images';
 var config = `${testFolder}/categories.json`;
 
+if(!fs.existsSync('./log/colorsFile.json')){
+    fs.writeFileSync('./log/colorsFile.json', '{}');
+}
 var old = require('../log/colorsFile.json');
 
 nconf.file(config);
