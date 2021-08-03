@@ -84,6 +84,9 @@ function getColor(file){
                             allBlack.push(fileN);
                         }
                     }
+                    else{
+                        fs.unlinkSync(file);
+                    }
                 }
                 else{
                     if(!allDetect.includes(fileN)){
