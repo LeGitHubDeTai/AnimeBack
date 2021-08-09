@@ -9,10 +9,10 @@
     "./images/preview/gaming/Payday 2 what is love.png",
     "./images/preview/movies/Doctor who 2.png",
     "./images/preview/movies/Stranger things intro opening credits.png",
-    "./images/preview/particle/Shockwave.png"
+    "./images/preview/particle/Shockwave.png",
+    "./images/preview/animals/Pony parade.png"
   ],
   "Black": [
-    "./images/preview/particle/Shockwave.png",
     "./images/preview/animals/Pony parade.png"
   ],
   "Other": [
