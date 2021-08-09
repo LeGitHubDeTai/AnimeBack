@@ -1,13 +1,11 @@
 {
   "Detect": [
-    "./images/preview/animals/Pony parade.png",
     "./images/preview/anime/Black clover opening 2.png",
     "./images/preview/anime/Itachi re eyes.png",
     "./images/preview/anime/Midoriya toga.png",
     "./images/preview/anime/Tokyo goule.png",
     "./images/preview/gaming/Dead by daylight purple huntress.png",
     "./images/preview/gaming/Gamer.png",
-    "./images/preview/gaming/Katana zero 4.png",
     "./images/preview/gaming/Payday 2 what is love.png",
     "./images/preview/movies/Doctor who 2.png",
     "./images/preview/movies/Stranger things intro opening credits.png",
@@ -17,6 +15,7 @@
     "./images/preview/particle/Shockwave.png"
   ],
   "Other": [
+    "./images/preview/gaming/Katana zero 4.png",
     "./images/preview/particle/Golden 48569.png",
     "./images/preview/gaming/Undertale your soulmate.png",
     "./images/preview/gaming/Hollow knight.png",
