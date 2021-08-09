@@ -1,13 +1,12 @@
 {
   "Detect": [
     "./images/preview/movies/Doctor who 2.png",
-    "./images/preview/particle/Shockwave.png",
-    "./images/preview/animals/Pony parade.png"
+    "./images/preview/particle/Shockwave.png"
   ],
   "Black": [
-    "./images/preview/animals/Pony parade.png"
   ],
   "Other": [
+    "./images/preview/animals/Pony parade.png",
     "./images/preview/anime/Black clover opening 2.png",
     "./images/preview/anime/Itachi re eyes.png",
     "./images/preview/anime/Midoriya toga.png",
