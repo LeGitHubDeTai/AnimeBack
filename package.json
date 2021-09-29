@@ -62,5 +62,8 @@
     "sharp": "^0.29.0",
     "util": "^0.12.3",
     "youtube-dl-progress": "^1.13.3"
+  },
+  "devDependencies": {
+    "nth-check": ">=2.0.1"
   }
 }
