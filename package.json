@@ -44,7 +44,7 @@
   "homepage": "https://github.com/LeGitHubDeTai/AnimeBack#readme",
   "dependencies": {
     "cheerio": "1.0.0-rc.10",
-    "colors": "^1.4.0",
+    "colors": "^1.4.2",
     "decompose-url": "^0.1.2",
     "ffmpeg": "^0.0.4",
     "ffmpeg-extract-frames": "^2.0.2",
